@@ -39,9 +39,9 @@
     ]
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   },
   "overrides": {
-  "webpack": "5.88.2"
+    "webpack": "5.88.2"
   }
 }
