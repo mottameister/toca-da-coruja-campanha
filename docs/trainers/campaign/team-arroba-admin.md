@@ -2,7 +2,7 @@
 title: "Team Arroba Admin"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_admin.png" alt="Team Arroba Admin" />
+<img className="trainer-character" src="/img/characters/tdc_team_arroba_admin.webp" alt="Team Arroba Admin" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

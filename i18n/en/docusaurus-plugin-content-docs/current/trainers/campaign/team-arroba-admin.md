@@ -2,7 +2,7 @@
 title: "Team Arroba Admin"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_admin.png" alt="Team Arroba Admin" />
+<img className="trainer-character" src="/img/characters/tdc_team_arroba_admin.webp" alt="Team Arroba Admin" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

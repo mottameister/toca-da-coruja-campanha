@@ -2,7 +2,7 @@
 title: "Rival Motta Final"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_final.png" alt="Rival Motta Final" />
+<img className="trainer-character" src="/img/characters/tdc_rival_motta_final.webp" alt="Rival Motta Final" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

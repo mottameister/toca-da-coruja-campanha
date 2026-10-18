@@ -2,7 +2,7 @@
 title: "Dom"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_treinadores_dom.png" alt="Dom" />
+<img className="trainer-character" src="/img/characters/tdc_treinadores_dom.webp" alt="Dom" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

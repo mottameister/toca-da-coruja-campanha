@@ -2,7 +2,7 @@
 title: "Team Arroba Vinny"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_vinny.png" alt="Team Arroba Vinny" />
+<img className="trainer-character" src="/img/characters/tdc_team_arroba_vinny.webp" alt="Team Arroba Vinny" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

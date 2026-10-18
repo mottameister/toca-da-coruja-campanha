@@ -2,7 +2,7 @@
 title: "Senior Joe"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_treinadores_senior_joe.png" alt="Senior Joe" />
+<img className="trainer-character" src="/img/characters/tdc_treinadores_senior_joe.webp" alt="Senior Joe" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

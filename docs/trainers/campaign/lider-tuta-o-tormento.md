@@ -2,7 +2,7 @@
 title: "Tuta, O Tormento"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_tuta_o_tormento.png" alt="Tuta, O Tormento" />
+<img className="trainer-character" src="/img/characters/tdc_lider_tuta_o_tormento.webp" alt="Tuta, O Tormento" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

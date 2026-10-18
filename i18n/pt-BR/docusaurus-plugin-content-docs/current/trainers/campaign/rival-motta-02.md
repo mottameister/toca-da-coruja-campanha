@@ -2,7 +2,7 @@
 title: "Rival Motta 02"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_02.png" alt="Rival Motta 02" />
+<img className="trainer-character" src="/img/characters/tdc_rival_motta_02.webp" alt="Rival Motta 02" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

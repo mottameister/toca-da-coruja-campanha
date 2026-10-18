@@ -2,7 +2,7 @@
 title: "Campeão Motta"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_campeao_motta.png" alt="Campeão Motta" />
+<img className="trainer-character" src="/img/characters/tdc_campeao_motta.webp" alt="Campeão Motta" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

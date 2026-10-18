@@ -2,7 +2,7 @@
 title: "Tokito"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_campeoes_coruja_cup_tokito.png" alt="Tokito" />
+<img className="trainer-character" src="/img/characters/tdc_campeoes_coruja_cup_tokito.webp" alt="Tokito" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

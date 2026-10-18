@@ -2,7 +2,7 @@
 title: "Peso Pesado Flaw"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_treinadores_peso_pesado_flaw.png" alt="Peso Pesado Flaw" />
+<img className="trainer-character" src="/img/characters/tdc_treinadores_peso_pesado_flaw.webp" alt="Peso Pesado Flaw" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

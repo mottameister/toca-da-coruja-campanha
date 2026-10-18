@@ -2,7 +2,7 @@
 title: "Gabi, A Tempestade de Gelo"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_gabi_a_tempestade_de_gelo.png" alt="Gabi, A Tempestade de Gelo" />
+<img className="trainer-character" src="/img/characters/tdc_lider_gabi_a_tempestade_de_gelo.webp" alt="Gabi, A Tempestade de Gelo" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

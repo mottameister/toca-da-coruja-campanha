@@ -2,7 +2,7 @@
 title: "Juanes, O Dono da Carrocinha"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_juanes_o_dono_da_carrocinha.png" alt="Juanes, O Dono da Carrocinha" />
+<img className="trainer-character" src="/img/characters/tdc_lider_juanes_o_dono_da_carrocinha.webp" alt="Juanes, O Dono da Carrocinha" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

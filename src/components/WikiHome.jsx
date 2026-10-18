@@ -20,6 +20,7 @@ export default function WikiHome() {
         <span className="arena-label">THE OWL’S NEST <b>⚔</b> DOUBLES CAMPAIGN</span>
         <img className="hero-mon hero-mon-back" src="/img/models/tyranitar.webp" alt="Tyranitar" />
         <img className="hero-mon hero-mon-front" src="/img/models/garchomp.webp" alt="Garchomp" />
+        <img className="hero-trainer" src="/img/characters/motta-hero.webp" alt={t("Motta com sua skin de Campeão", "Motta wearing his Champion skin")} />
         <div className="battle-tag"><span className="status-dot"/> {t('Dois slots. Infinitas possibilidades.', 'Two slots. Endless possibilities.')}</div>
         <span className="coordinate">26 MAIN ENCOUNTERS / 01 EXTRA</span>
       </div>
@@ -33,7 +34,7 @@ export default function WikiHome() {
       ].map(([n,url,title,desc,arrow])=><Link className="guide-card" key={n} to={url}><span className="guide-number">{n}</span><h3>{title}</h3><p>{desc}</p><span className="guide-arrow">{arrow}</span></Link>)}</div>
     </section>
     <section className="home-section"><div className="section-heading"><div><p className="eyebrow">{t('A TOCA TEM PERSONALIDADE','MEET THE COMMUNITY')}</p><h2>{t('Gente nossa. Batalhas memoráveis.','Familiar faces. Memorable battles.')}</h2></div><Link to="/trainers/">{t('Explorar os 27 encontros','Explore all 27 encounters')} →</Link></div>
-      <div className="featured-trainers">{[trainers[1],trainers.find(x=>x.id==='tdc_campeao_motta'),trainers.find(x=>x.optional)].map(c=><Link className="featured-trainer" key={c.id} to={c.url}><div className="mini-party">{c.team.slice(0,3).map(s=><img key={s} loading="lazy" src={'/img/models/'+s+'.webp'} alt={s}/>)}</div><small>{en?c.categoryEn:c.category} · Lv. {c.level}</small><h3>{c.name}</h3><span>{c.optional?t('Desafio opcional','Optional challenge'):t('Ver o encontro','View encounter')} ↗</span></Link>)}</div>
+      <div className="featured-trainers">{[trainers[1],trainers.find(x=>x.id==='tdc_campeao_motta'),trainers.find(x=>x.optional)].map(c=><Link className="featured-trainer" key={c.id} to={c.url}><img className="featured-character" loading="lazy" src={'/img/characters/'+c.id+'.webp'} alt={c.name}/><div className="mini-party">{c.team.slice(0,3).map(s=><img key={s} loading="lazy" src={'/img/models/'+s+'.webp'} alt={s}/>)}</div><small>{en?c.categoryEn:c.category} · Lv. {c.level}</small><h3>{c.name}</h3><span>{c.optional?t('Desafio opcional','Optional challenge'):t('Ver o encontro','View encounter')} ↗</span></Link>)}</div>
     </section>
     <aside className="release-note"><span className="version-pill">2.0.0</span><div><strong>{t('Cada treinador com um plano. Cada encontro com uma voz.','Every trainer has a plan. Every encounter has a voice.')}</strong><p>{t('Aberturas programadas e diálogos personalizados. Conteúdo baseado na candidata 2.0; testes em jogo ainda pendentes.','Scripted openings and custom dialogue. Based on the 2.0 candidate; in-game validation is still pending.')}</p></div><Link to="/roadmap">{t('O que mudou','What changed')} ↗</Link></aside>
   </div>;

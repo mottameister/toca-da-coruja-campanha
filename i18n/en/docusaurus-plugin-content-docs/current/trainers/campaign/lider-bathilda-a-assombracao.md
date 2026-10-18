@@ -2,7 +2,7 @@
 title: "Bathilda, A Assombração"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_bathilda_a_assombracao.png" alt="Bathilda, A Assombração" />
+<img className="trainer-character" src="/img/characters/tdc_lider_bathilda_a_assombracao.webp" alt="Bathilda, A Assombração" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

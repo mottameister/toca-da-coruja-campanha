@@ -2,7 +2,7 @@
 title: "Charlie, A Insetoide"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_charlie_a_insetoide.png" alt="Charlie, A Insetoide" />
+<img className="trainer-character" src="/img/characters/tdc_lider_charlie_a_insetoide.webp" alt="Charlie, A Insetoide" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

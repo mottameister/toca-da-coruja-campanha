@@ -2,7 +2,7 @@
 title: "Dom"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_treinadores_dom.png" alt="Dom" />
+<img className="trainer-character" src="/img/characters/tdc_treinadores_dom.webp" alt="Dom" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

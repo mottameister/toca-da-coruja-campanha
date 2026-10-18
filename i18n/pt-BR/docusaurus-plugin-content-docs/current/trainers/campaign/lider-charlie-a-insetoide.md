@@ -2,7 +2,7 @@
 title: "Charlie, A Insetoide"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_charlie_a_insetoide.png" alt="Charlie, A Insetoide" />
+<img className="trainer-character" src="/img/characters/tdc_lider_charlie_a_insetoide.webp" alt="Charlie, A Insetoide" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

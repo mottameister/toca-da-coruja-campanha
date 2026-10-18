@@ -2,7 +2,7 @@
 title: "Elite 4 Hacksaw"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_e4_jesus.png" alt="Elite 4 Hacksaw" />
+<img className="trainer-character" src="/img/characters/tdc_e4_jesus.webp" alt="Elite 4 Hacksaw" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

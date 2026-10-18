@@ -2,7 +2,7 @@
 title: "Tokito"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_campeoes_coruja_cup_tokito.png" alt="Tokito" />
+<img className="trainer-character" src="/img/characters/tdc_campeoes_coruja_cup_tokito.webp" alt="Tokito" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

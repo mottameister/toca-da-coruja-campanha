@@ -2,7 +2,7 @@
 title: "Elite 4 Peteca"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_e4_peteca.png" alt="Elite 4 Peteca" />
+<img className="trainer-character" src="/img/characters/tdc_e4_peteca.webp" alt="Elite 4 Peteca" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

@@ -2,7 +2,7 @@
 title: "Aurora, A Rainha Morcego"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_aurora_a_rainha_morcego.png" alt="Aurora, A Rainha Morcego" />
+<img className="trainer-character" src="/img/characters/tdc_lider_aurora_a_rainha_morcego.webp" alt="Aurora, A Rainha Morcego" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

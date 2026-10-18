@@ -4,3 +4,5 @@ Per-species source paths and model hashes: sources.json. Original per-model lice
 Cobblemon: https://cobblemon.com/ and https://gitlab.com/cable-mc/cobblemon
 Mega Showdown: https://modrinth.com/mod/mega-showdown
 Pokemon and character designs belong to their respective owners.
+
+Trainer renders use the original Minecraft skins provided by @mottameister for the campaign. Tokito uses the existing campaign mod skin. Motta’s hero artwork uses Motta_GymLeader_Dragon.png. Source file names and hashes: trainer-skins.json.

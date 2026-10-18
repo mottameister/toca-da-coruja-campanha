@@ -2,7 +2,7 @@
 title: "Elite 4 Peteca"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_e4_peteca.png" alt="Elite 4 Peteca" />
+<img className="trainer-character" src="/img/characters/tdc_e4_peteca.webp" alt="Elite 4 Peteca" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

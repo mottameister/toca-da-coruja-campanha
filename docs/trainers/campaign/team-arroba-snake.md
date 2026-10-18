@@ -2,7 +2,7 @@
 title: "Team Arroba Snake"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_snake.png" alt="Team Arroba Snake" />
+<img className="trainer-character" src="/img/characters/tdc_team_arroba_snake.webp" alt="Team Arroba Snake" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

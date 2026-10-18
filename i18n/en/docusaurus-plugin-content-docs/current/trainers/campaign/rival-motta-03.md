@@ -2,7 +2,7 @@
 title: "Rival Motta 03"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_03.png" alt="Rival Motta 03" />
+<img className="trainer-character" src="/img/characters/tdc_rival_motta_03.webp" alt="Rival Motta 03" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

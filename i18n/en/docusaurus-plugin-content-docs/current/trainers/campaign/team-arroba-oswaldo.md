@@ -2,7 +2,7 @@
 title: "Team Arroba Oswaldo"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_oswaldo.png" alt="Team Arroba Oswaldo" />
+<img className="trainer-character" src="/img/characters/tdc_team_arroba_oswaldo.webp" alt="Team Arroba Oswaldo" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

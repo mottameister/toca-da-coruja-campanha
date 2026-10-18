@@ -2,7 +2,7 @@
 title: "Team Arroba Oswaldo"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_oswaldo.png" alt="Team Arroba Oswaldo" />
+<img className="trainer-character" src="/img/characters/tdc_team_arroba_oswaldo.webp" alt="Team Arroba Oswaldo" />
 
 Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 

@@ -2,7 +2,7 @@
 title: "Aurora, A Rainha Morcego"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_lider_aurora_a_rainha_morcego.png" alt="Aurora, A Rainha Morcego" />
+<img className="trainer-character" src="/img/characters/tdc_lider_aurora_a_rainha_morcego.webp" alt="Aurora, A Rainha Morcego" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 

@@ -2,7 +2,7 @@
 title: "Elite 4 Allahu"
 ---
 
-<img className="trainer-skin" src="/img/portraits/tdc_e4_allahu.png" alt="Elite 4 Allahu" />
+<img className="trainer-character" src="/img/characters/tdc_e4_allahu.webp" alt="Elite 4 Allahu" />
 
 Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
