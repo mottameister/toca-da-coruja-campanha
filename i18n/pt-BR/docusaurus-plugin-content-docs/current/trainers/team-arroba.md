@@ -1,15 +1,10 @@
-# Equipe Arroba
+---
+title: "Team Arroba"
+---
 
-A Equipe Arroba é a facção inimiga da campanha.
-
-## Identidade de batalha
-
-As lutas contra a Equipe Arroba foram criadas para parecer agressivas, disruptivas e mecanicamente variadas.
-
-Elementos comuns incluem:
-
-- Pressão de setup
-- Efeitos de status
-- Itens segurados fortes
-- Ameaças ofensivas mistas
-- Temas de tipo com sinergia
+| Treinador | Nível |
+| --- | --- |
+| [Team Arroba Snake](/trainers/campaign/team-arroba-snake) | 22 |
+| [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) | 36 |
+| [Team Arroba Oswaldo](/trainers/campaign/team-arroba-oswaldo) | 51 |
+| [Team Arroba Admin](/trainers/campaign/team-arroba-admin) | 68 |

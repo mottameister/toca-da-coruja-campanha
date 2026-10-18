@@ -1,153 +1,128 @@
 ---
-title: Team Arroba Vinny
+title: "Team Arroba Vinny"
 ---
 
-# Team Arroba Vinny
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_vinny.png" alt="Team Arroba Vinny" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_team_arroba_vinny` |
+| Encounter | Details |
+| --- | --- |
 | Category | Team Arroba |
-| Campaign Order | 8 / 26 |
-| Level Cap | 36 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★☆☆ |
-| Archetype | Snow offense / special pressure |
-| Unlock Requirement | `tdc_lider_dada_o_faixa_preta` |
-| Healing Bag | Hyper Potion x2 |
+| Stage | 8 / 26 |
+| Team levels | 36 |
+| Unlock | [Dada, O Faixa Preta](/trainers/campaign/lider-dada-o-faixa-preta) |
+| Format | Gen 9 Doubles |
+| Bag | Hyper Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Azumarill (Azumarill)
+Azumarill + Ninetales → `move:playrough` → `move:auroraveil`.
 
-<img className="pokemon-sprite" src="/img/pokemon/azumarill.png" alt="Azumarill sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `azumarill` |
+> O Team Arroba Vinny chegou bonito demais pra perder. Bora ver se você quebra o encanto.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Azumarill · Lv. 36</summary>
+
+<img className="pokemon-sprite" src="/img/models/azumarill.webp" alt="Azumarill" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | hugepower |
+| Held item | cobblemon:choice_band |
+| Nature | adamant |
 | Gender | FEMALE |
-| Level | 36 |
 | Shiny | Yes |
-| Ability | Hugepower |
-| Held Item | Choice Band |
-| Nature | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: water |
 
-**Moveset**
+**Moves:** `aquajet` · `bodyslam` · `playrough` · `waterfall`
 
-  - Aquajet
-  - Bodyslam
-  - Playrough
-  - Waterfall
-### 2. Ninetales (Ninetales)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ninetales.png" alt="Ninetales sprite" />
+<details open={true}>
+<summary>02 · Ninetales · Lv. 36</summary>
 
+<img className="pokemon-sprite" src="/img/models/ninetales.webp" alt="Ninetales" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `ninetales` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | snowwarning |
+| Held item | cobblemon:icy_rock |
+| Nature | timid |
 | Gender | FEMALE |
-| Level | 36 |
 | Shiny | Yes |
-| Ability | Snowwarning |
-| Held Item | Icy Rock |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `auroraveil` · `blizzard` · `nastyplot` · `dazzlinggleam`
 
-  - Auroraveil
-  - Blizzard
-  - Nastyplot
-  - Dazzlinggleam
-### 3. Primarina (Primarina)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/primarina.png" alt="Primarina sprite" />
+<details open={false}>
+<summary>03 · Primarina · Lv. 36</summary>
 
+<img className="pokemon-sprite" src="/img/models/primarina.webp" alt="Primarina" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `primarina` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | liquidvoice |
+| Held item | mega_showdown:primarium_z |
+| Nature | modest |
 | Gender | FEMALE |
-| Level | 36 |
 | Shiny | Yes |
-| Ability | Liquidvoice |
-| Held Item | Primarium Z |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `sparklingaria` · `hypervoice` · `dazzlinggleam` · `blizzard`
 
-  - Sparklingaria
-  - Hypervoice
-  - Dazzlinggleam
-  - Blizzard
-### 4. Gardevoir (Gardevoir)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gardevoir.png" alt="Gardevoir sprite" />
+<details open={false}>
+<summary>04 · Gardevoir · Lv. 36</summary>
 
+<img className="pokemon-sprite" src="/img/models/gardevoir.webp" alt="Gardevoir" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `gardevoir` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | pixilate |
+| Held item | mega_showdown:gardevoirite |
+| Nature | timid |
 | Gender | FEMALE |
-| Level | 36 |
 | Shiny | Yes |
-| Ability | Pixilate |
-| Held Item | Gardevoirite |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `hypervoice` · `psychic` · `calmmind` · `vacuumwave`
 
-  - Hypervoice
-  - Psychic
-  - Calmmind
-  - Vacuumwave
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Team Arroba Vinny caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Snow support enables specific sweepers and chip pressure.
-- Spread damage is a major pressure point through Blizzard, Dazzlinggleam, Hypervoice.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Calmmind, Nastyplot.
-- Priority pressure can close games or deny low-HP pivots: Aquajet, Vacuumwave.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_team_arroba_vinny.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_team_arroba_vinny.json`
+← [Dada, O Faixa Preta](/trainers/campaign/lider-dada-o-faixa-preta) · [Juanes, O Dono da Carrocinha](/trainers/campaign/lider-juanes-o-dono-da-carrocinha) →

@@ -1,203 +1,172 @@
 ---
-title: Campeão Motta
+title: "Campeão Motta"
 ---
 
-# Campeão Motta
+<img className="trainer-skin" src="/img/portraits/tdc_campeao_motta.png" alt="Campeão Motta" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_campeao_motta` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Campeão |
-| Ordem na campanha | 26 / 26 |
-| Limite de nível | 85 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★★ |
-| Arquétipo | Ofensiva de areia / controle de campo em duplas |
-| Requisito de desbloqueio | `tdc_e4_victao` |
-| Bolsa de cura | Full Restore x2 |
+| Etapa | 26 / 26 |
+| Níveis do time | 85 |
+| Desbloqueio | [Elite 4 Victão](/trainers/campaign/e4-victao) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Full Restore × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Mr. X (Tyranitar)
+Aerodactyl + Garchomp → `move:tailwind` → `move:swordsdance`.
 
-<img className="pokemon-sprite" src="/img/pokemon/tyranitar.png" alt="Tyranitar sprite" />
+Tailwind + Swords Dance; Tyranitar e Excadrill entram juntos depois da abertura.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `tyranitar` |
-| Apelido | Mr. X |
-| Gênero | Masculino |
-| Nível | 85 |
-| Shiny | Não |
-| Habilidade | Sandstream |
-| Item segurado | Tyranitarite |
-| Natureza | Sassy |
-| EVs | 252 HP / 252 Atk / 252 Def / 252 SpA / 252 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+## Antes da batalha
 
-**Golpes**
+> Do primeiro corujão até aqui. Agora não tem tutorial: mostra por que você merece ser campeão da Toca!
 
-  - Stealthrock
-  - Knockoff
-  - Rockslide
-  - Irondefense
-### 2. quesadrillas (Excadrill)
+## Equipe completa
 
-<img className="pokemon-sprite" src="/img/pokemon/excadrill.png" alt="Excadrill sprite" />
+<details open={true}>
+<summary>01 · Aerodactyl · Lv. 85</summary>
 
+<img className="pokemon-sprite" src="/img/models/aerodactyl.webp" alt="Aerodactyl" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `excadrill` |
-| Apelido | quesadrillas |
-| Gênero | Masculino |
-| Nível | 85 |
-| Shiny | Sim |
-| Habilidade | Sandrush |
-| Item segurado | Steelium Z |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 252 Def / 252 SpA / 252 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
-
-**Golpes**
-
-  - Drillrun
-  - Brickbreak
-  - Ironhead
-  - Rockslide
-### 3. Pteros (Aerodactyl)
-
-<img className="pokemon-sprite" src="/img/pokemon/aerodactyl.png" alt="Aerodactyl sprite" />
-
-
-| Campo | Valor |
-|---|---|
-| Espécie | `aerodactyl` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Pteros |
-| Gênero | Masculino |
-| Nível | 85 |
+| Habilidade | rockhead |
+| Item | cobblemon:focus_sash |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Rockhead |
-| Item segurado | Focus Sash |
-| Natureza | Jolly |
-| EVs | 252 HP / 252 Atk / 252 Def / 252 SpA / 252 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / DEF 252 / SPA 252 / SPD 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dualwingbeat` · `tailwind` · `rockslide` · `doubleedge`
 
-  - Dualwingbeat
-  - Tailwind
-  - Rockslide
-  - Doubleedge
-### 4. Shark Boy (Garchomp)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/garchomp.png" alt="Garchomp sprite" />
+<details open={true}>
+<summary>02 · Garchomp · Lv. 85</summary>
 
+<img className="pokemon-sprite" src="/img/models/garchomp.webp" alt="Garchomp" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `garchomp` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Shark Boy |
-| Gênero | Masculino |
-| Nível | 85 |
+| Habilidade | sandveil |
+| Item | cobblemon:yache_berry |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Sandveil |
-| Item segurado | Yache Berry |
-| Natureza | Jolly |
-| EVs | 252 HP / 252 Atk / 252 Def / 252 SpA / 252 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: steel |
+| EVs | HP 252 / ATK 252 / DEF 252 / SPA 252 / SPD 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: steel |
 
-**Golpes**
+**Golpes:** `dragonclaw` · `earthquake` · `ironhead` · `swordsdance`
 
-  - Dragonclaw
-  - Earthquake
-  - Ironhead
-  - Swordsdance
-### 5. Pikes Peak (Zamazenta)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/zamazenta.png" alt="Zamazenta sprite" />
+<details open={false}>
+<summary>03 · Tyranitar · Lv. 85</summary>
 
+<img className="pokemon-sprite" src="/img/models/tyranitar.webp" alt="Tyranitar" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `zamazenta` |
-| Apelido | Pikes Peak |
-| Gênero | Sem gênero |
-| Nível | 85 |
+| Atributo | Valor |
+| --- | --- |
+| Apelido | Mr. X |
+| Habilidade | sandstream |
+| Item | mega_showdown:tyranitarite |
+| Natureza | sassy |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Dauntlessshield |
-| Item segurado | Rusted Shield |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 252 Def / 252 SpA / 252 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / DEF 252 / SPA 252 / SPD 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `stealthrock` · `knockoff` · `rockslide` · `irondefense`
 
-  - Behemothbash
-  - Bodypress
-  - Irondefense
-  - Crunch
-### 6. Pokedeus (Arceus)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/arceus.png" alt="Arceus sprite" />
+<details open={false}>
+<summary>04 · Excadrill · Lv. 85</summary>
 
+<img className="pokemon-sprite" src="/img/models/excadrill.webp" alt="Excadrill" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `arceus` |
-| Apelido | Pokedeus |
-| Gênero | Sem gênero |
-| Nível | 85 |
+| Atributo | Valor |
+| --- | --- |
+| Apelido | Quesadrillas |
+| Habilidade | sandrush |
+| Item | mega_showdown:groundium_z |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Multitype |
-| Item segurado | Iron Plate |
-| Natureza | Timid |
-| EVs | 252 HP / 252 Atk / 252 Def / 252 SpA / 252 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / DEF 252 / SPA 252 / SPD 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `drillrun` · `brickbreak` · `ironhead` · `rockslide`
 
-  - Calmmind
-  - Irondefense
-  - Recover
-  - Flashcannon
+</details>
+
+<details open={false}>
+<summary>05 · Landorus · Lv. 85</summary>
+
+<img className="pokemon-sprite" src="/img/models/landorus.webp" alt="Landorus" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
+| Apelido | Norris |
+| Habilidade | sheerforce |
+| Item | cobblemon:life_orb |
+| Natureza | timid |
+| Gênero | MALE |
+| Shiny | Sim |
+| EVs | HP 8 / SPA 248 / SPD 4 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
+
+**Golpes:** `calmmind` · `psychic` · `earthpower` · `sludgewave`
+
+</details>
+
+<details open={false}>
+<summary>06 · Arceus · Lv. 85</summary>
+
+<img className="pokemon-sprite" src="/img/models/arceus.webp" alt="Arceus" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
+| Apelido | Pokedeus |
+| Habilidade | multitype |
+| Item | cobblemon:normal_gem |
+| Natureza | timid |
+| Gênero | GENDERLESS |
+| Shiny | Sim |
+| EVs | HP 252 / ATK 252 / DEF 252 / SPA 252 / SPD 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
+
+**Golpes:** `calmmind` · `irondefense` · `recover` · `hypervoice`
+
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Acabou! Temos um novo campeão da Toca da Coruja! Você começou com um desafio e terminou fazendo história.
+
+**Quando o treinador vence**
+
+> O título fica comigo por enquanto. Mas depois dessa caminhada, sei que você vai voltar.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de areia habilita sweepers específicos e pressão por dano residual.
-- Speed control tools: Tailwind.
-- Dano em área é um grande ponto de pressão por meio de Earthquake, Rockslide.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Calmmind, Irondefense, Swordsdance.
-
-### Perfil de ameaças
-
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_campeao_motta.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_campeao_motta.json`
+← [Elite 4 Victão](/trainers/campaign/e4-victao) · Campanha principal concluída

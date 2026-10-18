@@ -1,151 +1,130 @@
 ---
-title: Aurora, A Rainha Morcego
+title: "Aurora, A Rainha Morcego"
 ---
 
-# Aurora, A Rainha Morcego
+<img className="trainer-skin" src="/img/portraits/tdc_lider_aurora_a_rainha_morcego.png" alt="Aurora, A Rainha Morcego" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_aurora_a_rainha_morcego` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 2 / 26 |
-| Limite de nível | 18 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★☆☆☆ |
-| Arquétipo | Núcleo de duplas focado em setup |
-| Requisito de desbloqueio | `tdc_rival_motta_01` |
-| Bolsa de cura | Super Potion x2 |
+| Etapa | 2 / 26 |
+| Níveis do time | 18 |
+| Desbloqueio | [Rival Motta](/trainers/campaign/rival-motta-01) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Super Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Noibat (Noibat)
+Noibat + Swoobat → `move:airslash` → `move:calmmind`.
 
-<img className="pokemon-sprite" src="/img/pokemon/noibat.png" alt="Noibat sprite" />
+Noibat pressiona enquanto Simple Swoobat usa Calm Mind.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `noibat` |
+## Antes da batalha
+
+> Pode falar baixo. Meus morcegos já ouviram você chegando do outro lado da caverna.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Noibat · Lv. 18</summary>
+
+<img className="pokemon-sprite" src="/img/models/noibat.webp" alt="Noibat" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 18 |
+| Habilidade | infiltrator |
+| Item | cobblemon:assault_vest |
+| Natureza | modest |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Infiltrator |
-| Item segurado | Assault Vest |
-| Natureza | Modest |
-| EVs | 252 SpA / 248 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `psychic` · `shadowball` · `dragonpulse` · `airslash`
 
-  - Psychic
-  - Shadowball
-  - Dragonpulse
-  - Airslash
-### 2. Zubat (Zubat)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/zubat.png" alt="Zubat sprite" />
+<details open={true}>
+<summary>02 · Swoobat · Lv. 18</summary>
 
+<img className="pokemon-sprite" src="/img/models/swoobat.webp" alt="Swoobat" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `zubat` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 18 |
+| Habilidade | simple |
+| Item | cobblemon:sitrus_berry |
+| Natureza | timid |
+| Gênero | FEMALE |
+| Shiny | Sim |
+| EVs | SPA 240 / SPD 36 / SPE 232 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: normal |
+
+**Golpes:** `calmmind` · `shadowball` · `psychic` · `airslash`
+
+</details>
+
+<details open={false}>
+<summary>03 · Zubat · Lv. 18</summary>
+
+<img className="pokemon-sprite" src="/img/models/zubat.webp" alt="Zubat" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
+| Apelido | — |
+| Habilidade | innerfocus |
+| Item | cobblemon:life_orb |
+| Natureza | adamant |
+| Gênero | FEMALE |
 | Shiny | Não |
-| Habilidade | Innerfocus |
-| Item segurado | Life Orb |
-| Natureza | Adamant |
-| EVs | 252 Atk / 248 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `leechlife` · `poisonfang` · `acrobatics` · `uturn`
 
-  - Leechlife
-  - Poisonfang
-  - Acrobatics
-  - Uturn
-### 3. Gligar (Gligar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gligar.png" alt="Gligar sprite" />
+<details open={false}>
+<summary>04 · Gligar · Lv. 18</summary>
 
+<img className="pokemon-sprite" src="/img/models/gligar.webp" alt="Gligar" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gligar` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 18 |
+| Habilidade | hypercutter |
+| Item | mega_showdown:groundium_z |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Hypercutter |
-| Item segurado | Groundium Z |
-| Natureza | Jolly |
-| EVs | 4 HP / 232 Atk / 24 SpD / 244 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 4 / ATK 232 / SPD 24 / SPE 244 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `acrobatics` · `earthquake` · `psychicfangs` · `crabhammer`
 
-  - Acrobatics
-  - Earthquake
-  - Psychicfangs
-  - Crabhammer
-### 4. Swoobat (Swoobat)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/swoobat.png" alt="Swoobat sprite" />
+## Diálogos de resultado
 
+**Quando você vence**
 
-| Campo | Valor |
-|---|---|
-| Espécie | `swoobat` |
-| Apelido | — |
-| Gênero | Feminino |
-| Nível | 18 |
-| Shiny | Sim |
-| Habilidade | Simple |
-| Item segurado | Sitrus Berry |
-| Natureza | Timid |
-| EVs | 240 SpA / 36 SpD / 232 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: normal |
+> Você encontrou uma saída no escuro. Pode seguir: essa vitória foi sua.
 
-**Golpes**
+**Quando o treinador vence**
 
-  - Calmmind
-  - Shadowball
-  - Psychic
-  - Airslash
+> Apagou a luz por aí? Aqui no escuro quem manda sou eu.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Dano em área é um grande ponto de pressão por meio de Earthquake.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Calmmind.
-
-### Perfil de ameaças
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_aurora_a_rainha_morcego.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_aurora_a_rainha_morcego.json`
+← [Rival Motta](/trainers/campaign/rival-motta-01) · [Team Arroba Snake](/trainers/campaign/team-arroba-snake) →

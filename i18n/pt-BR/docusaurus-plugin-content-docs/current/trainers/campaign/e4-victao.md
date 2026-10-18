@@ -1,203 +1,172 @@
 ---
-title: Elite 4 Victão
+title: "Elite 4 Victão"
 ---
 
-# Elite 4 Victão
+<img className="trainer-skin" src="/img/portraits/tdc_e4_victao.png" alt="Elite 4 Victão" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_e4_victao` |
-| Categoria | Elite 4 |
-| Ordem na campanha | 25 / 26 |
-| Limite de nível | 80 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★★ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_e4_allahu` |
-| Bolsa de cura | Full Restore x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Elite Four |
+| Etapa | 25 / 26 |
+| Níveis do time | 80 |
+| Desbloqueio | [Elite 4 Allahu](/trainers/campaign/e4-allahu) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Full Restore × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Whimsicott (Whimsicott)
+Whimsicott + Incineroar → `move:tailwind` → `move:fakeout`.
 
-<img className="pokemon-sprite" src="/img/pokemon/whimsicott.png" alt="Whimsicott sprite" />
+Tailwind + Fake Out no primeiro turno de seleção.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `whimsicott` |
+## Antes da batalha
+
+> A Elite também joga de dupla afinada. Quando você perceber o ritmo, meus Pokémon já aceleraram.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Whimsicott · Lv. 80</summary>
+
+<img className="pokemon-sprite" src="/img/models/whimsicott.webp" alt="Whimsicott" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 80 |
+| Habilidade | prankster |
+| Item | cobblemon:focus_sash |
+| Natureza | timid |
+| Gênero | FEMALE |
 | Shiny | Não |
-| Habilidade | Prankster |
-| Item segurado | Focus Sash |
-| Natureza | Timid |
-| EVs | 252 HP / 4 SpA / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `tailwind` · `encore` · `taunt` · `moonblast`
 
-  - Tailwind
-  - Encore
-  - Taunt
-  - Moonblast
-### 2. Incineroar (Incineroar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/incineroar.png" alt="Incineroar sprite" />
+<details open={true}>
+<summary>02 · Incineroar · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/incineroar.webp" alt="Incineroar" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `incineroar` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | intimidate |
+| Item | cobblemon:assault_vest |
+| Natureza | careful |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Intimidate |
-| Item segurado | Assault Vest |
-| Natureza | Careful |
-| EVs | 252 HP / 92 Atk / 164 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 92 / SPD 164 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `fakeout` · `flareblitz` · `snarl` · `uturn`
 
-  - Fakeout
-  - Flareblitz
-  - Snarl
-  - Uturn
-### 3. Fluttermane (Fluttermane)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/fluttermane.png" alt="Fluttermane sprite" />
+<details open={false}>
+<summary>03 · Fluttermane · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/fluttermane.webp" alt="Fluttermane" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `fluttermane` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | protosynthesis |
+| Item | cobblemon:choice_specs |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Protosynthesis |
-| Item segurado | Choice Specs |
-| Natureza | Timid |
-| EVs | 4 HP / 252 SpA / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 4 / SPA 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `shadowball` · `moonblast` · `protect` · `icywind`
 
-  - Shadowball
-  - Moonblast
-  - Protect
-  - Icywind
-### 4. Urshifu (Urshifu)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/urshifu.png" alt="Urshifu sprite" />
+<details open={false}>
+<summary>04 · Urshifu · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/urshifu.webp" alt="Urshifu" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `urshifu` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | unseenfist |
+| Item | cobblemon:choice_scarf |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Unseenfist |
-| Item segurado | Choice Scarf |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `surgingstrikes` · `closecombat` · `aquajet` · `uturn`
 
-  - Surgingstrikes
-  - Closecombat
-  - Aquajet
-  - Uturn
-### 5. Regieleki (Regieleki)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/regieleki.png" alt="Regieleki sprite" />
+<details open={false}>
+<summary>05 · Regieleki · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/regieleki.webp" alt="Regieleki" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `regieleki` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | transistor |
+| Item | cobblemon:magnet |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Transistor |
-| Item segurado | Magnet |
-| Natureza | Timid |
-| EVs | 252 SpA / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: flying |
+| EVs | SPA 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: flying |
 
-**Golpes**
+**Golpes:** `thunderbolt` · `electroweb` · `voltswitch` · `protect`
 
-  - Thunderbolt
-  - Electroweb
-  - Voltswitch
-  - Protect
-### 6. Rayquaza (Rayquaza)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/rayquaza.png" alt="Rayquaza sprite" />
+<details open={false}>
+<summary>06 · Rayquaza · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/rayquaza.webp" alt="Rayquaza" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `rayquaza` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | deltastream |
+| Item | cobblemon:life_orb |
+| Natureza | jolly |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Deltastream |
-| Item segurado | Life Orb |
-| Natureza | Jolly |
-| EVs | 252 Atk / 6 Def / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / DEF 6 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dragonascent` · `extremespeed` · `protect` · `earthquake`
 
-  - Dragonascent
-  - Extremespeed
-  - Protect
-  - Earthquake
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Boa! Você não só acompanhou o ritmo: tomou o controle. Pode avançar.
+
+**Quando o treinador vence**
+
+> Você ficou um turno atrás. Às vezes é tudo que uma dupla precisa.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Speed control tools: Electroweb, Icywind, Tailwind.
-- Dano em área é um grande ponto de pressão por meio de Dragonascent, Earthquake.
-
-### Condições de vitória
-
-- Priority pressure can close games or deny low-HP pivots: Aquajet, Extremespeed, Fakeout.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_e4_victao.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_e4_victao.json`
+← [Elite 4 Allahu](/trainers/campaign/e4-allahu) · [Campeão Motta](/trainers/campaign/campeao-motta) →

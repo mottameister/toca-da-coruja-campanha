@@ -1,27 +1,12 @@
-# Rival Motta
+---
+title: "Rival and Champion Motta"
+---
 
-Rival Motta is the main recurring rival of the campaign.
-
-## Battle Identity
-
-Rival Motta focuses on:
-
-- Sandstorm synergy
-- Physical pressure
-- Rock/Ground offensive cores
-- Gradual team evolution over the campaign
-
-## Known Core
-
-- Mr. X
-- Quesadrillas
-- Shark Boy
-- Nidokong
-- Pteros
-- Scott
-- Pikes Peak
-- Pokedeus
-
-## Strategy Notes
-
-The team becomes more threatening as the campaign progresses, eventually developing into a high-pressure sand team with endgame legendary support.
+| Trainer | Level |
+| --- | --- |
+| [Rival Motta](/trainers/campaign/rival-motta-01) | 15 |
+| [Rival Motta 02](/trainers/campaign/rival-motta-02) | 30 |
+| [Rival Motta 03](/trainers/campaign/rival-motta-03) | 45 |
+| [Rival Motta 04](/trainers/campaign/rival-motta-04) | 60 |
+| [Rival Motta Final](/trainers/campaign/rival-motta-final) | 79 |
+| [Campeão Motta](/trainers/campaign/campeao-motta) | 85 |

@@ -1,153 +1,130 @@
 ---
-title: Equipe Arroba Vinny
+title: "Team Arroba Vinny"
 ---
 
-# Equipe Arroba Vinny
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_vinny.png" alt="Team Arroba Vinny" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_team_arroba_vinny` |
-| Categoria | Equipe Arroba |
-| Ordem na campanha | 8 / 26 |
-| Limite de nível | 36 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★☆☆ |
-| Arquétipo | Ofensiva de neve / pressão especial |
-| Requisito de desbloqueio | `tdc_lider_dada_o_faixa_preta` |
-| Bolsa de cura | Hyper Potion x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Team Arroba |
+| Etapa | 8 / 26 |
+| Níveis do time | 36 |
+| Desbloqueio | [Dada, O Faixa Preta](/trainers/campaign/lider-dada-o-faixa-preta) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Hyper Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Azumarill (Azumarill)
+Azumarill + Ninetales → `move:playrough` → `move:auroraveil`.
 
-<img className="pokemon-sprite" src="/img/pokemon/azumarill.png" alt="Azumarill sprite" />
+Azumarill pressiona e Ninetales estabelece Aurora Veil na neve.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `azumarill` |
+## Antes da batalha
+
+> Achou meus Pokémon fofinhos? Ótimo. É assim que começa a confusão.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Azumarill · Lv. 36</summary>
+
+<img className="pokemon-sprite" src="/img/models/azumarill.webp" alt="Azumarill" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 36 |
+| Habilidade | hugepower |
+| Item | cobblemon:choice_band |
+| Natureza | adamant |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Hugepower |
-| Item segurado | Choice Band |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: water |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: water |
 
-**Golpes**
+**Golpes:** `aquajet` · `bodyslam` · `playrough` · `waterfall`
 
-  - Aquajet
-  - Bodyslam
-  - Playrough
-  - Waterfall
-### 2. Ninetales (Ninetales)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ninetales.png" alt="Ninetales sprite" />
+<details open={true}>
+<summary>02 · Ninetales · Lv. 36</summary>
 
+<img className="pokemon-sprite" src="/img/models/ninetales.webp" alt="Ninetales" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `ninetales` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 36 |
+| Habilidade | snowwarning |
+| Item | cobblemon:icy_rock |
+| Natureza | timid |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Snowwarning |
-| Item segurado | Icy Rock |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `auroraveil` · `blizzard` · `nastyplot` · `dazzlinggleam`
 
-  - Auroraveil
-  - Blizzard
-  - Nastyplot
-  - Dazzlinggleam
-### 3. Primarina (Primarina)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/primarina.png" alt="Primarina sprite" />
+<details open={false}>
+<summary>03 · Primarina · Lv. 36</summary>
 
+<img className="pokemon-sprite" src="/img/models/primarina.webp" alt="Primarina" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `primarina` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 36 |
+| Habilidade | liquidvoice |
+| Item | mega_showdown:primarium_z |
+| Natureza | modest |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Liquidvoice |
-| Item segurado | Primarium Z |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `sparklingaria` · `hypervoice` · `dazzlinggleam` · `blizzard`
 
-  - Sparklingaria
-  - Hypervoice
-  - Dazzlinggleam
-  - Blizzard
-### 4. Gardevoir (Gardevoir)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gardevoir.png" alt="Gardevoir sprite" />
+<details open={false}>
+<summary>04 · Gardevoir · Lv. 36</summary>
 
+<img className="pokemon-sprite" src="/img/models/gardevoir.webp" alt="Gardevoir" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gardevoir` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 36 |
+| Habilidade | pixilate |
+| Item | mega_showdown:gardevoirite |
+| Natureza | timid |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Pixilate |
-| Item segurado | Gardevoirite |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `hypervoice` · `psychic` · `calmmind` · `vacuumwave`
 
-  - Hypervoice
-  - Psychic
-  - Calmmind
-  - Vacuumwave
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Tá, essa não estava no plano. Vou fingir que foi uma retirada estratégica.
+
+**Quando o treinador vence**
+
+> O Team Arroba agradece a visita. A neve ajuda a esconder as pegadas da sua derrota.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de neve habilita sweepers específicos e pressão por dano residual.
-- Dano em área é um grande ponto de pressão por meio de Blizzard, Dazzlinggleam, Hypervoice.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Calmmind, Nastyplot.
-- Priority pressure can close games or deny low-HP pivots: Aquajet, Vacuumwave.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_team_arroba_vinny.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_team_arroba_vinny.json`
+← [Dada, O Faixa Preta](/trainers/campaign/lider-dada-o-faixa-preta) · [Juanes, O Dono da Carrocinha](/trainers/campaign/lider-juanes-o-dono-da-carrocinha) →

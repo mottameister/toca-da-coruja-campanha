@@ -1,21 +1,32 @@
-# Download
+---
+title: "Install and update"
+---
+
+## Version 2.0 requirements
+
+| Component | Version |
+|---|---|
+| Minecraft | 1.21.1 |
+| Fabric Loader | 0.15.0 or later |
+| Cobblemon | 1.8.2 or later |
+| RCT API | 0.16.2-beta or later |
+| RCT Mod | Compatible; inspected reference: 0.19.2 |
+| Mega Showdown and ZA Mega | Required for team items and Megas |
 
 ## Installation
 
-1. Install Minecraft 1.21.1
-2. Install Fabric Loader
-3. Install Cobblemon
-4. Install Radical Cobblemon Trainers
-5. Drop the **Owl's Nest / A Toca da Coruja** `.jar` file into your `/mods` folder
+1. Back up your world before updating.
+2. Install compatible dependencies in your Fabric instance.
+3. Put the campaign JAR in `mods` on both server and clients.
+4. Remove the previous campaign JAR to avoid duplicate mod IDs.
+5. Restart the instances.
 
-## Requirements
+[Published releases on Modrinth](https://modrinth.com/mod/toca-da-coruja-campanha)
 
-- Minecraft 1.21.1
-- Fabric Loader
-- Cobblemon
-- Radical Cobblemon Trainers
+## About this reference
 
-## Links
+This wiki describes the local 2.0.0 candidate, which is not confirmation of a published Modrinth release. Package and data checks passed; Minecraft battles and dialogue display still require testing.
 
-- Modrinth: [Modrinth](https://modrinth.com/mod/owls-nest-rct-campaign)
-- GitHub: [GitHub](https://github.com/mottameister/toca-da-coruja-campanha)
+## Missing dialogue
+
+Update both clients and server. RCT can show dialogue in speech bubbles, chat or both. Check `showMessagesAsSpeechBubble` and `showMessagesInChat`.

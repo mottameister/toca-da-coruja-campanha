@@ -1,151 +1,130 @@
 ---
-title: Charlie, A Insetoide
+title: "Charlie, A Insetoide"
 ---
 
-# Charlie, A Insetoide
+<img className="trainer-skin" src="/img/portraits/tdc_lider_charlie_a_insetoide.png" alt="Charlie, A Insetoide" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_charlie_a_insetoide` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 4 / 26 |
-| Limite de nível | 24 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★☆☆☆ |
-| Arquétipo | Núcleo de duplas focado em setup |
-| Requisito de desbloqueio | `tdc_team_arroba_snake` |
-| Bolsa de cura | Super Potion x2 |
+| Etapa | 4 / 26 |
+| Níveis do time | 24 |
+| Desbloqueio | [Team Arroba Snake](/trainers/campaign/team-arroba-snake) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Super Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Shedinja (Shedinja)
+Shedinja + Butterfree → `move:shadowsneak` → `move:quiverdance`.
 
-<img className="pokemon-sprite" src="/img/pokemon/shedinja.png" alt="Shedinja sprite" />
+Shedinja Tera Electric pressiona; Butterfree usa Quiver Dance uma vez.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `shedinja` |
+## Antes da batalha
+
+> Veio pisar nos insetinhos? Cuidado: alguns deles nem precisam de mais de um pontinho de vida.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Shedinja · Lv. 24</summary>
+
+<img className="pokemon-sprite" src="/img/models/shedinja.webp" alt="Shedinja" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 24 |
+| Habilidade | wonderguard |
+| Item | cobblemon:safety_goggles |
+| Natureza | jolly |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Wonderguard |
-| Item segurado | Safety Goggles |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 Def / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: electric |
+| EVs | ATK 252 / DEF 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: electric |
 
-**Golpes**
+**Golpes:** `leechlife` · `swordsdance` · `shadowsneak` · `suckerpunch`
 
-  - Leechlife
-  - Swordsdance
-  - Shadowsneak
-  - Suckerpunch
-### 2. Dustox (Dustox)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/dustox.png" alt="Dustox sprite" />
+<details open={true}>
+<summary>02 · Butterfree · Lv. 24</summary>
 
+<img className="pokemon-sprite" src="/img/models/butterfree.webp" alt="Butterfree" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `dustox` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 24 |
+| Habilidade | compoundeyes |
+| Item | cobblemon:leftovers |
+| Natureza | modest |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Shielddust |
-| Item segurado | Assault Vest |
-| Natureza | Modest |
-| EVs | 248 HP / 244 SpA / 8 SpD / 8 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 16 / SPA 240 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `quiverdance` · `sleeppowder` · `hurricane` · `signalbeam`
 
-  - Bugbuzz
-  - Energyball
-  - Psychic
-  - Sludgebomb
-### 3. Butterfree (Butterfree)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/butterfree.png" alt="Butterfree sprite" />
+<details open={false}>
+<summary>03 · Dustox · Lv. 24</summary>
 
+<img className="pokemon-sprite" src="/img/models/dustox.webp" alt="Dustox" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `butterfree` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 24 |
+| Habilidade | shielddust |
+| Item | cobblemon:assault_vest |
+| Natureza | modest |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Compoundeyes |
-| Item segurado | Leftovers |
-| Natureza | Modest |
-| EVs | 16 HP / 240 SpA / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 248 / SPA 244 / SPD 8 / SPE 8 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bugbuzz` · `energyball` · `psychic` · `sludgebomb`
 
-  - Quiverdance
-  - Sleeppowder
-  - Hurricane
-  - Signalbeam
-### 4. Scyther (Scyther)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/scyther.png" alt="Scyther sprite" />
+<details open={false}>
+<summary>04 · Scyther · Lv. 24</summary>
 
+<img className="pokemon-sprite" src="/img/models/scyther.webp" alt="Scyther" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `scyther` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 24 |
+| Habilidade | technician |
+| Item | mega_showdown:buginium_z |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Technician |
-| Item segurado | Buginium Z |
-| Natureza | Jolly |
-| EVs | 248 Atk / 20 SpD / 236 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 248 / SPD 20 / SPE 236 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bugbite` · `dualwingbeat` · `brutalswing` · `trailblaze`
 
-  - Bugbite
-  - Dualwingbeat
-  - Brutalswing
-  - Trailblaze
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Tá bom, você passou pela teia. Agora vai mostrar essa coragem no próximo desafio.
+
+**Quando o treinador vence**
+
+> Deu um bug na sua estratégia? Meus insetos estão funcionando direitinho.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Speed control tools: Trailblaze.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Quiverdance, Swordsdance.
-- Priority pressure can close games or deny low-HP pivots: Shadowsneak, Suckerpunch.
-
-### Perfil de ameaças
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_charlie_a_insetoide.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_charlie_a_insetoide.json`
+← [Team Arroba Snake](/trainers/campaign/team-arroba-snake) · [Dom](/trainers/campaign/treinadores-dom) →

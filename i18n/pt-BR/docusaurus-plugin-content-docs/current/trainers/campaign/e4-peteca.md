@@ -1,202 +1,172 @@
 ---
-title: Elite 4 Peteca
+title: "Elite 4 Peteca"
 ---
 
-# Elite 4 Peteca
+<img className="trainer-skin" src="/img/portraits/tdc_e4_peteca.png" alt="Elite 4 Peteca" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_e4_peteca` |
-| Categoria | Elite 4 |
-| Ordem na campanha | 23 / 26 |
-| Limite de nível | 80 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★★ |
-| Arquétipo | Núcleo de duplas focado em setup |
-| Requisito de desbloqueio | `tdc_e4_jesus` |
-| Bolsa de cura | Full Restore x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Elite Four |
+| Etapa | 23 / 26 |
+| Níveis do time | 80 |
+| Desbloqueio | [Elite 4 Hacksaw](/trainers/campaign/e4-jesus) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Full Restore × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Chienpao (Chienpao)
+Chienpao + Tinglu → `move:swordsdance` → `move:bodypress`.
 
-<img className="pokemon-sprite" src="/img/pokemon/chienpao.png" alt="Chienpao sprite" />
+Focus Sash ampara Swords Dance; Ting-Lu aplica pressão sem gastar o Z Dark em alvo incerto.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `chienpao` |
+## Antes da batalha
+
+> Bem-vindo à parte da Elite em que cada escolha pode ser a última. Vai atacar ou vai hesitar?
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Chienpao · Lv. 80</summary>
+
+<img className="pokemon-sprite" src="/img/models/chienpao.webp" alt="Chienpao" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | swordofruin |
+| Item | cobblemon:focus_sash |
+| Natureza | jolly |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Swordofruin |
-| Item segurado | Focus Sash |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `iceshard` · `icespinner` · `suckerpunch` · `swordsdance`
 
-  - Iceshard
-  - Icespinner
-  - Suckerpunch
-  - Swordsdance
-### 2. Tinglu (Tinglu)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/tinglu.png" alt="Tinglu sprite" />
+<details open={true}>
+<summary>02 · Tinglu · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/tinglu.webp" alt="Tinglu" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `tinglu` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | vesselofruin |
+| Item | mega_showdown:darkinium_z |
+| Natureza | adamant |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Vesselofruin |
-| Item segurado | Darkinium Z |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bodypress` · `throatchop` · `rockslide` · `bulldoze`
 
-  - Bodypress
-  - Throatchop
-  - Rockslide
-  - Bulldoze
-### 3. Greninja (Greninja)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/greninja.png" alt="Greninja sprite" />
+<details open={false}>
+<summary>03 · Greninja · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/greninja.webp" alt="Greninja" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `greninja` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | protean |
+| Item | cobblemon:loaded_dice |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Protean |
-| Item segurado | Loaded Dice |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: fire |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: fire |
 
-**Golpes**
+**Golpes:** `watershuriken` · `darkpulse` · `sludgewave` · `terablast`
 
-  - Watershuriken
-  - Darkpulse
-  - Sludgewave
-  - Terablast
-### 4. Roaringmoon (Roaringmoon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/roaringmoon.png" alt="Roaringmoon sprite" />
+<details open={false}>
+<summary>04 · Roaringmoon · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/roaringmoon.webp" alt="Roaringmoon" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `roaringmoon` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | protosynthesis |
+| Item | mega_showdown:booster_energy |
+| Natureza | adamant |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Protosynthesis |
-| Item segurado | Booster Energy |
-| Natureza | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `crunch` · `dragonclaw` · `dragondance` · `ironhead`
 
-  - Crunch
-  - Dragonclaw
-  - Dragondance
-  - Ironhead
-### 5. Sharpedo (Sharpedo)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/sharpedo.png" alt="Sharpedo sprite" />
+<details open={false}>
+<summary>05 · Sharpedo · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/sharpedo.webp" alt="Sharpedo" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `sharpedo` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | strongjaw |
+| Item | mega_showdown:sharpedonite |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Strongjaw |
-| Item segurado | Sharpedonite |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `crunch` · `icefang` · `psychicfangs` · `poisonfang`
 
-  - Crunch
-  - Icefang
-  - Psychicfangs
-  - Poisonfang
-### 6. Kingambit (Kingambit)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/kingambit.png" alt="Kingambit sprite" />
+<details open={false}>
+<summary>06 · Kingambit · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/kingambit.webp" alt="Kingambit" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `kingambit` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | supremeoverlord |
+| Item | cobblemon:chople_berry |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Supremeoverlord |
-| Item segurado | Chople Berry |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `kowtowcleave` · `ironhead` · `suckerpunch` · `swordsdance`
 
-  - Kowtowcleave
-  - Ironhead
-  - Suckerpunch
-  - Swordsdance
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você leu minhas ameaças e não perdeu o ritmo. Pode seguir. Essa foi merecida.
+
+**Quando o treinador vence**
+
+> Você hesitou. Meu time só precisava dessa oportunidade.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Dano em área é um grande ponto de pressão por meio de Bulldoze, Rockslide, Sludgewave.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Dragondance, Swordsdance.
-- Priority pressure can close games or deny low-HP pivots: Iceshard, Suckerpunch.
-
-### Perfil de ameaças
-
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_e4_peteca.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_e4_peteca.json`
+← [Elite 4 Hacksaw](/trainers/campaign/e4-jesus) · [Elite 4 Allahu](/trainers/campaign/e4-allahu) →

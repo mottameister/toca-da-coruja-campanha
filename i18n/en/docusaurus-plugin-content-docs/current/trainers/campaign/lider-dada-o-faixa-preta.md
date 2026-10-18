@@ -1,151 +1,128 @@
 ---
-title: Dada, O Faixa Preta
+title: "Dada, O Faixa Preta"
 ---
 
-# Dada, O Faixa Preta
+<img className="trainer-skin" src="/img/portraits/tdc_lider_dada_o_faixa_preta.png" alt="Dada, O Faixa Preta" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_lider_dada_o_faixa_preta` |
+| Encounter | Details |
+| --- | --- |
 | Category | Leader |
-| Campaign Order | 7 / 26 |
-| Level Cap | 33 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★☆☆ |
-| Archetype | Setup-oriented doubles core |
-| Unlock Requirement | `tdc_rival_motta_02` |
-| Healing Bag | Hyper Potion x2 |
+| Stage | 7 / 26 |
+| Team levels | 33 |
+| Unlock | [Rival Motta 02](/trainers/campaign/rival-motta-02) |
+| Format | Gen 9 Doubles |
+| Bag | Hyper Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Hariyama (Hariyama)
+Hariyama + Gallade → `move:fakeout` → `move:psychocut`.
 
-<img className="pokemon-sprite" src="/img/pokemon/hariyama.png" alt="Hariyama sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `hariyama` |
+> Aqui não tem conversa mole. Postura, foco e soco bem dado!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Hariyama · Lv. 33</summary>
+
+<img className="pokemon-sprite" src="/img/models/hariyama.webp" alt="Hariyama" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | thickfat |
+| Held item | cobblemon:leftovers |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 33 |
 | Shiny | No |
-| Ability | Thickfat |
-| Held Item | Leftovers |
-| Nature | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: fighting |
 
-**Moveset**
+**Moves:** `poweruppunch` · `drainpunch` · `fakeout` · `knockoff`
 
-  - Poweruppunch
-  - Drainpunch
-  - Fakeout
-  - Knockoff
-### 2. Machamp (Machamp)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/machamp.png" alt="Machamp sprite" />
+<details open={true}>
+<summary>02 · Gallade · Lv. 33</summary>
 
+<img className="pokemon-sprite" src="/img/models/gallade.webp" alt="Gallade" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `machamp` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
-| Gender | MALE |
-| Level | 33 |
-| Shiny | No |
-| Ability | Noguard |
-| Held Item | Fightinium Z |
-| Nature | Adamant |
-| EVs | 248 HP / 244 Atk / 12 SpD |
-| IVs | 31 all |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Highhorsepower
-  - Dynamicpunch
-  - Stoneedge
-  - Megakick
-### 3. Conkeldurr (Conkeldurr)
-
-<img className="pokemon-sprite" src="/img/pokemon/conkeldurr.png" alt="Conkeldurr sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `conkeldurr` |
-| Nickname | — |
-| Gender | MALE |
-| Level | 33 |
-| Shiny | No |
-| Ability | Guts |
-| Held Item | Flame Orb |
-| Nature | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 all |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Drainpunch
-  - Machpunch
-  - Poweruppunch
-  - Rockslide
-### 4. Gallade (Gallade)
-
-<img className="pokemon-sprite" src="/img/pokemon/gallade.png" alt="Gallade sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `gallade` |
-| Nickname | — |
+| Ability | innerfocus |
+| Held item | mega_showdown:galladite |
+| Nature | jolly |
 | Gender | GENDERLESS |
-| Level | 33 |
 | Shiny | No |
-| Ability | Innerfocus |
-| Held Item | Galladite |
-| Nature | Jolly |
-| EVs | 244 Atk / 12 SpD / 248 Spe |
-| IVs | 31 all |
+| EVs | ATK 244 / SPD 12 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `drainpunch` · `icepunch` · `leafblade` · `psychocut`
 
-  - Drainpunch
-  - Icepunch
-  - Leafblade
-  - Psychocut
+</details>
+
+<details open={false}>
+<summary>03 · Machamp · Lv. 33</summary>
+
+<img className="pokemon-sprite" src="/img/models/machamp.webp" alt="Machamp" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | noguard |
+| Held item | mega_showdown:fightinium_z |
+| Nature | adamant |
+| Gender | MALE |
+| Shiny | No |
+| EVs | HP 248 / ATK 244 / SPD 12 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `highhorsepower` · `dynamicpunch` · `stoneedge` · `megakick`
+
+</details>
+
+<details open={false}>
+<summary>04 · Conkeldurr · Lv. 33</summary>
+
+<img className="pokemon-sprite" src="/img/models/conkeldurr.webp" alt="Conkeldurr" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | guts |
+| Held item | cobblemon:flame_orb |
+| Nature | adamant |
+| Gender | MALE |
+| Shiny | No |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `drainpunch` · `machpunch` · `poweruppunch` · `rockslide`
+
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Dada, O Faixa Preta caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Spread damage is a major pressure point through Rockslide.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Poweruppunch.
-- Priority pressure can close games or deny low-HP pivots: Fakeout, Machpunch.
-
-### Threat Profile
-
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_lider_dada_o_faixa_preta.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_lider_dada_o_faixa_preta.json`
+← [Rival Motta 02](/trainers/campaign/rival-motta-02) · [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) →

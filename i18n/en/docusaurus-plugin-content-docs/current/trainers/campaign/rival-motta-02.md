@@ -1,151 +1,128 @@
 ---
-title: Rival Motta 02
+title: "Rival Motta 02"
 ---
 
-# Rival Motta 02
+<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_02.png" alt="Rival Motta 02" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_rival_motta_02` |
+| Encounter | Details |
+| --- | --- |
 | Category | Rival |
-| Campaign Order | 6 / 26 |
-| Level Cap | 30 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★☆☆ |
-| Archetype | Sand offense / field-control doubles |
-| Unlock Requirement | `tdc_treinadores_dom` |
-| Healing Bag | Super Potion x2 |
+| Stage | 6 / 26 |
+| Team levels | 30 |
+| Unlock | [Dom](/trainers/campaign/treinadores-dom) |
+| Format | Gen 9 Doubles |
+| Bag | Super Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Mr. X (Pupitar)
+Pupitar + Drilbur → `move:sandstorm` → `move:drillrun`.
 
-<img className="pokemon-sprite" src="/img/pokemon/pupitar.png" alt="Pupitar sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `pupitar` |
+> Achou que o primeiro duelo era tudo? Agora o deserto começa de verdade.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Pupitar · Lv. 30</summary>
+
+<img className="pokemon-sprite" src="/img/models/pupitar.webp" alt="Pupitar" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | Mr. X |
+| Ability | shedskin |
+| Held item | cobblemon:smooth_rock |
+| Nature | sassy |
 | Gender | MALE |
-| Level | 30 |
 | Shiny | No |
-| Ability | Shedskin |
-| Held Item | Smooth Rock |
-| Nature | Sassy |
-| EVs | 244 HP / 16 Atk / 248 SpD |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 16 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `rockslide` · `bulldoze` · `sandstorm` · `pursuit`
 
-  - Rockslide
-  - Bulldoze
-  - Sandstorm
-  - Pursuit
-### 2. Quesadrillas (Drilbur)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/drilbur.png" alt="Drilbur sprite" />
+<details open={true}>
+<summary>02 · Drilbur · Lv. 30</summary>
 
+<img className="pokemon-sprite" src="/img/models/drilbur.webp" alt="Drilbur" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `drilbur` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Quesadrillas |
+| Ability | sandrush |
+| Held item | cobblemon:eviolite |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 30 |
 | Shiny | Yes |
-| Ability | Sandrush |
-| Held Item | Eviolite |
-| Nature | Adamant |
-| EVs | 252 Atk / 132 Def / 124 SpD |
-| IVs | 31 all |
+| EVs | ATK 252 / DEF 132 / SPD 124 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `slash` · `stealthrock` · `drillrun` · `metalclaw`
 
-  - Slash
-  - Stealthrock
-  - Drillrun
-  - Metalclaw
-### 3. Shark Boy (Gabite)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gabite.png" alt="Gabite sprite" />
+<details open={false}>
+<summary>03 · Gabite · Lv. 30</summary>
 
+<img className="pokemon-sprite" src="/img/models/gabite.webp" alt="Gabite" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `gabite` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Shark Boy |
+| Ability | sandveil |
+| Held item | cobblemon:yache_berry |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 30 |
 | Shiny | No |
-| Ability | Sandveil |
-| Held Item | Yache Berry |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: steel |
 
-**Moveset**
+**Moves:** `dragontail` · `bulldoze` · `rockslide` · `metalclaw`
 
-  - Dragontail
-  - Bulldoze
-  - Rockslide
-  - Metalclaw
-### 4. Nidokong (Nidorino)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidorino.png" alt="Nidorino sprite" />
+<details open={false}>
+<summary>04 · Nidorino · Lv. 30</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidorino.webp" alt="Nidorino" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `nidorino` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Nidokong |
+| Ability | poisonpoint |
+| Held item | mega_showdown:groundium_z |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 30 |
 | Shiny | Yes |
-| Ability | Poisonpoint |
-| Held Item | Groundium Z |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `earthpower` · `icebeam` · `sludgebomb` · `thunderbolt`
 
-  - Earthpower
-  - Icebeam
-  - Sludgebomb
-  - Thunderbolt
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Rival Motta 02 caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Sand support enables specific sweepers and chip pressure.
-- Spread damage is a major pressure point through Bulldoze, Rockslide.
-
-### Win Conditions
-
-- Primary win condition is efficient target selection and maintaining board pressure.
-
-### Threat Profile
-
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_rival_motta_02.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_rival_motta_02.json`
+← [Dom](/trainers/campaign/treinadores-dom) · [Dada, O Faixa Preta](/trainers/campaign/lider-dada-o-faixa-preta) →

@@ -1,29 +1,19 @@
 ---
-sidebar_position: 1
+title: "Duplas, estratégias e mecânicas"
 ---
 
-# Formato de batalha
+## Dois slots, um plano
 
-## Regras principais
+Todos os 27 encontros usam `GEN_9_DOUBLES`. A 2.0 adiciona 56 ações de abertura no total: Fake Out, Tailwind, preparação de atributos, clima e outras combinações, de acordo com o time.
 
-- Apenas batalhas em dupla no estilo VGC
-- Treinadores controlados por IA
-- Sem batalhas individuais
+## O que o script faz
 
-## Mecânicas habilitadas
+O script define uma sequência curta compartilhada pelo treinador. Não é um roteiro completo de turnos: não escolhe alvos fixos, não tem condições ou loops e não repete Fake Out automaticamente após uma troca. Um golpe selecionado pode falhar por Protect, imunidade, Taunt, clima ou outras regras normais.
 
-- Terastalização
-- Mega Evolução
-- Z-Moves
+## Mega, Tera e Z-Moves
 
-Essas mecânicas coexistem para aumentar a profundidade estratégica.
+Os times contêm itens e configurações dessas mecânicas, dependendo de Mega Showdown e ZA Mega. Sua ativação depende do RCT; não é garantido usar todas na mesma luta. O RCT consultado impede Tera depois de Mega do mesmo treinador.
 
-## Comportamento da IA
+## Inspiração VGC
 
-- Os treinadores usam movesets otimizados
-- O uso de itens é condicional
-- As equipes são montadas com sinergia em mente
-
-## Objetivo de design
-
-Simular uma experiência competitiva de Pokémon dentro do Cobblemon.
+A campanha é inspirada em duplas competitivas. Não presuma regras como seleção obrigatória de quatro Pokémon, banimentos ou nível 50 padronizado.

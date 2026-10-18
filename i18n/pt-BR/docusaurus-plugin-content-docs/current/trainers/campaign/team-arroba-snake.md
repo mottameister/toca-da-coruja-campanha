@@ -1,151 +1,130 @@
 ---
-title: Equipe Arroba Snake
+title: "Team Arroba Snake"
 ---
 
-# Equipe Arroba Snake
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_snake.png" alt="Team Arroba Snake" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_team_arroba_snake` |
-| Categoria | Equipe Arroba |
-| Ordem na campanha | 3 / 26 |
-| Limite de nível | 22 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★☆☆☆ |
-| Arquétipo | Núcleo de duplas focado em setup |
-| Requisito de desbloqueio | `tdc_lider_aurora_a_rainha_morcego` |
-| Bolsa de cura | Super Potion x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Team Arroba |
+| Etapa | 3 / 26 |
+| Níveis do time | 22 |
+| Desbloqueio | [Aurora, A Rainha Morcego](/trainers/campaign/lider-aurora-a-rainha-morcego) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Super Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Silicobra (Silicobra)
+Silicobra + Arbok → `move:coil` → `move:coil`.
 
-<img className="pokemon-sprite" src="/img/pokemon/silicobra.png" alt="Silicobra sprite" />
+Duplo Coil uma única vez; Air Balloon protege Arbok de Ground enquanto íntegro.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `silicobra` |
+## Antes da batalha
+
+> Sssse chegou até aqui, já entrou no território do Team Arroba. Agora tenta sair do nosso abraço.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Silicobra · Lv. 22</summary>
+
+<img className="pokemon-sprite" src="/img/models/silicobra.webp" alt="Silicobra" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 22 |
+| Habilidade | shedskin |
+| Item | cobblemon:focus_sash |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Shedskin |
-| Item segurado | Focus Sash |
-| Natureza | Adamant |
-| EVs | 244 HP / 240 Atk / 24 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 244 / ATK 240 / SPD 24 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `stealthrock` · `rockslide` · `drillrun` · `coil`
 
-  - Stealthrock
-  - Rockslide
-  - Drillrun
-  - Coil
-### 2. Arbok (Arbok)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/arbok.png" alt="Arbok sprite" />
+<details open={true}>
+<summary>02 · Arbok · Lv. 22</summary>
 
+<img className="pokemon-sprite" src="/img/models/arbok.webp" alt="Arbok" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `arbok` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 22 |
+| Habilidade | intimidate |
+| Item | cobblemon:air_balloon |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Intimidate |
-| Item segurado | Air Balloon |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `coil` · `gunkshot` · `psychicfangs` · `seedbomb`
 
-  - Coil
-  - Gunkshot
-  - Psychicfangs
-  - Seedbomb
-### 3. Seviper (Seviper)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/seviper.png" alt="Seviper sprite" />
+<details open={false}>
+<summary>03 · Seviper · Lv. 22</summary>
 
+<img className="pokemon-sprite" src="/img/models/seviper.webp" alt="Seviper" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `seviper` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 22 |
+| Habilidade | infiltrator |
+| Item | cobblemon:assault_vest |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Infiltrator |
-| Item segurado | Assault Vest |
-| Natureza | Modest |
-| EVs | 240 HP / 240 SpA / 16 SpD / 12 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 240 / SPA 240 / SPD 16 / SPE 12 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `sludgewave` · `darkpulse` · `flamethrower` · `gigadrain`
 
-  - Sludgewave
-  - Darkpulse
-  - Flamethrower
-  - Gigadrain
-### 4. Servine (Servine)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/servine.png" alt="Servine sprite" />
+<details open={false}>
+<summary>04 · Servine · Lv. 22</summary>
 
+<img className="pokemon-sprite" src="/img/models/servine.webp" alt="Servine" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `servine` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 22 |
+| Habilidade | contrary |
+| Item | cobblemon:eviolite |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Contrary |
-| Item segurado | Eviolite |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: water |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: water |
 
-**Golpes**
+**Golpes:** `synthesis` · `toxic` · `leafstorm` · `terablast`
 
-  - Synthesis
-  - Toxic
-  - Leafstorm
-  - Terablast
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você escapou dessa vez... mas o Team Arroba ainda tem muito veneno guardado.
+
+**Quando o treinador vence**
+
+> Se enrolou todo! Da próxima vez, presta atenção antes do bote.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Dano em área é um grande ponto de pressão por meio de Rockslide, Sludgewave.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Coil.
-
-### Perfil de ameaças
-
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_team_arroba_snake.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_team_arroba_snake.json`
+← [Aurora, A Rainha Morcego](/trainers/campaign/lider-aurora-a-rainha-morcego) · [Charlie, A Insetoide](/trainers/campaign/lider-charlie-a-insetoide) →

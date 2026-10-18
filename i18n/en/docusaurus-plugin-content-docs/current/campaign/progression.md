@@ -1,27 +1,14 @@
 ---
-sidebar_position: 2
+title: "How to progress"
 ---
 
-# Campaign Progression
+Start with Rival Motta and his level-15 team. Defeat each encounter to unlock the next. The route includes eight leaders, Team Arroba, community trainers, Admin Marru, the Elite Four and Champion Motta.
 
-The campaign follows a fixed progression based on trainer unlocks.
+## Stuck?
 
-## Structure
+- Check the previous trainer in the [full route](/campaign/full-progression).
+- Check the level accepted by RCT and your team’s health.
+- Wait for the configured 1,000-tick cooldown, around 50 seconds at 20 TPS.
+- If the NPC is busy, finish or wait for the current battle.
 
-- Linear progression gated by victories
-- Each trainer unlocks the next through `requiredDefeats`
-- Level caps increase steadily
-- Difficulty spikes occur at key milestones
-
-## Design Philosophy
-
-- Early game: introduction to mechanics
-- Mid game: synergy and positioning
-- Late game: optimized teams and pressure
-- Endgame: full competitive execution
-
-## Notes
-
-- No grinding-based progression
-- Skill-based advancement
-- Battles are designed to test decision-making
+Tokito does not block the main campaign.

@@ -1,203 +1,172 @@
 ---
-title: Senior Joe
+title: "Senior Joe"
 ---
 
-# Senior Joe
+<img className="trainer-skin" src="/img/portraits/tdc_treinadores_senior_joe.png" alt="Senior Joe" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_treinadores_senior_joe` |
-| Categoria | Trainer |
-| Ordem na campanha | 15 / 26 |
-| Limite de nível | 57 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★☆ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_lider_julie_a_botanista` |
-| Bolsa de cura | Max Potion x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Treinador |
+| Etapa | 15 / 26 |
+| Níveis do time | 57 |
+| Desbloqueio | [Julie, A Botanista](/trainers/campaign/lider-julie-a-botanista) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Max Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Blastoise (Blastoise)
+Blastoise + Gyarados → `move:waterpulse` → `move:waterfall`.
 
-<img className="pokemon-sprite" src="/img/pokemon/blastoise.png" alt="Blastoise sprite" />
+Pressão com Mega Blastoise; não força Dragon Dance bloqueado por Assault Vest.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `blastoise` |
+## Antes da batalha
+
+> Pode trazer suas novidades. Esses veteranos ainda têm muita batalha pra ensinar.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Blastoise · Lv. 57</summary>
+
+<img className="pokemon-sprite" src="/img/models/blastoise.webp" alt="Blastoise" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 57 |
+| Habilidade | megalauncher |
+| Item | mega_showdown:blastoisinite |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Megalauncher |
-| Item segurado | Blastoisinite |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `waterpulse` · `dragonpulse` · `darkpulse` · `aurasphere`
 
-  - Waterpulse
-  - Dragonpulse
-  - Darkpulse
-  - Aurasphere
-### 2. Gyarados (Gyarados)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gyarados.png" alt="Gyarados sprite" />
+<details open={true}>
+<summary>02 · Gyarados · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/gyarados.webp" alt="Gyarados" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gyarados` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 57 |
+| Habilidade | intimidate |
+| Item | cobblemon:assault_vest |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Intimidate |
-| Item segurado | Assault Vest |
-| Natureza | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: ground |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: ground |
 
-**Golpes**
+**Golpes:** `waterfall` · `bulldoze` · `dragondance` · `icefang`
 
-  - Waterfall
-  - Bulldoze
-  - Dragondance
-  - Icefang
-### 3. Alakazam (Alakazam)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/alakazam.png" alt="Alakazam sprite" />
+<details open={false}>
+<summary>03 · Alakazam · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/alakazam.webp" alt="Alakazam" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `alakazam` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 57 |
+| Habilidade | innerfocus |
+| Item | cobblemon:choice_specs |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Innerfocus |
-| Item segurado | Choice Specs |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dazzlinggleam` · `psychic` · `shadowball` · `energyball`
 
-  - Dazzlinggleam
-  - Psychic
-  - Shadowball
-  - Energyball
-### 4. Snorlax (Snorlax)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/snorlax.png" alt="Snorlax sprite" />
+<details open={false}>
+<summary>04 · Snorlax · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/snorlax.webp" alt="Snorlax" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `snorlax` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 57 |
+| Habilidade | thickfat |
+| Item | cobblemon:leftovers |
+| Natureza | careful |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Thickfat |
-| Item segurado | Leftovers |
-| Natureza | Careful |
-| EVs | 248 HP / 8 Atk / 248 SpD / 4 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 248 / ATK 8 / SPD 248 / SPE 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bodypress` · `bodyslam` · `rest` · `sleeptalk`
 
-  - Bodypress
-  - Bodyslam
-  - Rest
-  - Sleeptalk
-### 5. Arcanine (Arcanine)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/arcanine.png" alt="Arcanine sprite" />
+<details open={false}>
+<summary>05 · Arcanine · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/arcanine.webp" alt="Arcanine" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `arcanine` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 57 |
+| Habilidade | intimidate |
+| Item | cobblemon:life_orb |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Intimidate |
-| Item segurado | Life Orb |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `closecombat` · `extremespeed` · `flareblitz` · `wildcharge`
 
-  - Closecombat
-  - Extremespeed
-  - Flareblitz
-  - Wildcharge
-### 6. Mewtwo (Mewtwo)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/mewtwo.png" alt="Mewtwo sprite" />
+<details open={false}>
+<summary>06 · Mewtwo · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/mewtwo.webp" alt="Mewtwo" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `mewtwo` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 57 |
+| Habilidade | pressure |
+| Item | cobblemon:expert_belt |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Pressure |
-| Item segurado | Expert Belt |
-| Natureza | Timid |
-| EVs | 252 SpA / 8 SpD / 248 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `psystrike` · `shadowball` · `thunderbolt` · `aurasphere`
 
-  - Psystrike
-  - Shadowball
-  - Thunderbolt
-  - Aurasphere
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Muito bem. Hoje quem saiu daqui aprendendo uma coisa nova fui eu.
+
+**Quando o treinador vence**
+
+> Experiência é isso: reconhecer a oportunidade antes de ela aparecer no placar.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Dano em área é um grande ponto de pressão por meio de Bulldoze, Dazzlinggleam.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Dragondance.
-- Priority pressure can close games or deny low-HP pivots: Extremespeed.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_treinadores_senior_joe.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_treinadores_senior_joe.json`
+← [Julie, A Botanista](/trainers/campaign/lider-julie-a-botanista) · [Rival Motta 04](/trainers/campaign/rival-motta-04) →

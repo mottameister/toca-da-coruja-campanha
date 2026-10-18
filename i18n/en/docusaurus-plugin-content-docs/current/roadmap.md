@@ -1,21 +1,20 @@
 ---
-title: Roadmap
+title: "What changed in 2.0"
 ---
 
-# Roadmap
+## Implemented in the candidate
 
-Planned improvements for **Owl's Nest RCT Campaign**.
+- 27 trainer opening scripts with 56 actions.
+- Reordered leads for some teams; species and attributes preserved from 1.0.3.
+- Connected dialogue resources for all 27 trainers: 405 contexts.
+- 81 thematic Portuguese opening, victory and defeat lines.
+- PT-BR and EN-US language resources.
+- Tokito documented as an optional Coruja Cup encounter.
 
-## Planned Features
+## Pending validation
 
-- Trainer dialogues
-- Custom battle themes
-- Follower trainers
-- Expanded trainer documentation
-- Additional visual improvements for the wiki
+Actual battles, script resets after interruption and Minecraft speech-bubble/chat display. Parser validation does not establish these behaviours.
 
-## Long-Term Goals
+## Future ideas
 
-- Improve campaign presentation
-- Expand lore integration
-- Add more community-facing resources
+Battle music and more community trainers remain ideas without confirmed implementation or delivery dates.

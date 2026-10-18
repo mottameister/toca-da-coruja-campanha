@@ -1,204 +1,170 @@
 ---
-title: Juanes, O Dono da Carrocinha
+title: "Juanes, O Dono da Carrocinha"
 ---
 
-# Juanes, O Dono da Carrocinha
+<img className="trainer-skin" src="/img/portraits/tdc_lider_juanes_o_dono_da_carrocinha.png" alt="Juanes, O Dono da Carrocinha" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_lider_juanes_o_dono_da_carrocinha` |
+| Encounter | Details |
+| --- | --- |
 | Category | Leader |
-| Campaign Order | 9 / 26 |
-| Level Cap | 39 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★☆☆ |
-| Archetype | High-tempo offensive pressure |
-| Unlock Requirement | `tdc_team_arroba_vinny` |
-| Healing Bag | Hyper Potion x2 |
+| Stage | 9 / 26 |
+| Team levels | 39 |
+| Unlock | [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) |
+| Format | Gen 9 Doubles |
+| Bag | Hyper Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Zoroark (Zoroark)
+Zoroark + Lycanroc → `move:hypervoice` → `move:stoneedge`.
 
-<img className="pokemon-sprite" src="/img/pokemon/zoroark.png" alt="Zoroark sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `zoroark` |
+> Soltei os cachorros. Literalmente. Boa sorte segurando essa matilha!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Zoroark · Lv. 39</summary>
+
+<img className="pokemon-sprite" src="/img/models/zoroark.webp" alt="Zoroark" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | illusion |
+| Held item | cobblemon:choice_specs |
+| Nature | timid |
 | Gender | MALE |
-| Level | 39 |
 | Shiny | Yes |
-| Ability | Illusion |
-| Held Item | Choice Specs |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 248 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 248 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `hypervoice` · `bittermalice` · `psychic` · `sludgebomb`
 
-  - Hypervoice
-  - Bittermalice
-  - Psychic
-  - Sludgebomb
-### 2. Lycanroc (Lycanroc)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/lycanroc.png" alt="Lycanroc sprite" />
+<details open={true}>
+<summary>02 · Lycanroc · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/lycanroc.webp" alt="Lycanroc" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `lycanroc` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | noguard |
+| Held item | mega_showdown:lycanium_z |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 39 |
 | Shiny | Yes |
-| Ability | Noguard |
-| Held Item | Lycanium Z |
-| Nature | Jolly |
-| EVs | 252 Atk / 8 SpD / 248 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `playrough` · `stoneedge` · `irontail` · `megakick`
 
-  - Playrough
-  - Stoneedge
-  - Irontail
-  - Megakick
-### 3. Luxray (Luxray)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/luxray.png" alt="Luxray sprite" />
+<details open={false}>
+<summary>03 · Luxray · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/luxray.webp" alt="Luxray" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `luxray` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | intimidate |
+| Held item | cobblemon:choice_band |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 39 |
 | Shiny | Yes |
-| Ability | Intimidate |
-| Held Item | Choice Band |
-| Nature | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `supercellslam` · `agility` · `thunderwave` · `throatchop`
 
-  - Supercellslam
-  - Agility
-  - Thunderwave
-  - Throatchop
-### 4. Pyroar (Pyroar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/pyroar.png" alt="Pyroar sprite" />
+<details open={false}>
+<summary>04 · Pyroar · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/pyroar.webp" alt="Pyroar" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `pyroar` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | rivalry |
+| Held item | zamega:pyroarite |
+| Nature | timid |
 | Gender | MALE |
-| Level | 39 |
 | Shiny | Yes |
-| Ability | Rivalry |
-| Held Item | Pyroarite |
-| Nature | Timid |
-| EVs | 12 HP / 252 SpA / 244 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 12 / SPA 252 / SPE 244 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `darkpulse` · `flamethrower` · `hypervoice` · `willowisp`
 
-  - Darkpulse
-  - Flamethrower
-  - Hypervoice
-  - Willowisp
-### 5. Houndstone (Houndstone)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/houndstone.png" alt="Houndstone sprite" />
+<details open={false}>
+<summary>05 · Houndstone · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/houndstone.webp" alt="Houndstone" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `houndstone` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | fluffy |
+| Held item | cobblemon:assault_vest |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 39 |
 | Shiny | No |
-| Ability | Fluffy |
-| Held Item | Assault Vest |
-| Nature | Adamant |
-| EVs | 244 HP / 248 Atk / 16 SpD |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 248 / SPD 16 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: water |
 
-**Moveset**
+**Moves:** `lastrespects` · `poltergeist` · `icefang` · `firefang`
 
-  - Lastrespects
-  - Poltergeist
-  - Icefang
-  - Firefang
-### 6. Mabosstiff (Mabosstiff)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/mabosstiff.png" alt="Mabosstiff sprite" />
+<details open={false}>
+<summary>06 · Mabosstiff · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/mabosstiff.webp" alt="Mabosstiff" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `mabosstiff` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | guarddog |
+| Held item | cobblemon:life_orb |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 39 |
 | Shiny | Yes |
-| Ability | Guarddog |
-| Held Item | Life Orb |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 244 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 244 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `crunch` · `psychicfangs` · `trailblaze` · `bodyslam`
 
-  - Crunch
-  - Psychicfangs
-  - Trailblaze
-  - Bodyslam
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Juanes, O Dono da Carrocinha caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Speed control tools: Agility, Thunderwave, Trailblaze.
-- Spread damage is a major pressure point through Hypervoice.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Agility.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_lider_juanes_o_dono_da_carrocinha.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_lider_juanes_o_dono_da_carrocinha.json`
+← [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) · [Peso Pesado Flaw](/trainers/campaign/treinadores-peso-pesado-flaw) →

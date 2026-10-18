@@ -1,204 +1,170 @@
 ---
-title: Julie, A Botanista
+title: "Julie, A Botanista"
 ---
 
-# Julie, A Botanista
+<img className="trainer-skin" src="/img/portraits/tdc_lider_julie_a_botanista.png" alt="Julie, A Botanista" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_lider_julie_a_botanista` |
+| Encounter | Details |
+| --- | --- |
 | Category | Leader |
-| Campaign Order | 14 / 26 |
-| Level Cap | 54 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★☆ |
-| Archetype | Rain offense / speed control |
-| Unlock Requirement | `tdc_team_arroba_oswaldo` |
-| Healing Bag | Max Potion x2 |
+| Stage | 14 / 26 |
+| Team levels | 54 |
+| Unlock | [Team Arroba Oswaldo](/trainers/campaign/team-arroba-oswaldo) |
+| Format | Gen 9 Doubles |
+| Bag | Max Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Rillaboom (Rillaboom)
+Rillaboom + Breloom → `move:drumbeating` → `move:spore`.
 
-<img className="pokemon-sprite" src="/img/pokemon/rillaboom.png" alt="Rillaboom sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `rillaboom` |
+> Respira fundo. A Botanista vai transformar esse campo numa selva.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Rillaboom · Lv. 54</summary>
+
+<img className="pokemon-sprite" src="/img/models/rillaboom.webp" alt="Rillaboom" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | grassysurge |
+| Held item | cobblemon:grassy_seed |
+| Nature | jolly |
 | Gender | FEMALE |
-| Level | 54 |
 | Shiny | Yes |
-| Ability | Grassysurge |
-| Held Item | Grassy Seed |
-| Nature | Jolly |
-| EVs | 248 Atk / 8 SpD / 248 Spe |
-| IVs | 31 all |
+| EVs | ATK 248 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `drumbeating` · `grassyglide` · `uturn` · `bodypress`
 
-  - Drumbeating
-  - Grassyglide
-  - Uturn
-  - Bodypress
-### 2. Ferrothorn (Ferrothorn)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ferrothorn.png" alt="Ferrothorn sprite" />
+<details open={true}>
+<summary>02 · Breloom · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/breloom.webp" alt="Breloom" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `ferrothorn` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | technician |
+| Held item | mega_showdown:fightinium_z |
+| Nature | jolly |
 | Gender | FEMALE |
-| Level | 54 |
 | Shiny | Yes |
-| Ability | Ironbarbs |
-| Held Item | Rocky Helmet |
-| Nature | Calm |
-| EVs | 248 HP / 8 Def / 252 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `bulletseed` · `machpunch` · `spore` · `poweruppunch`
 
-  - Leechseed
-  - Stealthrock
-  - Irondefense
-  - Spikes
-### 3. Hydrapple (Hydrapple)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/hydrapple.png" alt="Hydrapple sprite" />
+<details open={false}>
+<summary>03 · Ferrothorn · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/ferrothorn.webp" alt="Ferrothorn" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `hydrapple` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | ironbarbs |
+| Held item | cobblemon:rocky_helmet |
+| Nature | calm |
 | Gender | FEMALE |
-| Level | 54 |
 | Shiny | Yes |
-| Ability | Regenerator |
-| Held Item | Assault Vest |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA |
-| IVs | 31 all |
+| EVs | HP 248 / DEF 8 / SPD 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `leechseed` · `stealthrock` · `irondefense` · `spikes`
+
+</details>
+
+<details open={false}>
+<summary>04 · Hydrapple · Lv. 54</summary>
+
+<img className="pokemon-sprite" src="/img/models/hydrapple.webp" alt="Hydrapple" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | regenerator |
+| Held item | cobblemon:assault_vest |
+| Nature | modest |
+| Gender | FEMALE |
+| Shiny | Yes |
+| EVs | HP 252 / SPA 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: fighting |
 
-**Moveset**
+**Moves:** `ficklebeam` · `energyball` · `earthpower` · `terablast`
 
-  - Ficklebeam
-  - Energyball
-  - Earthpower
-  - Terablast
-### 4. Meowscarada (Meowscarada)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/meowscarada.png" alt="Meowscarada sprite" />
+<details open={false}>
+<summary>05 · Meowscarada · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/meowscarada.webp" alt="Meowscarada" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `meowscarada` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | protean |
+| Held item | cobblemon:life_orb |
+| Nature | jolly |
 | Gender | FEMALE |
-| Level | 54 |
 | Shiny | Yes |
-| Ability | Protean |
-| Held Item | Life Orb |
-| Nature | Jolly |
-| EVs | 248 Atk / 8 SpD / 248 Spe |
-| IVs | 31 all |
+| EVs | ATK 248 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `uturn` · `flowertrick` · `suckerpunch` · `thunderpunch`
 
-  - Uturn
-  - Flowertrick
-  - Suckerpunch
-  - Thunderpunch
-### 5. Breloom (Breloom)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/breloom.png" alt="Breloom sprite" />
+<details open={false}>
+<summary>06 · Meganium · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/meganium.webp" alt="Meganium" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `breloom` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | megasol |
+| Held item | zamega:meganiumite |
+| Nature | timid |
 | Gender | FEMALE |
-| Level | 54 |
 | Shiny | Yes |
-| Ability | Technician |
-| Held Item | Fightinium Z |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `solarbeam` · `dazzlinggleam` · `earthpower` · `weatherball`
 
-  - Bulletseed
-  - Machpunch
-  - Spore
-  - Poweruppunch
-### 6. Meganium (Meganium)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/meganium.png" alt="Meganium sprite" />
+## Result dialogue
 
+**When you win**
 
-| Field | Value |
-|---|---|
-| Species | `meganium` |
-| Nickname | — |
-| Gender | FEMALE |
-| Level | 54 |
-| Shiny | Yes |
-| Ability | Megasol |
-| Held Item | Meganiumite |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Gimmicks | — |
+> Julie, A Botanista caiu! A Toca da Coruja reconhece sua vitória.
 
-**Moveset**
+**When the trainer wins**
 
-  - Solarbeam
-  - Dazzlinggleam
-  - Earthpower
-  - Weatherball
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Grassy terrain support enables specific sweepers and chip pressure.
-- Spread damage is a major pressure point through Dazzlinggleam.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Irondefense, Poweruppunch.
-- Priority pressure can close games or deny low-HP pivots: Grassyglide, Machpunch, Suckerpunch.
-
-### Threat Profile
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_lider_julie_a_botanista.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_lider_julie_a_botanista.json`
+← [Team Arroba Oswaldo](/trainers/campaign/team-arroba-oswaldo) · [Senior Joe](/trainers/campaign/treinadores-senior-joe) →

@@ -1,203 +1,172 @@
 ---
-title: Elite 4 Hacksaw
+title: "Elite 4 Hacksaw"
 ---
 
-# Elite 4 Hacksaw
+<img className="trainer-skin" src="/img/portraits/tdc_e4_jesus.png" alt="Elite 4 Hacksaw" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_e4_jesus` |
-| Categoria | Elite 4 |
-| Ordem na campanha | 22 / 26 |
-| Limite de nível | 80 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★★ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_rival_motta_final` |
-| Bolsa de cura | Full Restore x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Elite Four |
+| Etapa | 22 / 26 |
+| Níveis do time | 80 |
+| Desbloqueio | [Rival Motta Final](/trainers/campaign/rival-motta-final) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Full Restore × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Dragapult (Dragapult)
+Dragapult + Dragonite → `move:dragondarts` → `move:dragonclaw`.
 
-<img className="pokemon-sprite" src="/img/pokemon/dragapult.png" alt="Dragapult sprite" />
+Pressão ofensiva imediata; sem Phantom Force forçado ou troca roteirizada.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `dragapult` |
+## Antes da batalha
+
+> Dragões não precisam de apresentação. Mas você vai precisar de um bom plano pros dois lados da arena.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Dragapult · Lv. 80</summary>
+
+<img className="pokemon-sprite" src="/img/models/dragapult.webp" alt="Dragapult" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | clearbody |
+| Item | cobblemon:choice_scarf |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Clearbody |
-| Item segurado | Choice Scarf |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dragondarts` · `phantomforce` · `suckerpunch` · `uturn`
 
-  - Dragondarts
-  - Phantomforce
-  - Suckerpunch
-  - Uturn
-### 2. Dragonite (Dragonite)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/dragonite.png" alt="Dragonite sprite" />
+<details open={true}>
+<summary>02 · Dragonite · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/dragonite.webp" alt="Dragonite" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `dragonite` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | multiscale |
+| Item | cobblemon:assault_vest |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Multiscale |
-| Item segurado | Assault Vest |
-| Natureza | Adamant |
-| EVs | 248 HP / 252 Atk / 8 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 248 / ATK 252 / SPD 8 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `aquajet` · `dragonclaw` · `extremespeed` · `thunderpunch`
 
-  - Aquajet
-  - Dragonclaw
-  - Extremespeed
-  - Thunderpunch
-### 3. Garchomp (Garchomp)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/garchomp.png" alt="Garchomp sprite" />
+<details open={false}>
+<summary>03 · Garchomp · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/garchomp.webp" alt="Garchomp" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `garchomp` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | roughskin |
+| Item | cobblemon:rocky_helmet |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Roughskin |
-| Item segurado | Rocky Helmet |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dragonclaw` · `earthquake` · `ironhead` · `swordsdance`
 
-  - Dragonclaw
-  - Earthquake
-  - Ironhead
-  - Swordsdance
-### 4. Charizard (Charizard)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/charizard.png" alt="Charizard sprite" />
+<details open={false}>
+<summary>04 · Charizard · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/charizard.webp" alt="Charizard" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `charizard` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | blaze |
+| Item | cobblemon:expert_belt |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Blaze |
-| Item segurado | Expert Belt |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: grass |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: grass |
 
-**Golpes**
+**Golpes:** `airslash` · `flamethrower` · `scorchingsands` · `terablast`
 
-  - Airslash
-  - Flamethrower
-  - Scorchingsands
-  - Terablast
-### 5. Latios (Latios)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/latios.png" alt="Latios sprite" />
+<details open={false}>
+<summary>05 · Latios · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/latios.webp" alt="Latios" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `latios` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | levitate |
+| Item | mega_showdown:dragonium_z |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Levitate |
-| Item segurado | Dragonium Z |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dracometeor` · `lusterpurge` · `mysticalfire` · `shadowball`
 
-  - Dracometeor
-  - Lusterpurge
-  - Mysticalfire
-  - Shadowball
-### 6. Salamence (Salamence)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/salamence.png" alt="Salamence sprite" />
+<details open={false}>
+<summary>06 · Salamence · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/salamence.webp" alt="Salamence" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `salamence` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | aerilate |
+| Item | mega_showdown:salamencite |
+| Natureza | naive |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Aerilate |
-| Item segurado | Salamencite |
-| Natureza | Naive |
-| EVs | 252 Atk / 4 SpA / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPA 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bodyslam` · `dragonclaw` · `earthquake` · `ironhead`
 
-  - Bodyslam
-  - Dragonclaw
-  - Earthquake
-  - Ironhead
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você encarou meus dragões de frente. A Elite reconhece sua força. Continue.
+
+**Quando o treinador vence**
+
+> Você tentou segurar um dragão e deixou o outro livre. Aqui essa abertura custa caro.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Dano em área é um grande ponto de pressão por meio de Earthquake.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Swordsdance.
-- Priority pressure can close games or deny low-HP pivots: Aquajet, Extremespeed, Suckerpunch.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_e4_jesus.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_e4_jesus.json`
+← [Rival Motta Final](/trainers/campaign/rival-motta-final) · [Elite 4 Peteca](/trainers/campaign/e4-peteca) →

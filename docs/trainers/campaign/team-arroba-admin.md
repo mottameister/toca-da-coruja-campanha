@@ -1,204 +1,172 @@
 ---
-title: Equipe Arroba Admin
+title: "Team Arroba Admin"
 ---
 
-# Equipe Arroba Admin
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_admin.png" alt="Team Arroba Admin" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_team_arroba_admin` |
-| Categoria | Equipe Arroba |
-| Ordem na campanha | 18 / 26 |
-| Limite de nível | 68 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★☆ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_lider_gabi_a_tempestade_de_gelo` |
-| Bolsa de cura | Max Potion x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Team Arroba |
+| Etapa | 18 / 26 |
+| Níveis do time | 68 |
+| Desbloqueio | [Gabi, A Tempestade de Gelo](/trainers/campaign/lider-gabi-a-tempestade-de-gelo) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Max Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Grimmsnarl (Grimmsnarl)
+Grimmsnarl + Incineroar → `move:reflect` → `move:fakeout` → `move:lightscreen` → `move:partingshot`.
 
-<img className="pokemon-sprite" src="/img/pokemon/grimmsnarl.png" alt="Grimmsnarl sprite" />
+Reflect + Fake Out; depois Light Screen + Parting Shot. Só quatro seleções.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `grimmsnarl` |
+## Antes da batalha
+
+> Chegou longe demais. O Team Arroba vai fechar essa passagem, uma barreira de cada vez.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Grimmsnarl · Lv. 68</summary>
+
+<img className="pokemon-sprite" src="/img/models/grimmsnarl.webp" alt="Grimmsnarl" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 68 |
+| Habilidade | prankster |
+| Item | cobblemon:light_clay |
+| Natureza | careful |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Prankster |
-| Item segurado | Light Clay |
-| Natureza | Careful |
-| EVs | 252 HP / 4 Atk / 252 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 4 / SPD 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `lightscreen` · `reflect` · `thunderwave` · `fakeout`
 
-  - Lightscreen
-  - Reflect
-  - Thunderwave
-  - Fakeout
-### 2. Incineroar (Incineroar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/incineroar.png" alt="Incineroar sprite" />
+<details open={true}>
+<summary>02 · Incineroar · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/incineroar.webp" alt="Incineroar" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `incineroar` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 68 |
+| Habilidade | intimidate |
+| Item | cobblemon:sitrus_berry |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Intimidate |
-| Item segurado | Sitrus Berry |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `fakeout` · `flareblitz` · `partingshot` · `knockoff`
 
-  - Fakeout
-  - Flareblitz
-  - Partingshot
-  - Knockoff
-### 3. Hydreigon (Hydreigon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/hydreigon.png" alt="Hydreigon sprite" />
+<details open={false}>
+<summary>03 · Hydreigon · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/hydreigon.webp" alt="Hydreigon" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `hydreigon` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 68 |
+| Habilidade | levitate |
+| Item | cobblemon:choice_scarf |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Levitate |
-| Item segurado | Choice Scarf |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `darkpulse` · `dracometeor` · `flamethrower` · `earthpower`
 
-  - Darkpulse
-  - Dracometeor
-  - Flamethrower
-  - Earthpower
-### 4. Krookodile (Krookodile)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/krookodile.png" alt="Krookodile sprite" />
+<details open={false}>
+<summary>04 · Krookodile · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/krookodile.webp" alt="Krookodile" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `krookodile` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 68 |
+| Habilidade | intimidate |
+| Item | mega_showdown:darkinium_z |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Intimidate |
-| Item segurado | Darkinium Z |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `closecombat` · `earthquake` · `throatchop` · `rockslide`
 
-  - Closecombat
-  - Earthquake
-  - Throatchop
-  - Rockslide
-### 5. Moltres (Moltres)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/moltres.png" alt="Moltres sprite" />
+<details open={false}>
+<summary>05 · Moltres · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/moltres.webp" alt="Moltres" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `moltres` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 68 |
+| Habilidade | berserk |
+| Item | cobblemon:assault_vest |
+| Natureza | modest |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Berserk |
-| Item segurado | Assault Vest |
-| Natureza | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | tera: rock |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: rock |
 
-**Golpes**
+**Golpes:** `nastyplot` · `airslash` · `ancientpower` · `fierywrath`
 
-  - Nastyplot
-  - Airslash
-  - Ancientpower
-  - Fierywrath
-### 6. Gyarados (Gyarados)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gyarados.png" alt="Gyarados sprite" />
+<details open={false}>
+<summary>06 · Gyarados · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/gyarados.webp" alt="Gyarados" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gyarados` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 68 |
+| Habilidade | moldbreaker |
+| Item | mega_showdown:gyaradosite |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Moldbreaker |
-| Item segurado | Gyaradosite |
-| Natureza | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `lashout` · `earthquake` · `waterfall` · `dragondance`
 
-  - Lashout
-  - Earthquake
-  - Waterfall
-  - Dragondance
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você derrubou nossas barreiras. Equipe, bater em retirada! E ninguém comenta isso no grupo.
+
+**Quando o treinador vence**
+
+> Operação concluída. Seu avanço fica por aqui... pelo menos até a próxima tentativa.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Speed control tools: Thunderwave.
-- Dano em área é um grande ponto de pressão por meio de Earthquake, Rockslide.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Dragondance, Nastyplot.
-- Priority pressure can close games or deny low-HP pivots: Fakeout.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_team_arroba_admin.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_team_arroba_admin.json`
+← [Gabi, A Tempestade de Gelo](/trainers/campaign/lider-gabi-a-tempestade-de-gelo) · [Tuta, O Tormento](/trainers/campaign/lider-tuta-o-tormento) →

@@ -1,203 +1,172 @@
 ---
-title: Elite 4 Allahu
+title: "Elite 4 Allahu"
 ---
 
-# Elite 4 Allahu
+<img className="trainer-skin" src="/img/portraits/tdc_e4_allahu.png" alt="Elite 4 Allahu" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_e4_allahu` |
-| Categoria | Elite 4 |
-| Ordem na campanha | 24 / 26 |
-| Limite de nível | 80 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★★ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_e4_peteca` |
-| Bolsa de cura | Full Restore x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Elite Four |
+| Etapa | 24 / 26 |
+| Níveis do time | 80 |
+| Desbloqueio | [Elite 4 Peteca](/trainers/campaign/e4-peteca) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Full Restore × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Groudon (Groudon)
+Groudon + Venusaur → `move:precipiceblades` → `move:sleeppowder`.
 
-<img className="pokemon-sprite" src="/img/pokemon/groudon.png" alt="Groudon sprite" />
+Sol primal + pressão de Groudon e Sleep Powder; sem setup em Choice Band/Scarf.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `groudon` |
+## Antes da batalha
+
+> Aqui o sol não dá trégua. Quero ver sua dupla manter o controle com a arena inteira fervendo.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Groudon · Lv. 80</summary>
+
+<img className="pokemon-sprite" src="/img/models/groudon.webp" alt="Groudon" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | desolateland |
+| Item | mega_showdown:red_orb |
+| Natureza | adamant |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Desolateland |
-| Item segurado | Red Orb |
-| Natureza | Adamant |
-| EVs | 4 HP / 252 Atk / 252 Def |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 4 / ATK 252 / DEF 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `precipiceblades` · `heatcrash` · `dragonclaw` · `bodypress`
 
-  - Precipiceblades
-  - Heatcrash
-  - Dragonclaw
-  - Bodypress
-### 2. Venusaur (Venusaur)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/venusaur.png" alt="Venusaur sprite" />
+<details open={true}>
+<summary>02 · Venusaur · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/venusaur.webp" alt="Venusaur" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `venusaur` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | chlorophyll |
+| Item | cobblemon:leftovers |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Chlorophyll |
-| Item segurado | Leftovers |
-| Natureza | Modest |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | tera: water |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: water |
 
-**Golpes**
+**Golpes:** `sleeppowder` · `solarbeam` · `sludgebomb` · `earthpower`
 
-  - Sleeppowder
-  - Solarbeam
-  - Sludgebomb
-  - Earthpower
-### 3. Houndoom (Houndoom)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/houndoom.png" alt="Houndoom sprite" />
+<details open={false}>
+<summary>03 · Houndoom · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/houndoom.webp" alt="Houndoom" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `houndoom` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | solarpower |
+| Item | mega_showdown:houndoominite |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Solarpower |
-| Item segurado | Houndoominite |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `flamethrower` · `darkpulse` · `shadowball` · `sludgebomb`
 
-  - Flamethrower
-  - Darkpulse
-  - Shadowball
-  - Sludgebomb
-### 4. Gougingfire (Gougingfire)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gougingfire.png" alt="Gougingfire sprite" />
+<details open={false}>
+<summary>04 · Gougingfire · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/gougingfire.webp" alt="Gougingfire" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gougingfire` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | protosynthesis |
+| Item | cobblemon:choice_band |
+| Natureza | jolly |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Protosynthesis |
-| Item segurado | Choice Band |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `ragingfury` · `dragonclaw` · `morningsun` · `burningbulwark`
 
-  - Ragingfury
-  - Dragonclaw
-  - Morningsun
-  - Burningbulwark
-### 5. Incineroar (Incineroar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/incineroar.png" alt="Incineroar sprite" />
+<details open={false}>
+<summary>05 · Incineroar · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/incineroar.webp" alt="Incineroar" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `incineroar` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 80 |
+| Habilidade | intimidate |
+| Item | mega_showdown:incinium_z |
+| Natureza | impish |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Intimidate |
-| Item segurado | Incinium Z |
-| Natureza | Impish |
-| EVs | 252 HP / 128 Def / 128 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / DEF 128 / SPD 128 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `partingshot` · `fakeout` · `flareblitz` · `darkestlariat`
 
-  - Partingshot
-  - Fakeout
-  - Flareblitz
-  - Darkestlariat
-### 6. Walkingwake (Walkingwake)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/walkingwake.png" alt="Walkingwake sprite" />
+<details open={false}>
+<summary>06 · Walkingwake · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/walkingwake.webp" alt="Walkingwake" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `walkingwake` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 80 |
+| Habilidade | protosynthesis |
+| Item | cobblemon:choice_scarf |
+| Natureza | modest |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Protosynthesis |
-| Item segurado | Choice Scarf |
-| Natureza | Modest |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dracometeor` · `hydrosteam` · `flamethrower` · `dragondance`
 
-  - Dracometeor
-  - Hydrosteam
-  - Flamethrower
-  - Dragondance
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Nem esse sol conseguiu parar você. A próxima batalha da Elite está esperando.
+
+**Quando o treinador vence**
+
+> Seu plano evaporou antes do último turno. Prepara uma resposta pro calor e volta.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de sol forte habilita sweepers específicos e pressão por dano residual.
-- Dano em área é um grande ponto de pressão por meio de Precipiceblades.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Dragondance.
-- Priority pressure can close games or deny low-HP pivots: Fakeout.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_e4_allahu.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_e4_allahu.json`
+← [Elite 4 Peteca](/trainers/campaign/e4-peteca) · [Elite 4 Victão](/trainers/campaign/e4-victao) →

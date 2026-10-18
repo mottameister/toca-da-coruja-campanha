@@ -1,151 +1,128 @@
 ---
-title: Rival Motta 01
+title: "Rival Motta"
 ---
 
-# Rival Motta 01
+<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_01.png" alt="Rival Motta" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_rival_motta_01` |
+| Encounter | Details |
+| --- | --- |
 | Category | Rival |
-| Campaign Order | 1 / 26 |
-| Level Cap | 15 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★☆☆☆ |
-| Archetype | Sand offense / field-control doubles |
-| Unlock Requirement | Available at campaign start |
-| Healing Bag | Super Potion x2 |
+| Stage | 1 / 26 |
+| Team levels | 15 |
+| Unlock | None |
+| Format | Gen 9 Doubles |
+| Bag | Super Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Mr. X (Larvitar)
+Larvitar + Drilbur → `move:sandstorm` → `move:drillrun`.
 
-<img className="pokemon-sprite" src="/img/pokemon/larvitar.png" alt="Larvitar sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `larvitar` |
+> Bem-vindo ao primeiro corujão. Vamos ver se você aguenta a primeira tempestade de areia!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Larvitar · Lv. 15</summary>
+
+<img className="pokemon-sprite" src="/img/models/larvitar.webp" alt="Larvitar" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | Mr. X |
+| Ability | sandveil |
+| Held item | cobblemon:smooth_rock |
+| Nature | sassy |
 | Gender | MALE |
-| Level | 15 |
 | Shiny | No |
-| Ability | Sandveil |
-| Held Item | Smooth Rock |
-| Nature | Sassy |
-| EVs | 244 HP / 16 Atk / 248 SpD |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 16 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `rockslide` · `bulldoze` · `pursuit` · `sandstorm`
 
-  - Rockslide
-  - Bulldoze
-  - Pursuit
-  - Sandstorm
-### 2. Quesadrillas (Drilbur)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/drilbur.png" alt="Drilbur sprite" />
+<details open={true}>
+<summary>02 · Drilbur · Lv. 15</summary>
 
+<img className="pokemon-sprite" src="/img/models/drilbur.webp" alt="Drilbur" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `drilbur` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Quesadrillas |
+| Ability | sandrush |
+| Held item | cobblemon:eviolite |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 15 |
 | Shiny | Yes |
-| Ability | Sandrush |
-| Held Item | Eviolite |
-| Nature | Adamant |
-| EVs | 252 Atk / 132 Def / 124 SpD |
-| IVs | 31 all |
+| EVs | ATK 252 / DEF 132 / SPD 124 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `slash` · `stealthrock` · `drillrun` · `metalclaw`
 
-  - Slash
-  - Stealthrock
-  - Drillrun
-  - Metalclaw
-### 3. Shark Boy (Gible)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gible.png" alt="Gible sprite" />
+<details open={false}>
+<summary>03 · Gible · Lv. 15</summary>
 
+<img className="pokemon-sprite" src="/img/models/gible.webp" alt="Gible" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `gible` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Shark Boy |
+| Ability | sandveil |
+| Held item | cobblemon:yache_berry |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 15 |
 | Shiny | No |
-| Ability | Sandveil |
-| Held Item | Yache Berry |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: steel |
 
-**Moveset**
+**Moves:** `dragontail` · `rockslide` · `bulldoze` · `metalclaw`
 
-  - Dragontail
-  - Rockslide
-  - Bulldoze
-  - Metalclaw
-### 4. Nidokong (Nidoranm)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidoranm.png" alt="Nidoranm sprite" />
+<details open={false}>
+<summary>04 · Nidoranm · Lv. 15</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidoranm.webp" alt="Nidoranm" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `nidoranm` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Nidokong |
+| Ability | poisonpoint |
+| Held item | mega_showdown:groundium_z |
+| Nature | timid |
 | Gender | — |
-| Level | 15 |
 | Shiny | Yes |
-| Ability | Poisonpoint |
-| Held Item | Groundium Z |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 0 Atk |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | ATK 0 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `earthpower` · `sludgebomb` · `thunderbolt` · `icebeam`
 
-  - Earthpower
-  - Sludgebomb
-  - Thunderbolt
-  - Icebeam
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Ok, você passou pelo primeiro corujão. Mas relaxa não: isso foi só o tutorial.
+
+**When the trainer wins**
+
+> Eu avisei que a areia ia pesar. Treina mais um pouco e volta aqui.
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Sand support enables specific sweepers and chip pressure.
-- Spread damage is a major pressure point through Bulldoze, Rockslide.
-
-### Win Conditions
-
-- Primary win condition is efficient target selection and maintaining board pressure.
-
-### Threat Profile
-
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_rival_motta_01.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_rival_motta_01.json`
+ · [Aurora, A Rainha Morcego](/trainers/campaign/lider-aurora-a-rainha-morcego) →

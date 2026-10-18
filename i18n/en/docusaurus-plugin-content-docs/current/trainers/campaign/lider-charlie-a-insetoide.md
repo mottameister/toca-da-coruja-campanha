@@ -1,151 +1,128 @@
 ---
-title: Charlie, A Insetoide
+title: "Charlie, A Insetoide"
 ---
 
-# Charlie, A Insetoide
+<img className="trainer-skin" src="/img/portraits/tdc_lider_charlie_a_insetoide.png" alt="Charlie, A Insetoide" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_lider_charlie_a_insetoide` |
+| Encounter | Details |
+| --- | --- |
 | Category | Leader |
-| Campaign Order | 4 / 26 |
-| Level Cap | 24 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★☆☆☆ |
-| Archetype | Setup-oriented doubles core |
-| Unlock Requirement | `tdc_team_arroba_snake` |
-| Healing Bag | Super Potion x2 |
+| Stage | 4 / 26 |
+| Team levels | 24 |
+| Unlock | [Team Arroba Snake](/trainers/campaign/team-arroba-snake) |
+| Format | Gen 9 Doubles |
+| Bag | Super Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Shedinja (Shedinja)
+Shedinja + Butterfree → `move:shadowsneak` → `move:quiverdance`.
 
-<img className="pokemon-sprite" src="/img/pokemon/shedinja.png" alt="Shedinja sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `shedinja` |
+> Pequeno não significa fraco. Na Toca, até inseto joga ranked!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Shedinja · Lv. 24</summary>
+
+<img className="pokemon-sprite" src="/img/models/shedinja.webp" alt="Shedinja" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | wonderguard |
+| Held item | cobblemon:safety_goggles |
+| Nature | jolly |
 | Gender | GENDERLESS |
-| Level | 24 |
 | Shiny | Yes |
-| Ability | Wonderguard |
-| Held Item | Safety Goggles |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 Def / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / DEF 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: electric |
 
-**Moveset**
+**Moves:** `leechlife` · `swordsdance` · `shadowsneak` · `suckerpunch`
 
-  - Leechlife
-  - Swordsdance
-  - Shadowsneak
-  - Suckerpunch
-### 2. Dustox (Dustox)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/dustox.png" alt="Dustox sprite" />
+<details open={true}>
+<summary>02 · Butterfree · Lv. 24</summary>
 
+<img className="pokemon-sprite" src="/img/models/butterfree.webp" alt="Butterfree" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `dustox` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | compoundeyes |
+| Held item | cobblemon:leftovers |
+| Nature | modest |
 | Gender | FEMALE |
-| Level | 24 |
 | Shiny | Yes |
-| Ability | Shielddust |
-| Held Item | Assault Vest |
-| Nature | Modest |
-| EVs | 248 HP / 244 SpA / 8 SpD / 8 Spe |
-| IVs | 31 all |
+| EVs | HP 16 / SPA 240 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `quiverdance` · `sleeppowder` · `hurricane` · `signalbeam`
 
-  - Bugbuzz
-  - Energyball
-  - Psychic
-  - Sludgebomb
-### 3. Butterfree (Butterfree)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/butterfree.png" alt="Butterfree sprite" />
+<details open={false}>
+<summary>03 · Dustox · Lv. 24</summary>
 
+<img className="pokemon-sprite" src="/img/models/dustox.webp" alt="Dustox" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `butterfree` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | shielddust |
+| Held item | cobblemon:assault_vest |
+| Nature | modest |
 | Gender | FEMALE |
-| Level | 24 |
 | Shiny | Yes |
-| Ability | Compoundeyes |
-| Held Item | Leftovers |
-| Nature | Modest |
-| EVs | 16 HP / 240 SpA / 252 Spe |
-| IVs | 31 all |
+| EVs | HP 248 / SPA 244 / SPD 8 / SPE 8 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `bugbuzz` · `energyball` · `psychic` · `sludgebomb`
 
-  - Quiverdance
-  - Sleeppowder
-  - Hurricane
-  - Signalbeam
-### 4. Scyther (Scyther)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/scyther.png" alt="Scyther sprite" />
+<details open={false}>
+<summary>04 · Scyther · Lv. 24</summary>
 
+<img className="pokemon-sprite" src="/img/models/scyther.webp" alt="Scyther" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `scyther` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | technician |
+| Held item | mega_showdown:buginium_z |
+| Nature | jolly |
 | Gender | FEMALE |
-| Level | 24 |
 | Shiny | Yes |
-| Ability | Technician |
-| Held Item | Buginium Z |
-| Nature | Jolly |
-| EVs | 248 Atk / 20 SpD / 236 Spe |
-| IVs | 31 all |
+| EVs | ATK 248 / SPD 20 / SPE 236 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `bugbite` · `dualwingbeat` · `brutalswing` · `trailblaze`
 
-  - Bugbite
-  - Dualwingbeat
-  - Brutalswing
-  - Trailblaze
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Charlie, A Insetoide caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Speed control tools: Trailblaze.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Quiverdance, Swordsdance.
-- Priority pressure can close games or deny low-HP pivots: Shadowsneak, Suckerpunch.
-
-### Threat Profile
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_lider_charlie_a_insetoide.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_lider_charlie_a_insetoide.json`
+← [Team Arroba Snake](/trainers/campaign/team-arroba-snake) · [Dom](/trainers/campaign/treinadores-dom) →

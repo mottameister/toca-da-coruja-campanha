@@ -1,203 +1,170 @@
 ---
-title: Elite 4 Victão
+title: "Elite 4 Victão"
 ---
 
-# Elite 4 Victão
+<img className="trainer-skin" src="/img/portraits/tdc_e4_victao.png" alt="Elite 4 Victão" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_e4_victao` |
+| Encounter | Details |
+| --- | --- |
 | Category | Elite Four |
-| Campaign Order | 25 / 26 |
-| Level Cap | 80 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★★ |
-| Archetype | High-tempo offensive pressure |
-| Unlock Requirement | `tdc_e4_allahu` |
-| Healing Bag | Full Restore x2 |
+| Stage | 25 / 26 |
+| Team levels | 80 |
+| Unlock | [Elite 4 Allahu](/trainers/campaign/e4-allahu) |
+| Format | Gen 9 Doubles |
+| Bag | Full Restore × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Whimsicott (Whimsicott)
+Whimsicott + Incineroar → `move:tailwind` → `move:fakeout`.
 
-<img className="pokemon-sprite" src="/img/pokemon/whimsicott.png" alt="Whimsicott sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `whimsicott` |
+> Estratégia, pressão e velocidade. Essa luta vai parecer final de campeonato.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Whimsicott · Lv. 80</summary>
+
+<img className="pokemon-sprite" src="/img/models/whimsicott.webp" alt="Whimsicott" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | prankster |
+| Held item | cobblemon:focus_sash |
+| Nature | timid |
 | Gender | FEMALE |
-| Level | 80 |
 | Shiny | No |
-| Ability | Prankster |
-| Held Item | Focus Sash |
-| Nature | Timid |
-| EVs | 252 HP / 4 SpA / 252 Spe |
-| IVs | 31 all |
+| EVs | HP 252 / SPA 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `tailwind` · `encore` · `taunt` · `moonblast`
 
-  - Tailwind
-  - Encore
-  - Taunt
-  - Moonblast
-### 2. Incineroar (Incineroar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/incineroar.png" alt="Incineroar sprite" />
+<details open={true}>
+<summary>02 · Incineroar · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/incineroar.webp" alt="Incineroar" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `incineroar` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | intimidate |
+| Held item | cobblemon:assault_vest |
+| Nature | careful |
 | Gender | MALE |
-| Level | 80 |
 | Shiny | No |
-| Ability | Intimidate |
-| Held Item | Assault Vest |
-| Nature | Careful |
-| EVs | 252 HP / 92 Atk / 164 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 92 / SPD 164 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `fakeout` · `flareblitz` · `snarl` · `uturn`
 
-  - Fakeout
-  - Flareblitz
-  - Snarl
-  - Uturn
-### 3. Fluttermane (Fluttermane)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/fluttermane.png" alt="Fluttermane sprite" />
+<details open={false}>
+<summary>03 · Fluttermane · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/fluttermane.webp" alt="Fluttermane" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `fluttermane` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | protosynthesis |
+| Held item | cobblemon:choice_specs |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 80 |
 | Shiny | No |
-| Ability | Protosynthesis |
-| Held Item | Choice Specs |
-| Nature | Timid |
-| EVs | 4 HP / 252 SpA / 252 Spe |
-| IVs | 31 all |
+| EVs | HP 4 / SPA 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `shadowball` · `moonblast` · `protect` · `icywind`
 
-  - Shadowball
-  - Moonblast
-  - Protect
-  - Icywind
-### 4. Urshifu (Urshifu)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/urshifu.png" alt="Urshifu sprite" />
+<details open={false}>
+<summary>04 · Urshifu · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/urshifu.webp" alt="Urshifu" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `urshifu` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | unseenfist |
+| Held item | cobblemon:choice_scarf |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 80 |
 | Shiny | No |
-| Ability | Unseenfist |
-| Held Item | Choice Scarf |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `surgingstrikes` · `closecombat` · `aquajet` · `uturn`
 
-  - Surgingstrikes
-  - Closecombat
-  - Aquajet
-  - Uturn
-### 5. Regieleki (Regieleki)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/regieleki.png" alt="Regieleki sprite" />
+<details open={false}>
+<summary>05 · Regieleki · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/regieleki.webp" alt="Regieleki" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `regieleki` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | transistor |
+| Held item | cobblemon:magnet |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 80 |
 | Shiny | No |
-| Ability | Transistor |
-| Held Item | Magnet |
-| Nature | Timid |
-| EVs | 252 SpA / 252 Spe |
-| IVs | 31 all |
+| EVs | SPA 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: flying |
 
-**Moveset**
+**Moves:** `thunderbolt` · `electroweb` · `voltswitch` · `protect`
 
-  - Thunderbolt
-  - Electroweb
-  - Voltswitch
-  - Protect
-### 6. Rayquaza (Rayquaza)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/rayquaza.png" alt="Rayquaza sprite" />
+<details open={false}>
+<summary>06 · Rayquaza · Lv. 80</summary>
 
+<img className="pokemon-sprite" src="/img/models/rayquaza.webp" alt="Rayquaza" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `rayquaza` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | deltastream |
+| Held item | cobblemon:life_orb |
+| Nature | jolly |
 | Gender | GENDERLESS |
-| Level | 80 |
 | Shiny | Yes |
-| Ability | Deltastream |
-| Held Item | Life Orb |
-| Nature | Jolly |
-| EVs | 252 Atk / 6 Def / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / DEF 6 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dragonascent` · `extremespeed` · `protect` · `earthquake`
 
-  - Dragonascent
-  - Extremespeed
-  - Protect
-  - Earthquake
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Elite 4 Victão caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Speed control tools: Electroweb, Icywind, Tailwind.
-- Spread damage is a major pressure point through Dragonascent, Earthquake.
-
-### Win Conditions
-
-- Priority pressure can close games or deny low-HP pivots: Aquajet, Extremespeed, Fakeout.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_e4_victao.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_e4_victao.json`
+← [Elite 4 Allahu](/trainers/campaign/e4-allahu) · [Campeão Motta](/trainers/campaign/campeao-motta) →

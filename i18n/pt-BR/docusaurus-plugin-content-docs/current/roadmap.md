@@ -1,21 +1,20 @@
 ---
-title: Roadmap
+title: "O que mudou na 2.0"
 ---
 
-# Roadmap
+## Implementado na candidata
 
-Melhorias planejadas para a **campanha Owl's Nest RCT / A Toca da Coruja**.
+- Aberturas para 27 treinadores, com 56 ações.
+- Algumas duplas iniciais reorganizadas; espécies e atributos preservados em relação à 1.0.3.
+- Diálogos conectados aos 27 treinadores: 405 contextos.
+- 81 falas temáticas em português para abertura, vitória e derrota.
+- Recursos de idioma PT-BR e EN-US.
+- Tokito documentado como encontro opcional da Coruja Cup.
 
-## Recursos planejados
+## Validação pendente
 
-- Diálogos de treinadores
-- Temas de batalha personalizados
-- Treinadores seguidores
-- Documentação expandida dos treinadores
-- Melhorias visuais adicionais para a wiki
+Combate real, reinício de scripts após interrupções e exibição de balões/chat no Minecraft. A validação de parser não comprova esses comportamentos.
 
-## Objetivos de longo prazo
+## Ideias futuras
 
-- Melhorar a apresentação da campanha
-- Expandir a integração com a lore
-- Adicionar mais recursos voltados à comunidade
+Trilhas de batalha e expansão de treinadores da comunidade continuam ideias; não há prazo nem implementação confirmada nos dados analisados.

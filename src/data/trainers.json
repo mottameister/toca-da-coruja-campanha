@@ -1,0 +1,472 @@
+[
+  {
+    "id": "tdc_rival_motta_01",
+    "name": "Rival Motta",
+    "url": "/trainers/campaign/rival-motta-01",
+    "category": "Rival",
+    "categoryEn": "Rival",
+    "level": 15,
+    "optional": false,
+    "team": [
+      "larvitar",
+      "drilbur",
+      "gible",
+      "nidoranm"
+    ],
+    "order": 1
+  },
+  {
+    "id": "tdc_lider_aurora_a_rainha_morcego",
+    "name": "Aurora, A Rainha Morcego",
+    "url": "/trainers/campaign/lider-aurora-a-rainha-morcego",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 18,
+    "optional": false,
+    "team": [
+      "noibat",
+      "swoobat",
+      "zubat",
+      "gligar"
+    ],
+    "order": 2
+  },
+  {
+    "id": "tdc_team_arroba_snake",
+    "name": "Team Arroba Snake",
+    "url": "/trainers/campaign/team-arroba-snake",
+    "category": "Team Arroba",
+    "categoryEn": "Team Arroba",
+    "level": 22,
+    "optional": false,
+    "team": [
+      "silicobra",
+      "arbok",
+      "seviper",
+      "servine"
+    ],
+    "order": 3
+  },
+  {
+    "id": "tdc_lider_charlie_a_insetoide",
+    "name": "Charlie, A Insetoide",
+    "url": "/trainers/campaign/lider-charlie-a-insetoide",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 24,
+    "optional": false,
+    "team": [
+      "shedinja",
+      "butterfree",
+      "dustox",
+      "scyther"
+    ],
+    "order": 4
+  },
+  {
+    "id": "tdc_treinadores_dom",
+    "name": "Dom",
+    "url": "/trainers/campaign/treinadores-dom",
+    "category": "Treinador",
+    "categoryEn": "Trainer",
+    "level": 27,
+    "optional": false,
+    "team": [
+      "jolteon",
+      "flareon",
+      "umbreon",
+      "leafeon"
+    ],
+    "order": 5
+  },
+  {
+    "id": "tdc_rival_motta_02",
+    "name": "Rival Motta 02",
+    "url": "/trainers/campaign/rival-motta-02",
+    "category": "Rival",
+    "categoryEn": "Rival",
+    "level": 30,
+    "optional": false,
+    "team": [
+      "pupitar",
+      "drilbur",
+      "gabite",
+      "nidorino"
+    ],
+    "order": 6
+  },
+  {
+    "id": "tdc_lider_dada_o_faixa_preta",
+    "name": "Dada, O Faixa Preta",
+    "url": "/trainers/campaign/lider-dada-o-faixa-preta",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 33,
+    "optional": false,
+    "team": [
+      "hariyama",
+      "gallade",
+      "machamp",
+      "conkeldurr"
+    ],
+    "order": 7
+  },
+  {
+    "id": "tdc_team_arroba_vinny",
+    "name": "Team Arroba Vinny",
+    "url": "/trainers/campaign/team-arroba-vinny",
+    "category": "Team Arroba",
+    "categoryEn": "Team Arroba",
+    "level": 36,
+    "optional": false,
+    "team": [
+      "azumarill",
+      "ninetales",
+      "primarina",
+      "gardevoir"
+    ],
+    "order": 8
+  },
+  {
+    "id": "tdc_lider_juanes_o_dono_da_carrocinha",
+    "name": "Juanes, O Dono da Carrocinha",
+    "url": "/trainers/campaign/lider-juanes-o-dono-da-carrocinha",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 39,
+    "optional": false,
+    "team": [
+      "zoroark",
+      "lycanroc",
+      "luxray",
+      "pyroar",
+      "houndstone",
+      "mabosstiff"
+    ],
+    "order": 9
+  },
+  {
+    "id": "tdc_treinadores_peso_pesado_flaw",
+    "name": "Peso Pesado Flaw",
+    "url": "/trainers/campaign/treinadores-peso-pesado-flaw",
+    "category": "Treinador",
+    "categoryEn": "Trainer",
+    "level": 42,
+    "optional": false,
+    "team": [
+      "wailord",
+      "ironhands",
+      "cetitan",
+      "metagross",
+      "guzzlord",
+      "aggron"
+    ],
+    "order": 10
+  },
+  {
+    "id": "tdc_rival_motta_03",
+    "name": "Rival Motta 03",
+    "url": "/trainers/campaign/rival-motta-03",
+    "category": "Rival",
+    "categoryEn": "Rival",
+    "level": 45,
+    "optional": false,
+    "team": [
+      "pupitar",
+      "excadrill",
+      "aerodactyl",
+      "gabite",
+      "nidoking",
+      "lycanroc"
+    ],
+    "order": 11
+  },
+  {
+    "id": "tdc_lider_bathilda_a_assombracao",
+    "name": "Bathilda, A Assombração",
+    "url": "/trainers/campaign/lider-bathilda-a-assombracao",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 48,
+    "optional": false,
+    "team": [
+      "annihilape",
+      "gholdengo",
+      "cursola",
+      "ceruledge",
+      "aegislash",
+      "chandelure"
+    ],
+    "order": 12
+  },
+  {
+    "id": "tdc_team_arroba_oswaldo",
+    "name": "Team Arroba Oswaldo",
+    "url": "/trainers/campaign/team-arroba-oswaldo",
+    "category": "Team Arroba",
+    "categoryEn": "Team Arroba",
+    "level": 51,
+    "optional": false,
+    "team": [
+      "sneasler",
+      "nidoqueen",
+      "toxapex",
+      "ironmoth",
+      "gengar",
+      "dragalge"
+    ],
+    "order": 13
+  },
+  {
+    "id": "tdc_lider_julie_a_botanista",
+    "name": "Julie, A Botanista",
+    "url": "/trainers/campaign/lider-julie-a-botanista",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 54,
+    "optional": false,
+    "team": [
+      "rillaboom",
+      "breloom",
+      "ferrothorn",
+      "hydrapple",
+      "meowscarada",
+      "meganium"
+    ],
+    "order": 14
+  },
+  {
+    "id": "tdc_treinadores_senior_joe",
+    "name": "Senior Joe",
+    "url": "/trainers/campaign/treinadores-senior-joe",
+    "category": "Treinador",
+    "categoryEn": "Trainer",
+    "level": 57,
+    "optional": false,
+    "team": [
+      "blastoise",
+      "gyarados",
+      "alakazam",
+      "snorlax",
+      "arcanine",
+      "mewtwo"
+    ],
+    "order": 15
+  },
+  {
+    "id": "tdc_rival_motta_04",
+    "name": "Rival Motta 04",
+    "url": "/trainers/campaign/rival-motta-04",
+    "category": "Rival",
+    "categoryEn": "Rival",
+    "level": 60,
+    "optional": false,
+    "team": [
+      "tyranitar",
+      "excadrill",
+      "aerodactyl",
+      "garchomp",
+      "nidoking",
+      "lycanroc"
+    ],
+    "order": 16
+  },
+  {
+    "id": "tdc_lider_gabi_a_tempestade_de_gelo",
+    "name": "Gabi, A Tempestade de Gelo",
+    "url": "/trainers/campaign/lider-gabi-a-tempestade-de-gelo",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 64,
+    "optional": false,
+    "team": [
+      "froslass",
+      "articuno",
+      "baxcalibur",
+      "vanilluxe",
+      "mamoswine",
+      "glaceon"
+    ],
+    "order": 17
+  },
+  {
+    "id": "tdc_team_arroba_admin",
+    "name": "Team Arroba Admin",
+    "url": "/trainers/campaign/team-arroba-admin",
+    "category": "Team Arroba",
+    "categoryEn": "Team Arroba",
+    "level": 68,
+    "optional": false,
+    "team": [
+      "grimmsnarl",
+      "incineroar",
+      "hydreigon",
+      "krookodile",
+      "moltres",
+      "gyarados"
+    ],
+    "order": 18
+  },
+  {
+    "id": "tdc_lider_tuta_o_tormento",
+    "name": "Tuta, O Tormento",
+    "url": "/trainers/campaign/lider-tuta-o-tormento",
+    "category": "Líder",
+    "categoryEn": "Leader",
+    "level": 72,
+    "optional": false,
+    "team": [
+      "politoed",
+      "archaludon",
+      "kingdra",
+      "pelipper",
+      "basculegion",
+      "drampa"
+    ],
+    "order": 19
+  },
+  {
+    "id": "tdc_admin_marru",
+    "name": "Admin Marru",
+    "url": "/trainers/campaign/admin-marru",
+    "category": "Admin",
+    "categoryEn": "Admin",
+    "level": 76,
+    "optional": false,
+    "team": [
+      "miraidon",
+      "raichu",
+      "ragingbolt",
+      "toxtricity",
+      "eelektross",
+      "golem"
+    ],
+    "order": 20
+  },
+  {
+    "id": "tdc_rival_motta_final",
+    "name": "Rival Motta Final",
+    "url": "/trainers/campaign/rival-motta-final",
+    "category": "Rival",
+    "categoryEn": "Rival",
+    "level": 79,
+    "optional": false,
+    "team": [
+      "aerodactyl",
+      "garchomp",
+      "tyranitar",
+      "excadrill",
+      "lycanroc",
+      "landorus"
+    ],
+    "order": 21
+  },
+  {
+    "id": "tdc_e4_jesus",
+    "name": "Elite 4 Hacksaw",
+    "url": "/trainers/campaign/e4-jesus",
+    "category": "Elite Four",
+    "categoryEn": "Elite Four",
+    "level": 80,
+    "optional": false,
+    "team": [
+      "dragapult",
+      "dragonite",
+      "garchomp",
+      "charizard",
+      "latios",
+      "salamence"
+    ],
+    "order": 22
+  },
+  {
+    "id": "tdc_e4_peteca",
+    "name": "Elite 4 Peteca",
+    "url": "/trainers/campaign/e4-peteca",
+    "category": "Elite Four",
+    "categoryEn": "Elite Four",
+    "level": 80,
+    "optional": false,
+    "team": [
+      "chienpao",
+      "tinglu",
+      "greninja",
+      "roaringmoon",
+      "sharpedo",
+      "kingambit"
+    ],
+    "order": 23
+  },
+  {
+    "id": "tdc_e4_allahu",
+    "name": "Elite 4 Allahu",
+    "url": "/trainers/campaign/e4-allahu",
+    "category": "Elite Four",
+    "categoryEn": "Elite Four",
+    "level": 80,
+    "optional": false,
+    "team": [
+      "groudon",
+      "venusaur",
+      "houndoom",
+      "gougingfire",
+      "incineroar",
+      "walkingwake"
+    ],
+    "order": 24
+  },
+  {
+    "id": "tdc_e4_victao",
+    "name": "Elite 4 Victão",
+    "url": "/trainers/campaign/e4-victao",
+    "category": "Elite Four",
+    "categoryEn": "Elite Four",
+    "level": 80,
+    "optional": false,
+    "team": [
+      "whimsicott",
+      "incineroar",
+      "fluttermane",
+      "urshifu",
+      "regieleki",
+      "rayquaza"
+    ],
+    "order": 25
+  },
+  {
+    "id": "tdc_campeao_motta",
+    "name": "Campeão Motta",
+    "url": "/trainers/campaign/campeao-motta",
+    "category": "Campeão",
+    "categoryEn": "Champion",
+    "level": 85,
+    "optional": false,
+    "team": [
+      "aerodactyl",
+      "garchomp",
+      "tyranitar",
+      "excadrill",
+      "landorus",
+      "arceus"
+    ],
+    "order": 26
+  },
+  {
+    "id": "tdc_campeoes_coruja_cup_tokito",
+    "name": "Tokito",
+    "url": "/trainers/campaign/campeoes-coruja-cup-tokito",
+    "category": "Coruja Cup",
+    "categoryEn": "Coruja Cup",
+    "level": 100,
+    "optional": true,
+    "team": [
+      "kangaskhan",
+      "sneasler",
+      "incineroar",
+      "sinistcha",
+      "primarina",
+      "gengar"
+    ],
+    "order": null
+  }
+]

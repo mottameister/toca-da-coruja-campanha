@@ -1,151 +1,130 @@
 ---
-title: Dom
+title: "Dom"
 ---
 
-# Dom
+<img className="trainer-skin" src="/img/portraits/tdc_treinadores_dom.png" alt="Dom" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_treinadores_dom` |
-| Categoria | Trainer |
-| Ordem na campanha | 5 / 26 |
-| Limite de nível | 27 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★☆☆ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_lider_charlie_a_insetoide` |
-| Bolsa de cura | Super Potion x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Treinador |
+| Etapa | 5 / 26 |
+| Níveis do time | 27 |
+| Desbloqueio | [Charlie, A Insetoide](/trainers/campaign/lider-charlie-a-insetoide) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Super Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Jolteon (Jolteon)
+Jolteon + Flareon → `move:thunderbolt` → `move:flareblitz`.
 
-<img className="pokemon-sprite" src="/img/pokemon/jolteon.png" alt="Jolteon sprite" />
+Dano imediato; não força Agility nem Will-O-Wisp em Flareon.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `jolteon` |
+## Antes da batalha
+
+> Eu trouxe meus Eevees favoritos! Cada um tem seu jeitinho de bagunçar a sua estratégia.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Jolteon · Lv. 27</summary>
+
+<img className="pokemon-sprite" src="/img/models/jolteon.webp" alt="Jolteon" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 27 |
+| Habilidade | voltabsorb |
+| Item | cobblemon:air_balloon |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Voltabsorb |
-| Item segurado | Air Balloon |
-| Natureza | Modest |
-| EVs | 8 HP / 244 SpA / 8 SpD / 244 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 8 / SPA 244 / SPD 8 / SPE 244 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `agility` · `thunderbolt` · `shadowball` · `voltswitch`
 
-  - Agility
-  - Thunderbolt
-  - Shadowball
-  - Voltswitch
-### 2. Flareon (Flareon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/flareon.png" alt="Flareon sprite" />
+<details open={true}>
+<summary>02 · Flareon · Lv. 27</summary>
 
+<img className="pokemon-sprite" src="/img/models/flareon.webp" alt="Flareon" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `flareon` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 27 |
+| Habilidade | guts |
+| Item | cobblemon:flame_orb |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Guts |
-| Item segurado | Flame Orb |
-| Natureza | Adamant |
-| EVs | 248 HP / 244 Atk / 4 SpD / 8 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 248 / ATK 244 / SPD 4 / SPE 8 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `flareblitz` · `quickattack` · `trailblaze` · `willowisp`
 
-  - Flareblitz
-  - Quickattack
-  - Trailblaze
-  - Willowisp
-### 3. Umbreon (Umbreon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/umbreon.png" alt="Umbreon sprite" />
+<details open={false}>
+<summary>03 · Umbreon · Lv. 27</summary>
 
+<img className="pokemon-sprite" src="/img/models/umbreon.webp" alt="Umbreon" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `umbreon` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 27 |
+| Habilidade | innerfocus |
+| Item | cobblemon:assault_vest |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Innerfocus |
-| Item segurado | Assault Vest |
-| Natureza | Adamant |
-| EVs | 244 HP / 248 Atk / 8 SpD / 8 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 244 / ATK 248 / SPD 8 / SPE 8 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `crunch` · `trailblaze` · `suckerpunch` · `return`
 
-  - Crunch
-  - Trailblaze
-  - Suckerpunch
-  - Return
-### 4. Leafeon (Leafeon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/leafeon.png" alt="Leafeon sprite" />
+<details open={false}>
+<summary>04 · Leafeon · Lv. 27</summary>
 
+<img className="pokemon-sprite" src="/img/models/leafeon.webp" alt="Leafeon" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `leafeon` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 27 |
+| Habilidade | leafguard |
+| Item | cobblemon:choice_scarf |
+| Natureza | naive |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Leafguard |
-| Item segurado | Choice Scarf |
-| Natureza | Naive |
-| EVs | 8 HP / 244 Atk / 4 SpA / 244 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: water |
+| EVs | HP 8 / ATK 244 / SPA 4 / SPE 244 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: water |
 
-**Golpes**
+**Golpes:** `terablast` · `leafblade` · `xscissor` · `knockoff`
 
-  - Terablast
-  - Leafblade
-  - Xscissor
-  - Knockoff
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você ganhou! Vou fazer carinho neles e pensar numa revanche.
+
+**Quando o treinador vence**
+
+> Viu só? Não dá pra escolher o mais forte. Eu gosto de todos!
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Speed control tools: Agility, Trailblaze.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Agility.
-- Priority pressure can close games or deny low-HP pivots: Quickattack, Suckerpunch.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_treinadores_dom.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_treinadores_dom.json`
+← [Charlie, A Insetoide](/trainers/campaign/lider-charlie-a-insetoide) · [Rival Motta 02](/trainers/campaign/rival-motta-02) →

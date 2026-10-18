@@ -1,203 +1,170 @@
 ---
-title: Gabi, A Tempestade de Gelo
+title: "Gabi, A Tempestade de Gelo"
 ---
 
-# Gabi, A Tempestade de Gelo
+<img className="trainer-skin" src="/img/portraits/tdc_lider_gabi_a_tempestade_de_gelo.png" alt="Gabi, A Tempestade de Gelo" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_lider_gabi_a_tempestade_de_gelo` |
+| Encounter | Details |
+| --- | --- |
 | Category | Leader |
-| Campaign Order | 17 / 26 |
-| Level Cap | 64 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★☆ |
-| Archetype | Snow offense / special pressure |
-| Unlock Requirement | `tdc_rival_motta_04` |
-| Healing Bag | Max Potion x2 |
+| Stage | 17 / 26 |
+| Team levels | 64 |
+| Unlock | [Rival Motta 04](/trainers/campaign/rival-motta-04) |
+| Format | Gen 9 Doubles |
+| Bag | Max Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Froslass (Froslass)
+Froslass + Articuno → `move:auroraveil` → `move:tailwind`.
 
-<img className="pokemon-sprite" src="/img/pokemon/froslass.png" alt="Froslass sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `froslass` |
+> A temperatura caiu. Se prepara: essa tempestade não perdoa distração.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Froslass · Lv. 64</summary>
+
+<img className="pokemon-sprite" src="/img/models/froslass.webp" alt="Froslass" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | snowwarning |
+| Held item | zamega:froslassite |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 64 |
 | Shiny | Yes |
-| Ability | Snowwarning |
-| Held Item | Froslassite |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `auroraveil` · `blizzard` · `shadowball` · `chillingwater`
 
-  - Auroraveil
-  - Blizzard
-  - Shadowball
-  - Chillingwater
-### 2. Articuno (Articuno)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/articuno.png" alt="Articuno sprite" />
+<details open={true}>
+<summary>02 · Articuno · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/articuno.webp" alt="Articuno" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `articuno` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | snowcloak |
+| Held item | cobblemon:bright_powder |
+| Nature | modest |
 | Gender | GENDERLESS |
-| Level | 64 |
 | Shiny | Yes |
-| Ability | Snowcloak |
-| Held Item | Bright Powder |
-| Nature | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `roost` · `tailwind` · `blizzard` · `airslash`
 
-  - Roost
-  - Tailwind
-  - Blizzard
-  - Airslash
-### 3. Baxcalibur (Baxcalibur)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/baxcalibur.png" alt="Baxcalibur sprite" />
+<details open={false}>
+<summary>03 · Baxcalibur · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/baxcalibur.webp" alt="Baxcalibur" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `baxcalibur` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | icebody |
+| Held item | cobblemon:leftovers |
+| Nature | jolly |
 | Gender | FEMALE |
-| Level | 64 |
 | Shiny | Yes |
-| Ability | Icebody |
-| Held Item | Leftovers |
-| Nature | Jolly |
-| EVs | 248 Atk / 8 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 248 / SPD 8 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: dragon |
 
-**Moveset**
+**Moves:** `glaiverush` · `iceshard` · `ironhead` · `protect`
 
-  - Glaiverush
-  - Iceshard
-  - Ironhead
-  - Protect
-### 4. Vanilluxe (Vanilluxe)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/vanilluxe.png" alt="Vanilluxe sprite" />
+<details open={false}>
+<summary>04 · Vanilluxe · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/vanilluxe.webp" alt="Vanilluxe" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `vanilluxe` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | snowwarning |
+| Held item | cobblemon:icy_rock |
+| Nature | modest |
 | Gender | FEMALE |
-| Level | 64 |
 | Shiny | Yes |
-| Ability | Snowwarning |
-| Held Item | Icy Rock |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / HP 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `auroraveil` · `blizzard` · `freezedry` · `signalbeam`
 
-  - Auroraveil
-  - Blizzard
-  - Freezedry
-  - Signalbeam
-### 5. Mamoswine (Mamoswine)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/mamoswine.png" alt="Mamoswine sprite" />
+<details open={false}>
+<summary>05 · Mamoswine · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/mamoswine.webp" alt="Mamoswine" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `mamoswine` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | snowcloak |
+| Held item | mega_showdown:icium_z |
+| Nature | adamant |
 | Gender | FEMALE |
-| Level | 64 |
 | Shiny | No |
-| Ability | Snowcloak |
-| Held Item | Icium Z |
-| Nature | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `hail` · `highhorsepower` · `iceshard` · `iciclespear`
 
-  - Hail
-  - Highhorsepower
-  - Iceshard
-  - Iciclespear
-### 6. Glaceon (Glaceon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/glaceon.png" alt="Glaceon sprite" />
+<details open={false}>
+<summary>06 · Glaceon · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/glaceon.webp" alt="Glaceon" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `glaceon` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | icebody |
+| Held item | assault_vest |
+| Nature | modest |
 | Gender | FEMALE |
-| Level | 64 |
 | Shiny | Yes |
-| Ability | Icebody |
-| Held Item | Assault Vest |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: psychic |
 
-**Moveset**
+**Moves:** `alluringvoice` · `blizzard` · `freezedry` · `terablast`
 
-  - Alluringvoice
-  - Blizzard
-  - Freezedry
-  - Terablast
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Gabi, A Tempestade de Gelo caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Snow support enables specific sweepers and chip pressure.
-- Speed control tools: Tailwind.
-- Spread damage is a major pressure point through Blizzard.
-
-### Win Conditions
-
-- Priority pressure can close games or deny low-HP pivots: Iceshard.
-
-### Threat Profile
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_lider_gabi_a_tempestade_de_gelo.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_lider_gabi_a_tempestade_de_gelo.json`
+← [Rival Motta 04](/trainers/campaign/rival-motta-04) · [Team Arroba Admin](/trainers/campaign/team-arroba-admin) →

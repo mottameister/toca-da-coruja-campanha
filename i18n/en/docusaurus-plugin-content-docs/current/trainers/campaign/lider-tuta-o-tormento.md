@@ -1,204 +1,170 @@
 ---
-title: Tuta, O Tormento
+title: "Tuta, O Tormento"
 ---
 
-# Tuta, O Tormento
+<img className="trainer-skin" src="/img/portraits/tdc_lider_tuta_o_tormento.png" alt="Tuta, O Tormento" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_lider_tuta_o_tormento` |
+| Encounter | Details |
+| --- | --- |
 | Category | Leader |
-| Campaign Order | 19 / 26 |
-| Level Cap | 72 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★★ |
-| Archetype | Rain offense / speed control |
-| Unlock Requirement | `tdc_team_arroba_admin` |
-| Healing Bag | Full Restore x2 |
+| Stage | 19 / 26 |
+| Team levels | 72 |
+| Unlock | [Team Arroba Admin](/trainers/campaign/team-arroba-admin) |
+| Format | Gen 9 Doubles |
+| Bag | Full Restore × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Politoed (Politoed)
+Politoed + Archaludon → `move:scald` → `move:electroshot`.
 
-<img className="pokemon-sprite" src="/img/pokemon/politoed.png" alt="Politoed sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `politoed` |
+> Quando a chuva começa, o tormento só acaba depois do último nocaute.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Politoed · Lv. 72</summary>
+
+<img className="pokemon-sprite" src="/img/models/politoed.webp" alt="Politoed" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | drizzle |
+| Held item | cobblemon:damp_rock |
+| Nature | modest |
 | Gender | MALE |
-| Level | 72 |
 | Shiny | No |
-| Ability | Drizzle |
-| Held Item | Damp Rock |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `earthpower` · `icebeam` · `psychic` · `scald`
 
-  - Earthpower
-  - Icebeam
-  - Psychic
-  - Scald
-### 2. Archaludon (Archaludon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/archaludon.png" alt="Archaludon sprite" />
+<details open={true}>
+<summary>02 · Archaludon · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/archaludon.webp" alt="Archaludon" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `archaludon` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | stamina |
+| Held item | cobblemon:sitrus_berry |
+| Nature | modest |
 | Gender | MALE |
-| Level | 72 |
 | Shiny | Yes |
-| Ability | Stamina |
-| Held Item | Sitrus Berry |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dragonpulse` · `electroshot` · `flashcannon` · `irondefense`
 
-  - Dragonpulse
-  - Electroshot
-  - Flashcannon
-  - Irondefense
-### 3. Kingdra (Kingdra)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/kingdra.png" alt="Kingdra sprite" />
+<details open={false}>
+<summary>03 · Kingdra · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/kingdra.webp" alt="Kingdra" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `kingdra` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | swiftswim |
+| Held item | mega_showdown:dragonium_z |
+| Nature | modest |
 | Gender | MALE |
-| Level | 72 |
 | Shiny | No |
-| Ability | Swiftswim |
-| Held Item | Dragonium Z |
-| Nature | Modest |
-| EVs | 124 Def / 252 SpA / 128 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | DEF 124 / SPA 252 / SPD 128 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `hurricane` · `scald` · `icebeam` · `dracometeor`
 
-  - Hurricane
-  - Scald
-  - Icebeam
-  - Dracometeor
-### 4. Pelipper (Pelipper)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/pelipper.png" alt="Pelipper sprite" />
+<details open={false}>
+<summary>04 · Pelipper · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/pelipper.webp" alt="Pelipper" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `pelipper` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | keeneye |
+| Held item | cobblemon:focus_sash |
+| Nature | bold |
 | Gender | MALE |
-| Level | 72 |
 | Shiny | No |
-| Ability | Keeneye |
-| Held Item | Focus Sash |
-| Nature | Bold |
-| EVs | 248 HP / 252 Def / 8 SpA |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 248 / DEF 252 / SPA 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `tailwind` · `hurricane` · `scald` · `toxic`
 
-  - Tailwind
-  - Hurricane
-  - Scald
-  - Toxic
-### 5. Basculegion (Basculegion)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/basculegion.png" alt="Basculegion sprite" />
+<details open={false}>
+<summary>05 · Basculegion · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/basculegion.webp" alt="Basculegion" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `basculegion` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | swiftswim |
+| Held item | cobblemon:life_orb |
+| Nature | adamant |
 | Gender | GENDERLESS |
-| Level | 72 |
 | Shiny | Yes |
-| Ability | Swiftswim |
-| Held Item | Life Orb |
-| Nature | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: water |
 
-**Moveset**
+**Moves:** `wavecrash` · `lastrespects` · `flipturn` · `psychicfangs`
 
-  - Wavecrash
-  - Lastrespects
-  - Flipturn
-  - Psychicfangs
-### 6. Drampa (Drampa)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/drampa.png" alt="Drampa sprite" />
+<details open={false}>
+<summary>06 · Drampa · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/drampa.webp" alt="Drampa" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `drampa` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | berserk |
+| Held item | zamega:drampanite |
+| Nature | modest |
 | Gender | MALE |
-| Level | 72 |
 | Shiny | Yes |
-| Ability | Berserk |
-| Held Item | Drampanite |
-| Nature | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dracometeor` · `hurricane` · `hypervoice` · `flamethrower`
 
-  - Dracometeor
-  - Hurricane
-  - Hypervoice
-  - Flamethrower
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Tuta, O Tormento caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Rain support enables specific sweepers and chip pressure.
-- Speed control tools: Tailwind.
-- Spread damage is a major pressure point through Hypervoice.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Irondefense.
-
-### Threat Profile
-
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_lider_tuta_o_tormento.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_lider_tuta_o_tormento.json`
+← [Team Arroba Admin](/trainers/campaign/team-arroba-admin) · [Admin Marru](/trainers/campaign/admin-marru) →

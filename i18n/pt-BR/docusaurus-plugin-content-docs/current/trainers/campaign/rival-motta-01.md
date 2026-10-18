@@ -1,151 +1,130 @@
 ---
-title: Rival Motta 01
+title: "Rival Motta"
 ---
 
-# Rival Motta 01
+<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_01.png" alt="Rival Motta" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_rival_motta_01` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Rival |
-| Ordem na campanha | 1 / 26 |
-| Limite de nível | 15 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★☆☆☆ |
-| Arquétipo | Ofensiva de areia / controle de campo em duplas |
-| Requisito de desbloqueio | Disponível no início da campanha |
-| Bolsa de cura | Super Potion x2 |
+| Etapa | 1 / 26 |
+| Níveis do time | 15 |
+| Desbloqueio | Nenhum |
+| Formato | Gen 9 Doubles |
+| Bolsa | Super Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Mr. X (Larvitar)
+Larvitar + Drilbur → `move:sandstorm` → `move:drillrun`.
 
-<img className="pokemon-sprite" src="/img/pokemon/larvitar.png" alt="Larvitar sprite" />
+Sandstorm ativa Sand Rush do parceiro; evita Stealth Rock obrigatório em doubles.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `larvitar` |
+## Antes da batalha
+
+> Bem-vindo à Toca! Trouxe protetor solar? Aqui o tutorial já vem com tempestade de areia.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Larvitar · Lv. 15</summary>
+
+<img className="pokemon-sprite" src="/img/models/larvitar.webp" alt="Larvitar" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Mr. X |
-| Gênero | Masculino |
-| Nível | 15 |
+| Habilidade | sandveil |
+| Item | cobblemon:smooth_rock |
+| Natureza | sassy |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Sandveil |
-| Item segurado | Smooth Rock |
-| Natureza | Sassy |
-| EVs | 244 HP / 16 Atk / 248 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 244 / ATK 16 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `rockslide` · `bulldoze` · `pursuit` · `sandstorm`
 
-  - Rockslide
-  - Bulldoze
-  - Pursuit
-  - Sandstorm
-### 2. Quesadrillas (Drilbur)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/drilbur.png" alt="Drilbur sprite" />
+<details open={true}>
+<summary>02 · Drilbur · Lv. 15</summary>
 
+<img className="pokemon-sprite" src="/img/models/drilbur.webp" alt="Drilbur" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `drilbur` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Quesadrillas |
-| Gênero | Masculino |
-| Nível | 15 |
+| Habilidade | sandrush |
+| Item | cobblemon:eviolite |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Sandrush |
-| Item segurado | Eviolite |
-| Natureza | Adamant |
-| EVs | 252 Atk / 132 Def / 124 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / DEF 132 / SPD 124 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `slash` · `stealthrock` · `drillrun` · `metalclaw`
 
-  - Slash
-  - Stealthrock
-  - Drillrun
-  - Metalclaw
-### 3. Shark Boy (Gible)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gible.png" alt="Gible sprite" />
+<details open={false}>
+<summary>03 · Gible · Lv. 15</summary>
 
+<img className="pokemon-sprite" src="/img/models/gible.webp" alt="Gible" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gible` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Shark Boy |
-| Gênero | Masculino |
-| Nível | 15 |
+| Habilidade | sandveil |
+| Item | cobblemon:yache_berry |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Sandveil |
-| Item segurado | Yache Berry |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: steel |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: steel |
 
-**Golpes**
+**Golpes:** `dragontail` · `rockslide` · `bulldoze` · `metalclaw`
 
-  - Dragontail
-  - Rockslide
-  - Bulldoze
-  - Metalclaw
-### 4. Nidokong (Nidoranm)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidoranm.png" alt="Nidoranm sprite" />
+<details open={false}>
+<summary>04 · Nidoranm · Lv. 15</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidoranm.webp" alt="Nidoranm" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `nidoranm` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Nidokong |
+| Habilidade | poisonpoint |
+| Item | mega_showdown:groundium_z |
+| Natureza | timid |
 | Gênero | — |
-| Nível | 15 |
 | Shiny | Sim |
-| Habilidade | Poisonpoint |
-| Item segurado | Groundium Z |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 0 Atk |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | ATK 0 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `earthpower` · `sludgebomb` · `thunderbolt` · `icebeam`
 
-  - Earthpower
-  - Sludgebomb
-  - Thunderbolt
-  - Icebeam
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Boa! Passou pelo primeiro corujão. Guarda essa vitória: eu também vou evoluir.
+
+**Quando o treinador vence**
+
+> Comeu areia, hein? Cura esse time e volta. Toda grande rivalidade começa assim.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de areia habilita sweepers específicos e pressão por dano residual.
-- Dano em área é um grande ponto de pressão por meio de Bulldoze, Rockslide.
-
-### Condições de vitória
-
-- A condição principal de vitória é escolher alvos com eficiência e manter pressão de campo.
-
-### Perfil de ameaças
-
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_rival_motta_01.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_rival_motta_01.json`
+ · [Aurora, A Rainha Morcego](/trainers/campaign/lider-aurora-a-rainha-morcego) →

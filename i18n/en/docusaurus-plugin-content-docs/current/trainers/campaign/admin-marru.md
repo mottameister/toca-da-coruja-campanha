@@ -1,204 +1,170 @@
 ---
-title: Admin Marru
+title: "Admin Marru"
 ---
 
-# Admin Marru
+<img className="trainer-skin" src="/img/portraits/tdc_admin_marru.png" alt="Admin Marru" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_admin_marru` |
+| Encounter | Details |
+| --- | --- |
 | Category | Admin |
-| Campaign Order | 20 / 26 |
-| Level Cap | 76 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★★ |
-| Archetype | Rain offense / speed control |
-| Unlock Requirement | `tdc_lider_tuta_o_tormento` |
-| Healing Bag | Full Restore x2 |
+| Stage | 20 / 26 |
+| Team levels | 76 |
+| Unlock | [Tuta, O Tormento](/trainers/campaign/lider-tuta-o-tormento) |
+| Format | Gen 9 Doubles |
+| Bag | Full Restore × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Miraidon (Miraidon)
+Miraidon + Raichu → `move:electrodrift` → `move:nastyplot`.
 
-<img className="pokemon-sprite" src="/img/pokemon/miraidon.png" alt="Miraidon sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `miraidon` |
+> Energia máxima. Se o campo acender, não diga que eu não avisei.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Miraidon · Lv. 76</summary>
+
+<img className="pokemon-sprite" src="/img/models/miraidon.webp" alt="Miraidon" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | hadronengine |
+| Held item | cobblemon:terrain_extender |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 76 |
 | Shiny | Yes |
-| Ability | Hadronengine |
-| Held Item | Terrain Extender |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `electrodrift` · `dracometeor` · `dazzlinggleam` · `voltswitch`
 
-  - Electrodrift
-  - Dracometeor
-  - Dazzlinggleam
-  - Voltswitch
-### 2. Raichu (Raichu)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/raichu.png" alt="Raichu sprite" />
+<details open={true}>
+<summary>02 · Raichu · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/raichu.webp" alt="Raichu" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `raichu` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | surgesurfer |
+| Held item | cobblemon:life_orb |
+| Nature | timid |
 | Gender | MALE |
-| Level | 76 |
 | Shiny | Yes |
-| Ability | Surgesurfer |
-| Held Item | Life Orb |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `thunderbolt` · `voltswitch` · `nastyplot` · `psychic`
 
-  - Thunderbolt
-  - Voltswitch
-  - Nastyplot
-  - Psychic
-### 3. Ragingbolt (Ragingbolt)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ragingbolt.png" alt="Ragingbolt sprite" />
+<details open={false}>
+<summary>03 · Ragingbolt · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/ragingbolt.webp" alt="Ragingbolt" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `ragingbolt` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | protosynthesis |
+| Held item | mega_showdown:booster_energy |
+| Nature | modest |
 | Gender | GENDERLESS |
-| Level | 76 |
 | Shiny | No |
-| Ability | Protosynthesis |
-| Held Item | Booster Energy |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `risingvoltage` · `voltswitch` · `dracometeor` · `hypervoice`
 
-  - Risingvoltage
-  - Voltswitch
-  - Dracometeor
-  - Hypervoice
-### 4. Toxtricity (Toxtricity)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/toxtricity.png" alt="Toxtricity sprite" />
+<details open={false}>
+<summary>04 · Toxtricity · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/toxtricity.webp" alt="Toxtricity" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `toxtricity` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | punkrock |
+| Held item | cobblemon:assault_vest |
+| Nature | modest |
 | Gender | GENDERLESS |
-| Level | 76 |
 | Shiny | No |
-| Ability | Punkrock |
-| Held Item | Assault Vest |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: flying |
 
-**Moveset**
+**Moves:** `hypervoice` · `overdrive` · `psychicnoise` · `sludgewave`
 
-  - Hypervoice
-  - Overdrive
-  - Psychicnoise
-  - Sludgewave
-### 5. Eelektross (Eelektross)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/eelektross.png" alt="Eelektross sprite" />
+<details open={false}>
+<summary>05 · Eelektross · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/eelektross.webp" alt="Eelektross" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `eelektross` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | levitate |
+| Held item | zamega:eelektrossite |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 76 |
 | Shiny | No |
-| Ability | Levitate |
-| Held Item | Eelektrossite |
-| Nature | Jolly |
-| EVs | 248 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 248 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `closecombat` · `supercellslam` · `uturn` · `throatchop`
 
-  - Closecombat
-  - Supercellslam
-  - Uturn
-  - Throatchop
-### 6. Golem (Golem)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/golem.png" alt="Golem sprite" />
+<details open={false}>
+<summary>06 · Golem · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/golem.webp" alt="Golem" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `golem` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | galvanize |
+| Held item | mega_showdown:rockium_z |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 76 |
 | Shiny | Yes |
-| Ability | Galvanize |
-| Held Item | Rockium Z |
-| Nature | Adamant |
-| EVs | 252 HP / 248 Atk / 4 SpD / 4 Spe |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 248 / SPD 4 / SPE 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `bodyslam` · `rockslide` · `autotomize` · `earthquake`
 
-  - Bodyslam
-  - Rockslide
-  - Autotomize
-  - Earthquake
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Admin Marru caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Electric terrain support enables specific sweepers and chip pressure.
-- Speed control tools: Autotomize.
-- Spread damage is a major pressure point through Dazzlinggleam, Earthquake, Hypervoice, Rockslide, Sludgewave.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Autotomize, Nastyplot.
-
-### Threat Profile
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_admin_marru.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_admin_marru.json`
+← [Tuta, O Tormento](/trainers/campaign/lider-tuta-o-tormento) · [Rival Motta Final](/trainers/campaign/rival-motta-final) →

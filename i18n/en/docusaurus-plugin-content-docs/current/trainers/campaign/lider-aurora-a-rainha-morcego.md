@@ -1,151 +1,128 @@
 ---
-title: Aurora, A Rainha Morcego
+title: "Aurora, A Rainha Morcego"
 ---
 
-# Aurora, A Rainha Morcego
+<img className="trainer-skin" src="/img/portraits/tdc_lider_aurora_a_rainha_morcego.png" alt="Aurora, A Rainha Morcego" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_lider_aurora_a_rainha_morcego` |
+| Encounter | Details |
+| --- | --- |
 | Category | Leader |
-| Campaign Order | 2 / 26 |
-| Level Cap | 18 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★☆☆☆ |
-| Archetype | Setup-oriented doubles core |
-| Unlock Requirement | `tdc_rival_motta_01` |
-| Healing Bag | Super Potion x2 |
+| Stage | 2 / 26 |
+| Team levels | 18 |
+| Unlock | [Rival Motta](/trainers/campaign/rival-motta-01) |
+| Format | Gen 9 Doubles |
+| Bag | Super Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Noibat (Noibat)
+Noibat + Swoobat → `move:airslash` → `move:calmmind`.
 
-<img className="pokemon-sprite" src="/img/pokemon/noibat.png" alt="Noibat sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `noibat` |
+> Silêncio... a Rainha Morcego já ouviu seus passos. Que comece a caçada aérea!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Noibat · Lv. 18</summary>
+
+<img className="pokemon-sprite" src="/img/models/noibat.webp" alt="Noibat" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | infiltrator |
+| Held item | cobblemon:assault_vest |
+| Nature | modest |
 | Gender | FEMALE |
-| Level | 18 |
 | Shiny | Yes |
-| Ability | Infiltrator |
-| Held Item | Assault Vest |
-| Nature | Modest |
-| EVs | 252 SpA / 248 SpD |
-| IVs | 31 all |
+| EVs | SPA 252 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `psychic` · `shadowball` · `dragonpulse` · `airslash`
 
-  - Psychic
-  - Shadowball
-  - Dragonpulse
-  - Airslash
-### 2. Zubat (Zubat)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/zubat.png" alt="Zubat sprite" />
+<details open={true}>
+<summary>02 · Swoobat · Lv. 18</summary>
 
+<img className="pokemon-sprite" src="/img/models/swoobat.webp" alt="Swoobat" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `zubat` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | simple |
+| Held item | cobblemon:sitrus_berry |
+| Nature | timid |
 | Gender | FEMALE |
-| Level | 18 |
-| Shiny | No |
-| Ability | Innerfocus |
-| Held Item | Life Orb |
-| Nature | Adamant |
-| EVs | 252 Atk / 248 SpD |
-| IVs | 31 all |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Leechlife
-  - Poisonfang
-  - Acrobatics
-  - Uturn
-### 3. Gligar (Gligar)
-
-<img className="pokemon-sprite" src="/img/pokemon/gligar.png" alt="Gligar sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `gligar` |
-| Nickname | — |
-| Gender | FEMALE |
-| Level | 18 |
 | Shiny | Yes |
-| Ability | Hypercutter |
-| Held Item | Groundium Z |
-| Nature | Jolly |
-| EVs | 4 HP / 232 Atk / 24 SpD / 244 Spe |
-| IVs | 31 all |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Acrobatics
-  - Earthquake
-  - Psychicfangs
-  - Crabhammer
-### 4. Swoobat (Swoobat)
-
-<img className="pokemon-sprite" src="/img/pokemon/swoobat.png" alt="Swoobat sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `swoobat` |
-| Nickname | — |
-| Gender | FEMALE |
-| Level | 18 |
-| Shiny | Yes |
-| Ability | Simple |
-| Held Item | Sitrus Berry |
-| Nature | Timid |
-| EVs | 240 SpA / 36 SpD / 232 Spe |
-| IVs | 31 all |
+| EVs | SPA 240 / SPD 36 / SPE 232 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: normal |
 
-**Moveset**
+**Moves:** `calmmind` · `shadowball` · `psychic` · `airslash`
 
-  - Calmmind
-  - Shadowball
-  - Psychic
-  - Airslash
+</details>
+
+<details open={false}>
+<summary>03 · Zubat · Lv. 18</summary>
+
+<img className="pokemon-sprite" src="/img/models/zubat.webp" alt="Zubat" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | innerfocus |
+| Held item | cobblemon:life_orb |
+| Nature | adamant |
+| Gender | FEMALE |
+| Shiny | No |
+| EVs | ATK 252 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `leechlife` · `poisonfang` · `acrobatics` · `uturn`
+
+</details>
+
+<details open={false}>
+<summary>04 · Gligar · Lv. 18</summary>
+
+<img className="pokemon-sprite" src="/img/models/gligar.webp" alt="Gligar" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | hypercutter |
+| Held item | mega_showdown:groundium_z |
+| Nature | jolly |
+| Gender | FEMALE |
+| Shiny | Yes |
+| EVs | HP 4 / ATK 232 / SPD 24 / SPE 244 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `acrobatics` · `earthquake` · `psychicfangs` · `crabhammer`
+
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Aurora, A Rainha Morcego caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Spread damage is a major pressure point through Earthquake.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Calmmind.
-
-### Threat Profile
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_lider_aurora_a_rainha_morcego.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_lider_aurora_a_rainha_morcego.json`
+← [Rival Motta](/trainers/campaign/rival-motta-01) · [Team Arroba Snake](/trainers/campaign/team-arroba-snake) →

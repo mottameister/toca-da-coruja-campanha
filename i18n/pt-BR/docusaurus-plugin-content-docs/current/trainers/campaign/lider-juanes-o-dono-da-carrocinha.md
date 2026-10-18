@@ -1,204 +1,172 @@
 ---
-title: Juanes, O Dono da Carrocinha
+title: "Juanes, O Dono da Carrocinha"
 ---
 
-# Juanes, O Dono da Carrocinha
+<img className="trainer-skin" src="/img/portraits/tdc_lider_juanes_o_dono_da_carrocinha.png" alt="Juanes, O Dono da Carrocinha" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_juanes_o_dono_da_carrocinha` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 9 / 26 |
-| Limite de nível | 39 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★☆☆ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_team_arroba_vinny` |
-| Bolsa de cura | Hyper Potion x2 |
+| Etapa | 9 / 26 |
+| Níveis do time | 39 |
+| Desbloqueio | [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Hyper Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Zoroark (Zoroark)
+Zoroark + Lycanroc → `move:hypervoice` → `move:stoneedge`.
 
-<img className="pokemon-sprite" src="/img/pokemon/zoroark.png" alt="Zoroark sprite" />
+Pressão de dano imediata; preserva Houndstone para Last Respects tardio.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `zoroark` |
+## Antes da batalha
+
+> Pode entrar, mas fecha o portão. Minha matilha já está pronta pra correr atrás da vitória.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Zoroark · Lv. 39</summary>
+
+<img className="pokemon-sprite" src="/img/models/zoroark.webp" alt="Zoroark" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 39 |
+| Habilidade | illusion |
+| Item | cobblemon:choice_specs |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Illusion |
-| Item segurado | Choice Specs |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 248 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 248 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `hypervoice` · `bittermalice` · `psychic` · `sludgebomb`
 
-  - Hypervoice
-  - Bittermalice
-  - Psychic
-  - Sludgebomb
-### 2. Lycanroc (Lycanroc)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/lycanroc.png" alt="Lycanroc sprite" />
+<details open={true}>
+<summary>02 · Lycanroc · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/lycanroc.webp" alt="Lycanroc" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `lycanroc` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 39 |
+| Habilidade | noguard |
+| Item | mega_showdown:lycanium_z |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Noguard |
-| Item segurado | Lycanium Z |
-| Natureza | Jolly |
-| EVs | 252 Atk / 8 SpD / 248 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `playrough` · `stoneedge` · `irontail` · `megakick`
 
-  - Playrough
-  - Stoneedge
-  - Irontail
-  - Megakick
-### 3. Luxray (Luxray)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/luxray.png" alt="Luxray sprite" />
+<details open={false}>
+<summary>03 · Luxray · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/luxray.webp" alt="Luxray" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `luxray` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 39 |
+| Habilidade | intimidate |
+| Item | cobblemon:choice_band |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Intimidate |
-| Item segurado | Choice Band |
-| Natureza | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `supercellslam` · `agility` · `thunderwave` · `throatchop`
 
-  - Supercellslam
-  - Agility
-  - Thunderwave
-  - Throatchop
-### 4. Pyroar (Pyroar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/pyroar.png" alt="Pyroar sprite" />
+<details open={false}>
+<summary>04 · Pyroar · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/pyroar.webp" alt="Pyroar" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `pyroar` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 39 |
+| Habilidade | rivalry |
+| Item | zamega:pyroarite |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Rivalry |
-| Item segurado | Pyroarite |
-| Natureza | Timid |
-| EVs | 12 HP / 252 SpA / 244 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 12 / SPA 252 / SPE 244 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `darkpulse` · `flamethrower` · `hypervoice` · `willowisp`
 
-  - Darkpulse
-  - Flamethrower
-  - Hypervoice
-  - Willowisp
-### 5. Houndstone (Houndstone)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/houndstone.png" alt="Houndstone sprite" />
+<details open={false}>
+<summary>05 · Houndstone · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/houndstone.webp" alt="Houndstone" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `houndstone` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 39 |
+| Habilidade | fluffy |
+| Item | cobblemon:assault_vest |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Fluffy |
-| Item segurado | Assault Vest |
-| Natureza | Adamant |
-| EVs | 244 HP / 248 Atk / 16 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: water |
+| EVs | HP 244 / ATK 248 / SPD 16 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: water |
 
-**Golpes**
+**Golpes:** `lastrespects` · `poltergeist` · `icefang` · `firefang`
 
-  - Lastrespects
-  - Poltergeist
-  - Icefang
-  - Firefang
-### 6. Mabosstiff (Mabosstiff)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/mabosstiff.png" alt="Mabosstiff sprite" />
+<details open={false}>
+<summary>06 · Mabosstiff · Lv. 39</summary>
 
+<img className="pokemon-sprite" src="/img/models/mabosstiff.webp" alt="Mabosstiff" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `mabosstiff` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 39 |
+| Habilidade | guarddog |
+| Item | cobblemon:life_orb |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Guarddog |
-| Item segurado | Life Orb |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 244 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 244 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `crunch` · `psychicfangs` · `trailblaze` · `bodyslam`
 
-  - Crunch
-  - Psychicfangs
-  - Trailblaze
-  - Bodyslam
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você segurou a matilha inteira. Respeito! Agora pode seguir seu caminho.
+
+**Quando o treinador vence**
+
+> A matilha farejou essa jogada de longe. Volta com um plano novo!
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Speed control tools: Agility, Thunderwave, Trailblaze.
-- Dano em área é um grande ponto de pressão por meio de Hypervoice.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Agility.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_juanes_o_dono_da_carrocinha.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_juanes_o_dono_da_carrocinha.json`
+← [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) · [Peso Pesado Flaw](/trainers/campaign/treinadores-peso-pesado-flaw) →

@@ -1,15 +1,10 @@
-# Team Arroba
+---
+title: "Team Arroba"
+---
 
-Team Arroba is the campaign's enemy faction.
-
-## Battle Identity
-
-Team Arroba fights are designed to feel aggressive, disruptive, and mechanically varied.
-
-Common elements include:
-
-- Setup pressure
-- Status effects
-- Strong held items
-- Mixed offensive threats
-- Synergistic type themes
+| Trainer | Level |
+| --- | --- |
+| [Team Arroba Snake](/trainers/campaign/team-arroba-snake) | 22 |
+| [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) | 36 |
+| [Team Arroba Oswaldo](/trainers/campaign/team-arroba-oswaldo) | 51 |
+| [Team Arroba Admin](/trainers/campaign/team-arroba-admin) | 68 |

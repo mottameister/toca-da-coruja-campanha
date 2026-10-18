@@ -1,203 +1,170 @@
 ---
-title: Senior Joe
+title: "Senior Joe"
 ---
 
-# Senior Joe
+<img className="trainer-skin" src="/img/portraits/tdc_treinadores_senior_joe.png" alt="Senior Joe" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_treinadores_senior_joe` |
+| Encounter | Details |
+| --- | --- |
 | Category | Trainer |
-| Campaign Order | 15 / 26 |
-| Level Cap | 57 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★☆ |
-| Archetype | High-tempo offensive pressure |
-| Unlock Requirement | `tdc_lider_julie_a_botanista` |
-| Healing Bag | Max Potion x2 |
+| Stage | 15 / 26 |
+| Team levels | 57 |
+| Unlock | [Julie, A Botanista](/trainers/campaign/lider-julie-a-botanista) |
+| Format | Gen 9 Doubles |
+| Bag | Max Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Blastoise (Blastoise)
+Blastoise + Gyarados → `move:waterpulse` → `move:waterfall`.
 
-<img className="pokemon-sprite" src="/img/pokemon/blastoise.png" alt="Blastoise sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `blastoise` |
+> Experiência conta, meu jovem. Vem aprender uma aula prática.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Blastoise · Lv. 57</summary>
+
+<img className="pokemon-sprite" src="/img/models/blastoise.webp" alt="Blastoise" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | megalauncher |
+| Held item | mega_showdown:blastoisinite |
+| Nature | modest |
 | Gender | MALE |
-| Level | 57 |
 | Shiny | No |
-| Ability | Megalauncher |
-| Held Item | Blastoisinite |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `waterpulse` · `dragonpulse` · `darkpulse` · `aurasphere`
 
-  - Waterpulse
-  - Dragonpulse
-  - Darkpulse
-  - Aurasphere
-### 2. Gyarados (Gyarados)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gyarados.png" alt="Gyarados sprite" />
+<details open={true}>
+<summary>02 · Gyarados · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/gyarados.webp" alt="Gyarados" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `gyarados` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | intimidate |
+| Held item | cobblemon:assault_vest |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 57 |
 | Shiny | Yes |
-| Ability | Intimidate |
-| Held Item | Assault Vest |
-| Nature | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: ground |
 
-**Moveset**
+**Moves:** `waterfall` · `bulldoze` · `dragondance` · `icefang`
 
-  - Waterfall
-  - Bulldoze
-  - Dragondance
-  - Icefang
-### 3. Alakazam (Alakazam)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/alakazam.png" alt="Alakazam sprite" />
+<details open={false}>
+<summary>03 · Alakazam · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/alakazam.webp" alt="Alakazam" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `alakazam` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | innerfocus |
+| Held item | cobblemon:choice_specs |
+| Nature | timid |
 | Gender | MALE |
-| Level | 57 |
 | Shiny | No |
-| Ability | Innerfocus |
-| Held Item | Choice Specs |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dazzlinggleam` · `psychic` · `shadowball` · `energyball`
 
-  - Dazzlinggleam
-  - Psychic
-  - Shadowball
-  - Energyball
-### 4. Snorlax (Snorlax)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/snorlax.png" alt="Snorlax sprite" />
+<details open={false}>
+<summary>04 · Snorlax · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/snorlax.webp" alt="Snorlax" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `snorlax` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | thickfat |
+| Held item | cobblemon:leftovers |
+| Nature | careful |
 | Gender | MALE |
-| Level | 57 |
 | Shiny | Yes |
-| Ability | Thickfat |
-| Held Item | Leftovers |
-| Nature | Careful |
-| EVs | 248 HP / 8 Atk / 248 SpD / 4 Spe |
-| IVs | 31 all |
+| EVs | HP 248 / ATK 8 / SPD 248 / SPE 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `bodypress` · `bodyslam` · `rest` · `sleeptalk`
 
-  - Bodypress
-  - Bodyslam
-  - Rest
-  - Sleeptalk
-### 5. Arcanine (Arcanine)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/arcanine.png" alt="Arcanine sprite" />
+<details open={false}>
+<summary>05 · Arcanine · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/arcanine.webp" alt="Arcanine" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `arcanine` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | intimidate |
+| Held item | cobblemon:life_orb |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 57 |
 | Shiny | No |
-| Ability | Intimidate |
-| Held Item | Life Orb |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `closecombat` · `extremespeed` · `flareblitz` · `wildcharge`
 
-  - Closecombat
-  - Extremespeed
-  - Flareblitz
-  - Wildcharge
-### 6. Mewtwo (Mewtwo)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/mewtwo.png" alt="Mewtwo sprite" />
+<details open={false}>
+<summary>06 · Mewtwo · Lv. 57</summary>
 
+<img className="pokemon-sprite" src="/img/models/mewtwo.webp" alt="Mewtwo" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `mewtwo` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | pressure |
+| Held item | cobblemon:expert_belt |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 57 |
 | Shiny | No |
-| Ability | Pressure |
-| Held Item | Expert Belt |
-| Nature | Timid |
-| EVs | 252 SpA / 8 SpD / 248 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `psystrike` · `shadowball` · `thunderbolt` · `aurasphere`
 
-  - Psystrike
-  - Shadowball
-  - Thunderbolt
-  - Aurasphere
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Senior Joe caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Spread damage is a major pressure point through Bulldoze, Dazzlinggleam.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Dragondance.
-- Priority pressure can close games or deny low-HP pivots: Extremespeed.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_treinadores_senior_joe.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_treinadores_senior_joe.json`
+← [Julie, A Botanista](/trainers/campaign/lider-julie-a-botanista) · [Rival Motta 04](/trainers/campaign/rival-motta-04) →

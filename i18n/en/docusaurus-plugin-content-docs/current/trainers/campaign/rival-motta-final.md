@@ -1,204 +1,170 @@
 ---
-title: Rival Motta Final
+title: "Rival Motta Final"
 ---
 
-# Rival Motta Final
+<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_final.png" alt="Rival Motta Final" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_rival_motta_final` |
+| Encounter | Details |
+| --- | --- |
 | Category | Rival |
-| Campaign Order | 21 / 26 |
-| Level Cap | 79 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★★ |
-| Archetype | Sand offense / field-control doubles |
-| Unlock Requirement | `tdc_admin_marru` |
-| Healing Bag | Full Restore x2 |
+| Stage | 21 / 26 |
+| Team levels | 79 |
+| Unlock | [Admin Marru](/trainers/campaign/admin-marru) |
+| Format | Gen 9 Doubles |
+| Bag | Full Restore × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Mr. X (Tyranitar)
+Aerodactyl + Garchomp → `move:tailwind` → `move:swordsdance`.
 
-<img className="pokemon-sprite" src="/img/pokemon/tyranitar.png" alt="Tyranitar sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `tyranitar` |
-| Nickname | Mr. X |
-| Gender | MALE |
-| Level | 79 |
-| Shiny | No |
-| Ability | Sandstream |
-| Held Item | Tyranitarite |
-| Nature | Sassy |
-| EVs | 244 HP / 16 Atk / 248 SpD |
-| IVs | 31 all |
-| Gimmicks | — |
+> Chegamos longe demais pra pegar leve agora. Último rival, último teste.
 
-**Moveset**
+## Full team
 
-  - Stealthrock
-  - Knockoff
-  - Rockslide
-  - Irondefense
-### 2. Quesadrillas (Excadrill)
+<details open={true}>
+<summary>01 · Aerodactyl · Lv. 79</summary>
 
-<img className="pokemon-sprite" src="/img/pokemon/excadrill.png" alt="Excadrill sprite" />
+<img className="pokemon-sprite" src="/img/models/aerodactyl.webp" alt="Aerodactyl" loading="lazy" />
 
-
-| Field | Value |
-|---|---|
-| Species | `excadrill` |
-| Nickname | Quesadrillas |
-| Gender | MALE |
-| Level | 79 |
-| Shiny | Yes |
-| Ability | Sandrush |
-| Held Item | Steelium Z |
-| Nature | Adamant |
-| EVs | 252 Atk / 132 Def / 124 SpD |
-| IVs | 31 all |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Drillrun
-  - Brickbreak
-  - Ironhead
-  - Rockslide
-### 3. Pteros (Aerodactyl)
-
-<img className="pokemon-sprite" src="/img/pokemon/aerodactyl.png" alt="Aerodactyl sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `aerodactyl` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Pteros |
+| Ability | rockhead |
+| Held item | cobblemon:focus_sash |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 79 |
 | Shiny | No |
-| Ability | Rockhead |
-| Held Item | Focus Sash |
-| Nature | Jolly |
-| EVs | 252 Atk / 6 SpD / 252 Spe |
-| IVs | 31 all |
-| Gimmicks | tera: rock |
+| EVs | ATK 252 / SPD 6 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
 
-**Moveset**
+**Moves:** `dualwingbeat` · `tailwind` · `rockslide` · `doubleedge`
 
-  - Dualwingbeat
-  - Tailwind
-  - Rockslide
-  - Doubleedge
-### 4. Shark Boy (Garchomp)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/garchomp.png" alt="Garchomp sprite" />
+<details open={true}>
+<summary>02 · Garchomp · Lv. 79</summary>
 
+<img className="pokemon-sprite" src="/img/models/garchomp.webp" alt="Garchomp" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `garchomp` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Shark Boy |
+| Ability | roughskin |
+| Held item | cobblemon:rocky_helmet |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 79 |
 | Shiny | No |
-| Ability | Roughskin |
-| Held Item | Rocky Helmet |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: steel |
 
-**Moveset**
+**Moves:** `dragonclaw` · `earthquake` · `ironhead` · `swordsdance`
 
-  - Dragonclaw
-  - Earthquake
-  - Ironhead
-  - Swordsdance
-### 5. Scott (Lycanroc)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/lycanroc.png" alt="Lycanroc sprite" />
+<details open={false}>
+<summary>03 · Tyranitar · Lv. 79</summary>
 
+<img className="pokemon-sprite" src="/img/models/tyranitar.webp" alt="Tyranitar" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `lycanroc` |
-| Nickname | Scott |
+| Attribute | Value |
+| --- | --- |
+| Nickname | Mr. X |
+| Ability | sandstream |
+| Held item | mega_showdown:tyranitarite |
+| Nature | sassy |
 | Gender | MALE |
-| Level | 79 |
-| Shiny | Yes |
-| Ability | Toughclaws |
-| Held Item | White Herb |
-| Nature | Jolly |
-| EVs | 8 HP / 248 Atk / 252 Spe |
-| IVs | 31 all |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Accelerock
-  - Closecombat
-  - Ironhead
-  - Trailblaze
-### 6. Pikes Peak (Zamazenta)
-
-<img className="pokemon-sprite" src="/img/pokemon/zamazenta.png" alt="Zamazenta sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `zamazenta` |
-| Nickname | Pikes Peak |
-| Gender | GENDERLESS |
-| Level | 79 |
 | Shiny | No |
-| Ability | Dauntlessshield |
-| Held Item | Rusted Shield |
-| Nature | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 16 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `stealthrock` · `knockoff` · `rockslide` · `irondefense`
 
-  - Behemothbash
-  - Bodypress
-  - Irondefense
-  - Crunch
+</details>
+
+<details open={false}>
+<summary>04 · Excadrill · Lv. 79</summary>
+
+<img className="pokemon-sprite" src="/img/models/excadrill.webp" alt="Excadrill" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | Quesadrillas |
+| Ability | sandrush |
+| Held item | mega_showdown:groundium_z |
+| Nature | adamant |
+| Gender | MALE |
+| Shiny | Yes |
+| EVs | ATK 252 / DEF 132 / SPD 124 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `drillrun` · `brickbreak` · `ironhead` · `rockslide`
+
+</details>
+
+<details open={false}>
+<summary>05 · Lycanroc · Lv. 79</summary>
+
+<img className="pokemon-sprite" src="/img/models/lycanroc.webp" alt="Lycanroc" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | Scott |
+| Ability | toughclaws |
+| Held item | cobblemon:white_herb |
+| Nature | jolly |
+| Gender | MALE |
+| Shiny | Yes |
+| EVs | HP 8 / ATK 248 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `accelerock` · `closecombat` · `ironhead` · `trailblaze`
+
+</details>
+
+<details open={false}>
+<summary>06 · Landorus · Lv. 79</summary>
+
+<img className="pokemon-sprite" src="/img/models/landorus.webp" alt="Landorus" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | Norris |
+| Ability | sheerforce |
+| Held item | cobblemon:life_orb |
+| Nature | timid |
+| Gender | MALE |
+| Shiny | Yes |
+| EVs | HP 8 / SPA 248 / SPD 4 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `calmmind` · `psychic` · `earthpower` · `sludgewave`
+
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Rival Motta Final caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Sand support enables specific sweepers and chip pressure.
-- Speed control tools: Tailwind, Trailblaze.
-- Spread damage is a major pressure point through Earthquake, Rockslide.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Irondefense, Swordsdance.
-- Priority pressure can close games or deny low-HP pivots: Accelerock.
-
-### Threat Profile
-
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_rival_motta_final.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_rival_motta_final.json`
+← [Admin Marru](/trainers/campaign/admin-marru) · [Elite 4 Hacksaw](/trainers/campaign/e4-jesus) →

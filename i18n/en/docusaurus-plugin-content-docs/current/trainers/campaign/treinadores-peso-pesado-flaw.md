@@ -1,204 +1,170 @@
 ---
-title: Peso Pesado Flaw
+title: "Peso Pesado Flaw"
 ---
 
-# Peso Pesado Flaw
+<img className="trainer-skin" src="/img/portraits/tdc_treinadores_peso_pesado_flaw.png" alt="Peso Pesado Flaw" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_treinadores_peso_pesado_flaw` |
+| Encounter | Details |
+| --- | --- |
 | Category | Trainer |
-| Campaign Order | 10 / 26 |
-| Level Cap | 42 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★☆☆ |
-| Archetype | High-tempo offensive pressure |
-| Unlock Requirement | `tdc_lider_juanes_o_dono_da_carrocinha` |
-| Healing Bag | Hyper Potion x2 |
+| Stage | 10 / 26 |
+| Team levels | 42 |
+| Unlock | [Juanes, O Dono da Carrocinha](/trainers/campaign/lider-juanes-o-dono-da-carrocinha) |
+| Format | Gen 9 Doubles |
+| Bag | Hyper Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Wailord (Wailord)
+Wailord + Ironhands → `move:waterspout` → `move:fakeout`.
 
-<img className="pokemon-sprite" src="/img/pokemon/wailord.png" alt="Wailord sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `wailord` |
+> Peso pesado na área. Espero que seu time tenha coluna pra carregar essa luta.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Wailord · Lv. 42</summary>
+
+<img className="pokemon-sprite" src="/img/models/wailord.webp" alt="Wailord" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | pressure |
+| Held item | cobblemon:leftovers |
+| Nature | bold |
 | Gender | MALE |
-| Level | 42 |
 | Shiny | No |
-| Ability | Pressure |
-| Held Item | Leftovers |
-| Nature | Bold |
-| EVs | 248 HP / 252 Def / 8 SpA |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 248 / DEF 252 / SPA 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `icebeam` · `waterspout` · `scald` · `toxic`
 
-  - Icebeam
-  - Waterspout
-  - Scald
-  - Toxic
-### 2. Cetitan (Cetitan)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/cetitan.png" alt="Cetitan sprite" />
+<details open={true}>
+<summary>02 · Ironhands · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/ironhands.webp" alt="Ironhands" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `cetitan` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
-| Gender | MALE |
-| Level | 42 |
-| Shiny | Yes |
-| Ability | Sheerforce |
-| Held Item | Choice Scarf |
-| Nature | Jolly |
-| EVs | 252 Atk / 252 Spe |
-| IVs | 31 all |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Icespinner
-  - Iceshard
-  - Liquidation
-  - Bodypress
-### 3. Metagross (Metagross)
-
-<img className="pokemon-sprite" src="/img/pokemon/metagross.png" alt="Metagross sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `metagross` |
-| Nickname | — |
+| Ability | quarkdrive |
+| Held item | mega_showdown:booster_energy |
+| Nature | adamant |
 | Gender | GENDERLESS |
-| Level | 42 |
 | Shiny | Yes |
-| Ability | Clearbody |
-| Held Item | Assault Vest |
-| Nature | Jolly |
-| EVs | 248 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `supercellslam` · `closecombat` · `fakeout` · `ironhead`
+
+</details>
+
+<details open={false}>
+<summary>03 · Cetitan · Lv. 42</summary>
+
+<img className="pokemon-sprite" src="/img/models/cetitan.webp" alt="Cetitan" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | sheerforce |
+| Held item | cobblemon:choice_scarf |
+| Nature | jolly |
+| Gender | MALE |
+| Shiny | Yes |
+| EVs | ATK 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `icespinner` · `iceshard` · `liquidation` · `bodypress`
+
+</details>
+
+<details open={false}>
+<summary>04 · Metagross · Lv. 42</summary>
+
+<img className="pokemon-sprite" src="/img/models/metagross.webp" alt="Metagross" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | clearbody |
+| Held item | cobblemon:assault_vest |
+| Nature | jolly |
+| Gender | GENDERLESS |
+| Shiny | Yes |
+| EVs | ATK 248 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: steel |
 
-**Moveset**
+**Moves:** `bulletpunch` · `bodypress` · `psychicfangs` · `shadowclaw`
 
-  - Bulletpunch
-  - Bodypress
-  - Psychicfangs
-  - Shadowclaw
-### 4. Ironhands (Ironhands)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ironhands.png" alt="Ironhands sprite" />
+<details open={false}>
+<summary>05 · Guzzlord · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/guzzlord.webp" alt="Guzzlord" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `ironhands` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | beastboost |
+| Held item | cobblemon:life_orb |
+| Nature | modest |
 | Gender | GENDERLESS |
-| Level | 42 |
 | Shiny | Yes |
-| Ability | Quarkdrive |
-| Held Item | Booster Energy |
-| Nature | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / SPA 248 / SPD 4 / SPE 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dracometeor` · `flamethrower` · `sludgewave` · `darkpulse`
 
-  - Supercellslam
-  - Closecombat
-  - Fakeout
-  - Ironhead
-### 5. Guzzlord (Guzzlord)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/guzzlord.png" alt="Guzzlord sprite" />
+<details open={false}>
+<summary>06 · Aggron · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/aggron.webp" alt="Aggron" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `guzzlord` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
-| Gender | GENDERLESS |
-| Level | 42 |
-| Shiny | Yes |
-| Ability | Beastboost |
-| Held Item | Life Orb |
-| Nature | Modest |
-| EVs | 252 HP / 248 SpA / 4 SpD / 4 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Dracometeor
-  - Flamethrower
-  - Sludgewave
-  - Darkpulse
-### 6. Aggron (Aggron)
-
-<img className="pokemon-sprite" src="/img/pokemon/aggron.png" alt="Aggron sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `aggron` |
-| Nickname | — |
+| Ability | rockhead |
+| Held item | mega_showdown:aggronite |
+| Nature | careful |
 | Gender | MALE |
-| Level | 42 |
 | Shiny | Yes |
-| Ability | Rockhead |
-| Held Item | Aggronite |
-| Nature | Careful |
-| EVs | 244 HP / 12 Atk / 252 SpD |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 12 / SPD 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `doubleedge` · `bodypress` · `irondefense` · `thunderwave`
 
-  - Doubleedge
-  - Bodypress
-  - Irondefense
-  - Thunderwave
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Peso Pesado Flaw caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Speed control tools: Thunderwave.
-- Spread damage is a major pressure point through Sludgewave, Waterspout.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Irondefense.
-- Priority pressure can close games or deny low-HP pivots: Bulletpunch, Fakeout, Iceshard.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_treinadores_peso_pesado_flaw.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_treinadores_peso_pesado_flaw.json`
+← [Juanes, O Dono da Carrocinha](/trainers/campaign/lider-juanes-o-dono-da-carrocinha) · [Rival Motta 03](/trainers/campaign/rival-motta-03) →

@@ -1,204 +1,172 @@
 ---
-title: Admin Marru
+title: "Admin Marru"
 ---
 
-# Admin Marru
+<img className="trainer-skin" src="/img/portraits/tdc_admin_marru.png" alt="Admin Marru" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_admin_marru` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Admin |
-| Ordem na campanha | 20 / 26 |
-| Limite de nível | 76 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★★ |
-| Arquétipo | Ofensiva de chuva / controle de velocidade |
-| Requisito de desbloqueio | `tdc_lider_tuta_o_tormento` |
-| Bolsa de cura | Full Restore x2 |
+| Etapa | 20 / 26 |
+| Níveis do time | 76 |
+| Desbloqueio | [Tuta, O Tormento](/trainers/campaign/lider-tuta-o-tormento) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Full Restore × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Miraidon (Miraidon)
+Miraidon + Raichu → `move:electrodrift` → `move:nastyplot`.
 
-<img className="pokemon-sprite" src="/img/pokemon/miraidon.png" alt="Miraidon sprite" />
+Electric Terrain + Nasty Plot; Miraidon pressiona enquanto Raichu prepara.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `miraidon` |
+## Antes da batalha
+
+> Tudo energizado por aqui. Se piscar na hora errada, vai perder mais que um turno.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Miraidon · Lv. 76</summary>
+
+<img className="pokemon-sprite" src="/img/models/miraidon.webp" alt="Miraidon" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 76 |
+| Habilidade | hadronengine |
+| Item | cobblemon:terrain_extender |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Hadronengine |
-| Item segurado | Terrain Extender |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `electrodrift` · `dracometeor` · `dazzlinggleam` · `voltswitch`
 
-  - Electrodrift
-  - Dracometeor
-  - Dazzlinggleam
-  - Voltswitch
-### 2. Raichu (Raichu)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/raichu.png" alt="Raichu sprite" />
+<details open={true}>
+<summary>02 · Raichu · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/raichu.webp" alt="Raichu" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `raichu` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 76 |
+| Habilidade | surgesurfer |
+| Item | cobblemon:life_orb |
+| Natureza | timid |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Surgesurfer |
-| Item segurado | Life Orb |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `thunderbolt` · `voltswitch` · `nastyplot` · `psychic`
 
-  - Thunderbolt
-  - Voltswitch
-  - Nastyplot
-  - Psychic
-### 3. Ragingbolt (Ragingbolt)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ragingbolt.png" alt="Ragingbolt sprite" />
+<details open={false}>
+<summary>03 · Ragingbolt · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/ragingbolt.webp" alt="Ragingbolt" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `ragingbolt` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 76 |
+| Habilidade | protosynthesis |
+| Item | mega_showdown:booster_energy |
+| Natureza | modest |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Protosynthesis |
-| Item segurado | Booster Energy |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `risingvoltage` · `voltswitch` · `dracometeor` · `hypervoice`
 
-  - Risingvoltage
-  - Voltswitch
-  - Dracometeor
-  - Hypervoice
-### 4. Toxtricity (Toxtricity)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/toxtricity.png" alt="Toxtricity sprite" />
+<details open={false}>
+<summary>04 · Toxtricity · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/toxtricity.webp" alt="Toxtricity" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `toxtricity` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 76 |
+| Habilidade | punkrock |
+| Item | cobblemon:assault_vest |
+| Natureza | modest |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Punkrock |
-| Item segurado | Assault Vest |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: flying |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: flying |
 
-**Golpes**
+**Golpes:** `hypervoice` · `overdrive` · `psychicnoise` · `sludgewave`
 
-  - Hypervoice
-  - Overdrive
-  - Psychicnoise
-  - Sludgewave
-### 5. Eelektross (Eelektross)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/eelektross.png" alt="Eelektross sprite" />
+<details open={false}>
+<summary>05 · Eelektross · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/eelektross.webp" alt="Eelektross" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `eelektross` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 76 |
+| Habilidade | levitate |
+| Item | zamega:eelektrossite |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Levitate |
-| Item segurado | Eelektrossite |
-| Natureza | Jolly |
-| EVs | 248 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 248 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `closecombat` · `supercellslam` · `uturn` · `throatchop`
 
-  - Closecombat
-  - Supercellslam
-  - Uturn
-  - Throatchop
-### 6. Golem (Golem)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/golem.png" alt="Golem sprite" />
+<details open={false}>
+<summary>06 · Golem · Lv. 76</summary>
 
+<img className="pokemon-sprite" src="/img/models/golem.webp" alt="Golem" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `golem` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 76 |
+| Habilidade | galvanize |
+| Item | mega_showdown:rockium_z |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Galvanize |
-| Item segurado | Rockium Z |
-| Natureza | Adamant |
-| EVs | 252 HP / 248 Atk / 4 SpD / 4 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 248 / SPD 4 / SPE 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bodyslam` · `rockslide` · `autotomize` · `earthquake`
 
-  - Bodyslam
-  - Rockslide
-  - Autotomize
-  - Earthquake
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você segurou essa carga toda? Boa! Vou precisar revisar a instalação.
+
+**Quando o treinador vence**
+
+> Caiu a conexão com a vitória? Aqui a voltagem fica no máximo.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de terreno elétrico habilita sweepers específicos e pressão por dano residual.
-- Speed control tools: Autotomize.
-- Dano em área é um grande ponto de pressão por meio de Dazzlinggleam, Earthquake, Hypervoice, Rockslide, Sludgewave.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Autotomize, Nastyplot.
-
-### Perfil de ameaças
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_admin_marru.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_admin_marru.json`
+← [Tuta, O Tormento](/trainers/campaign/lider-tuta-o-tormento) · [Rival Motta Final](/trainers/campaign/rival-motta-final) →

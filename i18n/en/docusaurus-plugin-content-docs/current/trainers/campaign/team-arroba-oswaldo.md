@@ -1,202 +1,170 @@
 ---
-title: Team Arroba Oswaldo
+title: "Team Arroba Oswaldo"
 ---
 
-# Team Arroba Oswaldo
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_oswaldo.png" alt="Team Arroba Oswaldo" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_team_arroba_oswaldo` |
+| Encounter | Details |
+| --- | --- |
 | Category | Team Arroba |
-| Campaign Order | 13 / 26 |
-| Level Cap | 51 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★☆ |
-| Archetype | High-tempo offensive pressure |
-| Unlock Requirement | `tdc_lider_bathilda_a_assombracao` |
-| Healing Bag | Max Potion x2 |
+| Stage | 13 / 26 |
+| Team levels | 51 |
+| Unlock | [Bathilda, A Assombração](/trainers/campaign/lider-bathilda-a-assombracao) |
+| Format | Gen 9 Doubles |
+| Bag | Max Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Sneasler (Sneasler)
+Sneasler + Nidoqueen → `move:swordsdance` → `move:earthpower`.
 
-<img className="pokemon-sprite" src="/img/pokemon/sneasler.png" alt="Sneasler sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `sneasler` |
+> Tóxico? Imagina. A gente só gosta de estratégias... persistentes.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Sneasler · Lv. 51</summary>
+
+<img className="pokemon-sprite" src="/img/models/sneasler.webp" alt="Sneasler" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | unburden |
+| Held item | cobblemon:focus_sash |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 51 |
 | Shiny | Yes |
-| Ability | Unburden |
-| Held Item | Focus Sash |
-| Nature | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: dark |
 
-**Moveset**
+**Moves:** `closecombat` · `direclaw` · `swordsdance` · `throatchop`
 
-  - Closecombat
-  - Direclaw
-  - Swordsdance
-  - Throatchop
-### 2. Toxapex (Toxapex)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/toxapex.png" alt="Toxapex sprite" />
+<details open={true}>
+<summary>02 · Nidoqueen · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidoqueen.webp" alt="Nidoqueen" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `toxapex` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | sheerforce |
+| Held item | mega_showdown:groundium_z |
+| Nature | modest |
+| Gender | GENDERLESS |
+| Shiny | Yes |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Gimmicks | — |
+
+**Moves:** `earthpower` · `flamethrower` · `icebeam` · `sludgewave`
+
+</details>
+
+<details open={false}>
+<summary>03 · Toxapex · Lv. 51</summary>
+
+<img className="pokemon-sprite" src="/img/models/toxapex.webp" alt="Toxapex" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
+| Nickname | — |
+| Ability | merciless |
+| Held item | cobblemon:leftovers |
+| Nature | impish |
 | Gender | FEMALE |
-| Level | 51 |
 | Shiny | Yes |
-| Ability | Merciless |
-| Held Item | Leftovers |
-| Nature | Impish |
-| EVs | 248 HP / 8 Atk / 252 Def |
-| IVs | 31 all |
+| EVs | HP 248 / ATK 8 / DEF 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `banefulbunker` · `recover` · `toxicspikes` · `liquidation`
 
-  - Banefulbunker
-  - Recover
-  - Toxicspikes
-  - Liquidation
-### 3. Iron Moth (Iron Moth)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/iron_moth.png" alt="Iron Moth sprite" />
+<details open={false}>
+<summary>04 · Ironmoth · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/ironmoth.webp" alt="Ironmoth" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `iron_moth` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | quarkdrive |
+| Held item | mega_showdown:booster_energy |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 51 |
 | Shiny | Yes |
-| Ability | Quarkdrive |
-| Held Item | Booster Energy |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `fierydance` · `energyball` · `sludgewave` · `discharge`
 
-  - Fierydance
-  - Energyball
-  - Sludgewave
-  - Discharge
-### 4. Gengar (Gengar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gengar.png" alt="Gengar sprite" />
+<details open={false}>
+<summary>05 · Gengar · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/gengar.webp" alt="Gengar" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `gengar` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | cursedbody |
+| Held item | cobblemon:choice_scarf |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 51 |
 | Shiny | No |
-| Ability | Cursedbody |
-| Held Item | Choice Scarf |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dazzlinggleam` · `sludgewave` · `shadowball` · `thunderbolt`
 
-  - Dazzlinggleam
-  - Sludgewave
-  - Shadowball
-  - Thunderbolt
-### 5. Nidoqueen (Nidoqueen)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidoqueen.png" alt="Nidoqueen sprite" />
+<details open={false}>
+<summary>06 · Dragalge · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/dragalge.webp" alt="Dragalge" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `nidoqueen` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
-| Gender | GENDERLESS |
-| Level | 51 |
-| Shiny | Yes |
-| Ability | Sheerforce |
-| Held Item | Groundium Z |
-| Nature | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Gimmicks | — |
-
-**Moveset**
-
-  - Earthpower
-  - Flamethrower
-  - Icebeam
-  - Sludgewave
-### 6. Dragalge (Dragalge)
-
-<img className="pokemon-sprite" src="/img/pokemon/dragalge.png" alt="Dragalge sprite" />
-
-
-| Field | Value |
-|---|---|
-| Species | `dragalge` |
-| Nickname | — |
+| Ability | poisonpoint |
+| Held item | zamega:dragalgite |
+| Nature | modest |
 | Gender | MALE |
-| Level | 51 |
 | Shiny | Yes |
-| Ability | Poisonpoint |
-| Held Item | Dragalgite |
-| Nature | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dracometeor` · `scald` · `sludgewave` · `thunderbolt`
 
-  - Dracometeor
-  - Scald
-  - Sludgewave
-  - Thunderbolt
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Team Arroba Oswaldo caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Spread damage is a major pressure point through Dazzlinggleam, Discharge, Sludgewave.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Swordsdance.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_team_arroba_oswaldo.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_team_arroba_oswaldo.json`
+← [Bathilda, A Assombração](/trainers/campaign/lider-bathilda-a-assombracao) · [Julie, A Botanista](/trainers/campaign/lider-julie-a-botanista) →

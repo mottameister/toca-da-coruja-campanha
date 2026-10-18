@@ -1,204 +1,172 @@
 ---
-title: Rival Motta 03
+title: "Rival Motta 03"
 ---
 
-# Rival Motta 03
+<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_03.png" alt="Rival Motta 03" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_rival_motta_03` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Rival |
-| Ordem na campanha | 11 / 26 |
-| Limite de nível | 45 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★☆ |
-| Arquétipo | Ofensiva de areia / controle de campo em duplas |
-| Requisito de desbloqueio | `tdc_treinadores_peso_pesado_flaw` |
-| Bolsa de cura | Hyper Potion x2 |
+| Etapa | 11 / 26 |
+| Níveis do time | 45 |
+| Desbloqueio | [Peso Pesado Flaw](/trainers/campaign/treinadores-peso-pesado-flaw) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Hyper Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Mr. X (Pupitar)
+Pupitar + Excadrill → `move:sandstorm` → `move:drillrun`.
 
-<img className="pokemon-sprite" src="/img/pokemon/pupitar.png" alt="Pupitar sprite" />
+Pupitar habilita Sand Rush; Excadrill aplica pressão imediatamente.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `pupitar` |
+## Antes da batalha
+
+> Agora tem areia no chão e ameaça no céu. Quero ver você olhar pros dois ao mesmo tempo.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Pupitar · Lv. 45</summary>
+
+<img className="pokemon-sprite" src="/img/models/pupitar.webp" alt="Pupitar" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Mr. X |
-| Gênero | Masculino |
-| Nível | 45 |
+| Habilidade | shedskin |
+| Item | cobblemon:smooth_rock |
+| Natureza | sassy |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Shedskin |
-| Item segurado | Smooth Rock |
-| Natureza | Sassy |
-| EVs | 244 HP / 16 Atk / 248 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 244 / ATK 16 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `rockslide` · `bulldoze` · `sandstorm` · `pursuit`
 
-  - Rockslide
-  - Bulldoze
-  - Sandstorm
-  - Pursuit
-### 2. Quesadrillas (Excadrill)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/excadrill.png" alt="Excadrill sprite" />
+<details open={true}>
+<summary>02 · Excadrill · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/excadrill.webp" alt="Excadrill" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `excadrill` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Quesadrillas |
-| Gênero | Masculino |
-| Nível | 45 |
+| Habilidade | sandrush |
+| Item | mega_showdown:steelium_z |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Sandrush |
-| Item segurado | Steelium Z |
-| Natureza | Adamant |
-| EVs | 252 Atk / 132 Def / 124 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / DEF 132 / SPD 124 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `drillrun` · `brickbreak` · `ironhead` · `rockslide`
 
-  - Drillrun
-  - Brickbreak
-  - Ironhead
-  - Rockslide
-### 3. Pteros (Aerodactyl)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/aerodactyl.png" alt="Aerodactyl sprite" />
+<details open={false}>
+<summary>03 · Aerodactyl · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/aerodactyl.webp" alt="Aerodactyl" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `aerodactyl` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Pteros |
-| Gênero | Masculino |
-| Nível | 45 |
+| Habilidade | rockhead |
+| Item | cobblemon:focus_sash |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Rockhead |
-| Item segurado | Focus Sash |
-| Natureza | Jolly |
-| EVs | 252 Atk / 6 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 6 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dualwingbeat` · `tailwind` · `rockslide` · `doubleedge`
 
-  - Dualwingbeat
-  - Tailwind
-  - Rockslide
-  - Doubleedge
-### 4. Shark Boy (Gabite)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gabite.png" alt="Gabite sprite" />
+<details open={false}>
+<summary>04 · Gabite · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/gabite.webp" alt="Gabite" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gabite` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Shark Boy |
-| Gênero | Masculino |
-| Nível | 45 |
+| Habilidade | sandveil |
+| Item | cobblemon:yache_berry |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Sandveil |
-| Item segurado | Yache Berry |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: steel |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: steel |
 
-**Golpes**
+**Golpes:** `dragontail` · `bulldoze` · `rockslide` · `metalclaw`
 
-  - Dragontail
-  - Bulldoze
-  - Rockslide
-  - Metalclaw
-### 5. Nidokong (Nidoking)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidoking.png" alt="Nidoking sprite" />
+<details open={false}>
+<summary>05 · Nidoking · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidoking.webp" alt="Nidoking" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `nidoking` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Nidokong |
-| Gênero | Sem gênero |
-| Nível | 45 |
+| Habilidade | sheerforce |
+| Item | cobblemon:choice_specs |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Sheerforce |
-| Item segurado | Choice Specs |
-| Natureza | Timid |
-| EVs | 252 SpA / 6 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 6 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `sludgewave` · `earthpower` · `thunderbolt` · `icebeam`
 
-  - Sludgewave
-  - Earthpower
-  - Thunderbolt
-  - Icebeam
-### 6. Scott (Lycanroc)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/lycanroc.png" alt="Lycanroc sprite" />
+<details open={false}>
+<summary>06 · Lycanroc · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/lycanroc.webp" alt="Lycanroc" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `lycanroc` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Scott |
-| Gênero | Masculino |
-| Nível | 45 |
+| Habilidade | toughclaws |
+| Item | cobblemon:white_herb |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Toughclaws |
-| Item segurado | White Herb |
-| Natureza | Jolly |
-| EVs | 8 HP / 248 Atk / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 8 / ATK 248 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `accelerock` · `closecombat` · `ironhead` · `trailblaze`
 
-  - Accelerock
-  - Closecombat
-  - Ironhead
-  - Trailblaze
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Boa leitura de campo! Tá ficando cada vez mais difícil esconder uma jogada de você.
+
+**Quando o treinador vence**
+
+> Você cuidou de um lado e esqueceu o outro. Em dupla, essa conta chega rápido.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de areia habilita sweepers específicos e pressão por dano residual.
-- Speed control tools: Tailwind, Trailblaze.
-- Dano em área é um grande ponto de pressão por meio de Bulldoze, Rockslide, Sludgewave.
-
-### Condições de vitória
-
-- Priority pressure can close games or deny low-HP pivots: Accelerock.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_rival_motta_03.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_rival_motta_03.json`
+← [Peso Pesado Flaw](/trainers/campaign/treinadores-peso-pesado-flaw) · [Bathilda, A Assombração](/trainers/campaign/lider-bathilda-a-assombracao) →

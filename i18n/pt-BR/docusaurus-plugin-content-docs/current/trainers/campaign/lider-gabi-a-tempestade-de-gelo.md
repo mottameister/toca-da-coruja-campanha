@@ -1,203 +1,172 @@
 ---
-title: Gabi, A Tempestade de Gelo
+title: "Gabi, A Tempestade de Gelo"
 ---
 
-# Gabi, A Tempestade de Gelo
+<img className="trainer-skin" src="/img/portraits/tdc_lider_gabi_a_tempestade_de_gelo.png" alt="Gabi, A Tempestade de Gelo" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_gabi_a_tempestade_de_gelo` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 17 / 26 |
-| Limite de nível | 64 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★☆ |
-| Arquétipo | Ofensiva de neve / pressão especial |
-| Requisito de desbloqueio | `tdc_rival_motta_04` |
-| Bolsa de cura | Max Potion x2 |
+| Etapa | 17 / 26 |
+| Níveis do time | 64 |
+| Desbloqueio | [Rival Motta 04](/trainers/campaign/rival-motta-04) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Max Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Froslass (Froslass)
+Froslass + Articuno → `move:auroraveil` → `move:tailwind`.
 
-<img className="pokemon-sprite" src="/img/pokemon/froslass.png" alt="Froslass sprite" />
+Snow Warning habilita Aurora Veil; Articuno prepara Tailwind.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `froslass` |
+## Antes da batalha
+
+> Trouxe casaco? Porque eu não vou diminuir a nevasca só pra você pensar na próxima jogada.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Froslass · Lv. 64</summary>
+
+<img className="pokemon-sprite" src="/img/models/froslass.webp" alt="Froslass" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 64 |
+| Habilidade | snowwarning |
+| Item | zamega:froslassite |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Snowwarning |
-| Item segurado | Froslassite |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `auroraveil` · `blizzard` · `shadowball` · `chillingwater`
 
-  - Auroraveil
-  - Blizzard
-  - Shadowball
-  - Chillingwater
-### 2. Articuno (Articuno)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/articuno.png" alt="Articuno sprite" />
+<details open={true}>
+<summary>02 · Articuno · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/articuno.webp" alt="Articuno" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `articuno` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 64 |
+| Habilidade | snowcloak |
+| Item | cobblemon:bright_powder |
+| Natureza | modest |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Snowcloak |
-| Item segurado | Bright Powder |
-| Natureza | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `roost` · `tailwind` · `blizzard` · `airslash`
 
-  - Roost
-  - Tailwind
-  - Blizzard
-  - Airslash
-### 3. Baxcalibur (Baxcalibur)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/baxcalibur.png" alt="Baxcalibur sprite" />
+<details open={false}>
+<summary>03 · Baxcalibur · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/baxcalibur.webp" alt="Baxcalibur" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `baxcalibur` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 64 |
+| Habilidade | icebody |
+| Item | cobblemon:leftovers |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Icebody |
-| Item segurado | Leftovers |
-| Natureza | Jolly |
-| EVs | 248 Atk / 8 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: dragon |
+| EVs | ATK 248 / SPD 8 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: dragon |
 
-**Golpes**
+**Golpes:** `glaiverush` · `iceshard` · `ironhead` · `protect`
 
-  - Glaiverush
-  - Iceshard
-  - Ironhead
-  - Protect
-### 4. Vanilluxe (Vanilluxe)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/vanilluxe.png" alt="Vanilluxe sprite" />
+<details open={false}>
+<summary>04 · Vanilluxe · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/vanilluxe.webp" alt="Vanilluxe" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `vanilluxe` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 64 |
+| Habilidade | snowwarning |
+| Item | cobblemon:icy_rock |
+| Natureza | modest |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Snowwarning |
-| Item segurado | Icy Rock |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / HP 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `auroraveil` · `blizzard` · `freezedry` · `signalbeam`
 
-  - Auroraveil
-  - Blizzard
-  - Freezedry
-  - Signalbeam
-### 5. Mamoswine (Mamoswine)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/mamoswine.png" alt="Mamoswine sprite" />
+<details open={false}>
+<summary>05 · Mamoswine · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/mamoswine.webp" alt="Mamoswine" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `mamoswine` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 64 |
+| Habilidade | snowcloak |
+| Item | mega_showdown:icium_z |
+| Natureza | adamant |
+| Gênero | FEMALE |
 | Shiny | Não |
-| Habilidade | Snowcloak |
-| Item segurado | Icium Z |
-| Natureza | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `hail` · `highhorsepower` · `iceshard` · `iciclespear`
 
-  - Hail
-  - Highhorsepower
-  - Iceshard
-  - Iciclespear
-### 6. Glaceon (Glaceon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/glaceon.png" alt="Glaceon sprite" />
+<details open={false}>
+<summary>06 · Glaceon · Lv. 64</summary>
 
+<img className="pokemon-sprite" src="/img/models/glaceon.webp" alt="Glaceon" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `glaceon` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 64 |
+| Habilidade | icebody |
+| Item | assault_vest |
+| Natureza | modest |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Icebody |
-| Item segurado | Assault Vest |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: psychic |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: psychic |
 
-**Golpes**
+**Golpes:** `alluringvoice` · `blizzard` · `freezedry` · `terablast`
 
-  - Alluringvoice
-  - Blizzard
-  - Freezedry
-  - Terablast
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você manteve a cabeça fria até o final. Pode seguir: a nevasca abriu passagem.
+
+**Quando o treinador vence**
+
+> Congelou na hora de decidir? A tempestade não espera.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de neve habilita sweepers específicos e pressão por dano residual.
-- Speed control tools: Tailwind.
-- Dano em área é um grande ponto de pressão por meio de Blizzard.
-
-### Condições de vitória
-
-- Priority pressure can close games or deny low-HP pivots: Iceshard.
-
-### Perfil de ameaças
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_gabi_a_tempestade_de_gelo.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_gabi_a_tempestade_de_gelo.json`
+← [Rival Motta 04](/trainers/campaign/rival-motta-04) · [Team Arroba Admin](/trainers/campaign/team-arroba-admin) →

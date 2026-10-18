@@ -1,204 +1,172 @@
 ---
-title: Peso Pesado Flaw
+title: "Peso Pesado Flaw"
 ---
 
-# Peso Pesado Flaw
+<img className="trainer-skin" src="/img/portraits/tdc_treinadores_peso_pesado_flaw.png" alt="Peso Pesado Flaw" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_treinadores_peso_pesado_flaw` |
-| Categoria | Trainer |
-| Ordem na campanha | 10 / 26 |
-| Limite de nível | 42 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★☆☆ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_lider_juanes_o_dono_da_carrocinha` |
-| Bolsa de cura | Hyper Potion x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Treinador |
+| Etapa | 10 / 26 |
+| Níveis do time | 42 |
+| Desbloqueio | [Juanes, O Dono da Carrocinha](/trainers/campaign/lider-juanes-o-dono-da-carrocinha) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Hyper Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Wailord (Wailord)
+Wailord + Ironhands → `move:waterspout` → `move:fakeout`.
 
-<img className="pokemon-sprite" src="/img/pokemon/wailord.png" alt="Wailord sprite" />
+Water Spout em HP cheio com suporte Fake Out de Iron Hands.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `wailord` |
+## Antes da batalha
+
+> Essa arena aguenta peso? Porque hoje até o dano vai chegar pesado.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Wailord · Lv. 42</summary>
+
+<img className="pokemon-sprite" src="/img/models/wailord.webp" alt="Wailord" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 42 |
+| Habilidade | pressure |
+| Item | cobblemon:leftovers |
+| Natureza | bold |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Pressure |
-| Item segurado | Leftovers |
-| Natureza | Bold |
-| EVs | 248 HP / 252 Def / 8 SpA |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 248 / DEF 252 / SPA 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `icebeam` · `waterspout` · `scald` · `toxic`
 
-  - Icebeam
-  - Waterspout
-  - Scald
-  - Toxic
-### 2. Cetitan (Cetitan)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/cetitan.png" alt="Cetitan sprite" />
+<details open={true}>
+<summary>02 · Ironhands · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/ironhands.webp" alt="Ironhands" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `cetitan` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 42 |
+| Habilidade | quarkdrive |
+| Item | mega_showdown:booster_energy |
+| Natureza | adamant |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Sheerforce |
-| Item segurado | Choice Scarf |
-| Natureza | Jolly |
-| EVs | 252 Atk / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `supercellslam` · `closecombat` · `fakeout` · `ironhead`
 
-  - Icespinner
-  - Iceshard
-  - Liquidation
-  - Bodypress
-### 3. Metagross (Metagross)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/metagross.png" alt="Metagross sprite" />
+<details open={false}>
+<summary>03 · Cetitan · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/cetitan.webp" alt="Cetitan" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `metagross` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 42 |
+| Habilidade | sheerforce |
+| Item | cobblemon:choice_scarf |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Clearbody |
-| Item segurado | Assault Vest |
-| Natureza | Jolly |
-| EVs | 248 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: steel |
+| EVs | ATK 252 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `icespinner` · `iceshard` · `liquidation` · `bodypress`
 
-  - Bulletpunch
-  - Bodypress
-  - Psychicfangs
-  - Shadowclaw
-### 4. Ironhands (Ironhands)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ironhands.png" alt="Ironhands sprite" />
+<details open={false}>
+<summary>04 · Metagross · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/metagross.webp" alt="Metagross" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `ironhands` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 42 |
+| Habilidade | clearbody |
+| Item | cobblemon:assault_vest |
+| Natureza | jolly |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Quarkdrive |
-| Item segurado | Booster Energy |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 248 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: steel |
 
-**Golpes**
+**Golpes:** `bulletpunch` · `bodypress` · `psychicfangs` · `shadowclaw`
 
-  - Supercellslam
-  - Closecombat
-  - Fakeout
-  - Ironhead
-### 5. Guzzlord (Guzzlord)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/guzzlord.png" alt="Guzzlord sprite" />
+<details open={false}>
+<summary>05 · Guzzlord · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/guzzlord.webp" alt="Guzzlord" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `guzzlord` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 42 |
+| Habilidade | beastboost |
+| Item | cobblemon:life_orb |
+| Natureza | modest |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Beastboost |
-| Item segurado | Life Orb |
-| Natureza | Modest |
-| EVs | 252 HP / 248 SpA / 4 SpD / 4 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 248 / SPD 4 / SPE 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dracometeor` · `flamethrower` · `sludgewave` · `darkpulse`
 
-  - Dracometeor
-  - Flamethrower
-  - Sludgewave
-  - Darkpulse
-### 6. Aggron (Aggron)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/aggron.png" alt="Aggron sprite" />
+<details open={false}>
+<summary>06 · Aggron · Lv. 42</summary>
 
+<img className="pokemon-sprite" src="/img/models/aggron.webp" alt="Aggron" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `aggron` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 42 |
+| Habilidade | rockhead |
+| Item | mega_showdown:aggronite |
+| Natureza | careful |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Rockhead |
-| Item segurado | Aggronite |
-| Natureza | Careful |
-| EVs | 244 HP / 12 Atk / 252 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 244 / ATK 12 / SPD 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `doubleedge` · `bodypress` · `irondefense` · `thunderwave`
 
-  - Doubleedge
-  - Bodypress
-  - Irondefense
-  - Thunderwave
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você aguentou o tranco e ainda virou a luta. Vitória de peso!
+
+**Quando o treinador vence**
+
+> Pesou no seu lado, hein? Aqui não tem categoria leve.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Speed control tools: Thunderwave.
-- Dano em área é um grande ponto de pressão por meio de Sludgewave, Waterspout.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Irondefense.
-- Priority pressure can close games or deny low-HP pivots: Bulletpunch, Fakeout, Iceshard.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_treinadores_peso_pesado_flaw.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_treinadores_peso_pesado_flaw.json`
+← [Juanes, O Dono da Carrocinha](/trainers/campaign/lider-juanes-o-dono-da-carrocinha) · [Rival Motta 03](/trainers/campaign/rival-motta-03) →

@@ -1,151 +1,128 @@
 ---
-title: Team Arroba Snake
+title: "Team Arroba Snake"
 ---
 
-# Team Arroba Snake
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_snake.png" alt="Team Arroba Snake" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_team_arroba_snake` |
+| Encounter | Details |
+| --- | --- |
 | Category | Team Arroba |
-| Campaign Order | 3 / 26 |
-| Level Cap | 22 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★☆☆☆ |
-| Archetype | Setup-oriented doubles core |
-| Unlock Requirement | `tdc_lider_aurora_a_rainha_morcego` |
-| Healing Bag | Super Potion x2 |
+| Stage | 3 / 26 |
+| Team levels | 22 |
+| Unlock | [Aurora, A Rainha Morcego](/trainers/campaign/lider-aurora-a-rainha-morcego) |
+| Format | Gen 9 Doubles |
+| Bag | Super Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Silicobra (Silicobra)
+Silicobra + Arbok → `move:coil` → `move:coil`.
 
-<img className="pokemon-sprite" src="/img/pokemon/silicobra.png" alt="Silicobra sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `silicobra` |
+> Sssssai da frente... o Team Arroba Snake vai te enrolar antes do primeiro turno!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Silicobra · Lv. 22</summary>
+
+<img className="pokemon-sprite" src="/img/models/silicobra.webp" alt="Silicobra" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | shedskin |
+| Held item | cobblemon:focus_sash |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 22 |
 | Shiny | Yes |
-| Ability | Shedskin |
-| Held Item | Focus Sash |
-| Nature | Adamant |
-| EVs | 244 HP / 240 Atk / 24 SpD |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 240 / SPD 24 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `stealthrock` · `rockslide` · `drillrun` · `coil`
 
-  - Stealthrock
-  - Rockslide
-  - Drillrun
-  - Coil
-### 2. Arbok (Arbok)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/arbok.png" alt="Arbok sprite" />
+<details open={true}>
+<summary>02 · Arbok · Lv. 22</summary>
 
+<img className="pokemon-sprite" src="/img/models/arbok.webp" alt="Arbok" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `arbok` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | intimidate |
+| Held item | cobblemon:air_balloon |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 22 |
 | Shiny | Yes |
-| Ability | Intimidate |
-| Held Item | Air Balloon |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `coil` · `gunkshot` · `psychicfangs` · `seedbomb`
 
-  - Coil
-  - Gunkshot
-  - Psychicfangs
-  - Seedbomb
-### 3. Seviper (Seviper)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/seviper.png" alt="Seviper sprite" />
+<details open={false}>
+<summary>03 · Seviper · Lv. 22</summary>
 
+<img className="pokemon-sprite" src="/img/models/seviper.webp" alt="Seviper" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `seviper` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | infiltrator |
+| Held item | cobblemon:assault_vest |
+| Nature | modest |
 | Gender | MALE |
-| Level | 22 |
 | Shiny | Yes |
-| Ability | Infiltrator |
-| Held Item | Assault Vest |
-| Nature | Modest |
-| EVs | 240 HP / 240 SpA / 16 SpD / 12 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 240 / SPA 240 / SPD 16 / SPE 12 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `sludgewave` · `darkpulse` · `flamethrower` · `gigadrain`
 
-  - Sludgewave
-  - Darkpulse
-  - Flamethrower
-  - Gigadrain
-### 4. Servine (Servine)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/servine.png" alt="Servine sprite" />
+<details open={false}>
+<summary>04 · Servine · Lv. 22</summary>
 
+<img className="pokemon-sprite" src="/img/models/servine.webp" alt="Servine" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `servine` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | contrary |
+| Held item | cobblemon:eviolite |
+| Nature | timid |
 | Gender | MALE |
-| Level | 22 |
 | Shiny | Yes |
-| Ability | Contrary |
-| Held Item | Eviolite |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: water |
 
-**Moveset**
+**Moves:** `synthesis` · `toxic` · `leafstorm` · `terablast`
 
-  - Synthesis
-  - Toxic
-  - Leafstorm
-  - Terablast
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Team Arroba Snake caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Spread damage is a major pressure point through Rockslide, Sludgewave.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Coil.
-
-### Threat Profile
-
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_team_arroba_snake.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_team_arroba_snake.json`
+← [Aurora, A Rainha Morcego](/trainers/campaign/lider-aurora-a-rainha-morcego) · [Charlie, A Insetoide](/trainers/campaign/lider-charlie-a-insetoide) →

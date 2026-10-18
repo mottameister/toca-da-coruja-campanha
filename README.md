@@ -1,41 +1,29 @@
-# Website
+# Wiki da Toca da Coruja — revamp 2.0
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Docusaurus 3.10, português e inglês. Os endereços anteriores foram preservados e Tokito ganhou uma ficha própria.
 
-## Installation
+## Prévia local
 
-```bash
-yarn
+```sh
+npm ci
+npm run build
+npm run serve -- --host 127.0.0.1 --port 3019 --no-open
 ```
 
-## Local Development
+## Conteúdo
 
-```bash
-yarn start
-```
+A fonte revisada é a candidata 2.0.0 da campanha, em `../source`. A campanha principal tem 26 encontros de nível 15 a 85; Tokito é um encontro opcional separado de nível 100.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+`../tools/update_wiki.py` gera as fichas em ambos os idiomas, as tabelas de progressão, o catálogo, os retratos das skins e um manifesto SHA-256 em `../reports/wiki-source-manifest.json`. Requer Python com Pillow. O manifesto registra os arquivos locais usados, sem afirmar validação em jogo.
 
-## Build
+Para regenerar, executar o script a partir da pasta pai, depois compilar a wiki. Os componentes de interface ficam em `src/components`, a busca global em `src/theme/Root.jsx` e o tema em `src/css/custom.css`.
 
-```bash
-yarn build
-```
+Busca local por nome de treinador, espécie do time e título dos guias; filtros por categoria no catálogo. Não depende de serviço externo. Ctrl/Cmd+K abre a busca, Esc fecha.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+A interface usa renders transparentes de 120 espécies, extraídos dos modelos e texturas reais do Cobblemon 1.8.2 e complementos instalados (Mega Showdown e ATM x MSD), em WebP. Os modelos foram renderizados com Three.js, respeitando hierarquia, cubos, UVs e poses de idle disponíveis. Créditos e proveniência: `static/model-credits/`. Nenhum JAR é distribuído com a wiki. Retratos extraídos das próprias skins da campanha. Fontes DM Sans e Space Grotesk acompanham a identidade do site principal, com fallback de sistema.
 
-## Deployment
+## Limites
 
-Using SSH:
+A documentação separa implementação no pacote de comportamento em jogo. Batalhas, reinício dos scripts e exibição dos diálogos da candidata ainda dependem de teste no Minecraft. Esta cópia não confirma publicação da 2.0 no Modrinth. Não apresenta item de assinatura como recompensa.
 
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Publicação no projeto Vercel `owls-nest-wiki`, associado ao domínio `wiki.mottameister.xyz`.

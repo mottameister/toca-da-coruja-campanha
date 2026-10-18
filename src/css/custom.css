@@ -1,109 +1,20 @@
-:root {
-  --ifm-color-primary: #7c5cff;
-  --ifm-color-primary-dark: #6a4aff;
-  --ifm-color-primary-darker: #5d3dff;
-  --ifm-color-primary-darkest: #3f1fff;
 
-  --ifm-color-primary-light: #9376ff;
-  --ifm-color-primary-lighter: #a58cff;
-  --ifm-color-primary-lightest: #c8bbff;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root{--ifm-color-primary:#356985;--ifm-color-primary-dark:#2d5971;--ifm-color-primary-darker:#274d63;--ifm-color-primary-darkest:#1b394c;--ifm-color-primary-light:#427f9f;--ifm-color-primary-lighter:#5194b7;--ifm-color-primary-lightest:#71acc9;--ifm-background-color:#e8eef4;--ifm-background-surface-color:#f2f6f9;--ifm-font-color-base:#243e52;--ifm-heading-color:#1d3042;--ifm-font-family-base:'DM Sans',system-ui,sans-serif;--ifm-heading-font-family:'Space Grotesk',system-ui,sans-serif;--ifm-navbar-background-color:#edf3f8ed;--ifm-footer-background-color:#dce7f0;--ifm-code-font-size:88%;--glass:linear-gradient(140deg,#ffffffb0,#ddebf344);--line:#647e9133;--muted:#526779;--accent:#356985;--ifm-navbar-height:76px;--doc-sidebar-width:250px;--ifm-global-radius:14px;color-scheme:light}
+:root[data-theme=dark]{--ifm-color-primary:#a1cfe7;--ifm-color-primary-dark:#83bddc;--ifm-color-primary-darker:#6caed2;--ifm-color-primary-darkest:#4e99c3;--ifm-color-primary-light:#b9ddef;--ifm-color-primary-lighter:#cbe7f5;--ifm-color-primary-lightest:#e6f7ff;--ifm-background-color:#172635;--ifm-background-surface-color:#1e3243;--ifm-font-color-base:#c4d5e0;--ifm-heading-color:#edf6fb;--ifm-navbar-background-color:#172635ed;--ifm-footer-background-color:#132331;--glass:linear-gradient(140deg,#bfe0f218,#6e9cb910 50%,#0d1f2e35);--line:#c0e3f62b;--muted:#abc1d0;--accent:#a9d9ef;color-scheme:dark}
+body{background:radial-gradient(ellipse at 75% 10%,#5488a817,transparent 45%),var(--ifm-background-color);font-size:15px;line-height:1.75}h1,h2,h3{letter-spacing:-.04em}h1{font-size:clamp(2rem,4vw,3.1rem)}a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:4px}a:hover{text-decoration:none}.navbar{border-bottom:1px solid var(--line);box-shadow:none;backdrop-filter:blur(24px)}.navbar__inner{max-width:1600px;margin:auto;padding:0 24px}.navbar__title{font-family:var(--ifm-heading-font-family);font-size:13px;letter-spacing:.07em}.navbar__logo{height:32px}.navbar__link{font-size:13px}.theme-doc-sidebar-container{border-color:var(--line)!important;background:#719dbc06}.menu{padding:26px 16px;font-size:13px}.menu__link{border-radius:9px;line-height:1.5;padding:9px 12px;color:var(--muted)}.menu__link--active{background:#7db6d51b;color:var(--accent)}.menu__list-item-collapsible:hover{background:#7db6d510}.theme-doc-markdown{padding-top:20px}.theme-doc-markdown>h2{margin-top:2.6rem}.theme-doc-breadcrumbs{font-size:12px;opacity:.8}.table-of-contents{border-color:var(--line);font-size:12px}.theme-doc-markdown table{display:table;width:100%;font-size:13px;border-collapse:collapse}.theme-doc-markdown th,.theme-doc-markdown td{border:0;border-bottom:1px solid var(--line);padding:12px 14px}.theme-doc-markdown th{background:#80adca0e;text-align:left}blockquote{border-color:var(--accent);background:var(--glass);padding:18px 24px;border-radius:0 15px 15px 0;font-size:16px}details{background:var(--glass)!important;border:1px solid var(--line)!important;border-radius:18px!important;margin:14px 0!important;box-shadow:none!important}summary{font-family:var(--ifm-heading-font-family);color:var(--ifm-heading-color);padding:4px}.pokemon-sprite{width:110px;height:110px;object-fit:contain;image-rendering:pixelated}.trainer-skin{float:right;width:88px;height:88px;image-rendering:pixelated;object-fit:contain;opacity:.8}.pagination-nav__link{border-color:var(--line);background:var(--glass);border-radius:16px}.footer{border-top:1px solid var(--line);padding-bottom:80px}.footer__title{color:var(--ifm-heading-color)}.footer__link-item,.footer__copyright{color:var(--muted);font-size:12px}
+.theme-doc-markdown:has(.wiki-home){padding-top:0}.theme-doc-markdown:has(.wiki-home)+nav{display:none}.wiki-home{padding:12px 0 30px}.home-kicker{display:flex;align-items:center;gap:10px;font-size:10px;font-weight:700;letter-spacing:.12em;padding:10px 0 25px;color:var(--muted)}.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#8bcad6;box-shadow:0 0 14px #8bcad655}.version-pill{font-size:10px;padding:4px 9px;letter-spacing:.05em;border:1px solid var(--line);border-radius:20px;color:var(--accent);white-space:nowrap}.home-kicker .version-pill{margin-left:auto}.wiki-hero{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;gap:12px;min-height:385px}.eyebrow{font-size:9px;font-weight:700;letter-spacing:.15em;color:var(--muted);margin-bottom:16px}.hero-copy h1{font-size:clamp(38px,4.1vw,62px);line-height:1.08;font-weight:500;letter-spacing:-.055em;margin:0 0 24px}.hero-copy h1 em{font-style:normal;color:var(--accent)}.hero-copy>p:not(.eyebrow){font-size:13px;line-height:1.8;color:var(--muted);max-width:350px}.hero-actions{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}.wiki-button{display:flex;gap:16px;align-items:center;padding:11px 15px;border:1px solid var(--line);border-radius:12px;color:var(--ifm-heading-color);font-size:11px;background:var(--glass)}.wiki-button.primary{background:linear-gradient(140deg,#c1e4f832,#335a771f);box-shadow:inset 0 1px 0 #eaf8ff45}.hero-art{position:relative;height:360px;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 50% 55%,#78b8db25,transparent 68%);border-radius:35px}.orbit{position:absolute;border:1px solid var(--line);border-radius:50%;width:290px;height:290px;top:25px;left:50%;transform:translateX(-50%) rotateX(24deg)}.orbit-two{width:230px;height:230px;top:55px;border-style:dashed;opacity:.7}.arena-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:110px;height:110px;border:1px solid var(--line);border-radius:50%;background:radial-gradient(circle,#a9e3ff26,transparent)}.hero-mon{position:absolute;width:255px;height:255px;object-fit:contain;image-rendering:pixelated;filter:drop-shadow(0 20px 16px #0005)}.hero-mon-back{left:-5px;top:25px;transform:rotate(-8deg);opacity:.88}.hero-mon-front{right:-6px;top:83px;transform:rotate(7deg)}.arena-label{position:absolute;top:10px;left:0;right:0;text-align:center;font-size:7px;letter-spacing:.17em;color:var(--muted)}.arena-label b{margin:0 12px;font-size:13px;color:var(--accent)}.battle-tag{position:absolute;bottom:35px;left:50%;transform:translateX(-50%);display:flex;gap:8px;align-items:center;white-space:nowrap;font-size:9px;border:1px solid var(--line);padding:10px 13px;border-radius:30px;background:var(--ifm-navbar-background-color);backdrop-filter:blur(20px)}.coordinate{position:absolute;bottom:6px;left:0;right:0;text-align:center;font-size:7px;letter-spacing:.15em;color:var(--muted)}
+.wiki-stats{display:grid;grid-template-columns:repeat(4,1fr);margin:38px 0 56px;padding:24px 0;border-block:1px solid var(--line);gap:12px}.wiki-stats>div{border-right:1px solid var(--line);padding-left:15px}.wiki-stats>div:first-child{padding-left:0}.wiki-stats>div:last-child{border:0}.wiki-stats strong{display:block;font-family:var(--ifm-heading-font-family);font-weight:500;font-size:26px;color:var(--ifm-heading-color)}.wiki-stats span{font-size:9px;color:var(--muted)}.home-section{margin:45px 0}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:22px}.section-heading h2{font-size:24px;font-weight:500;margin:0}.section-heading .eyebrow{margin-bottom:9px}.section-heading>a,.section-note{font-size:10px;max-width:180px;color:var(--muted)}.guide-grid,.featured-trainers{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.guide-card,.featured-trainer,.trainer-card{position:relative;padding:24px 22px;border:1px solid var(--line);border-radius:20px;background:var(--glass);color:var(--ifm-font-color-base);transition:transform .2s,border-color .2s;box-shadow:inset 0 1px 0 #d5efff12}.guide-card:hover,.featured-trainer:hover,.trainer-card:hover{transform:translateY(-3px);border-color:var(--accent);color:var(--ifm-font-color-base)}.guide-number{font-family:var(--ifm-heading-font-family);font-size:11px;color:var(--muted)}.guide-card h3{font-size:18px;margin:24px 0 10px;font-weight:500}.guide-card p{font-size:11px;color:var(--muted);line-height:1.8;margin-bottom:25px}.guide-arrow{position:absolute;bottom:16px;right:20px;color:var(--accent)}.mini-party{display:flex;align-items:center;min-height:85px}.mini-party img{width:32%;max-width:83px;height:83px;object-fit:contain;image-rendering:pixelated;filter:drop-shadow(0 6px 4px #0002)}.featured-trainer{padding:16px 20px 22px}.featured-trainer small,.trainer-card small{font-size:10px;color:var(--muted)}.featured-trainer h3,.trainer-card h3{font-size:17px;margin:7px 0 12px;font-weight:500}.featured-trainer>span,.trainer-card>span:last-child{font-size:10px;color:var(--accent)}.release-note{display:flex;align-items:start;gap:16px;border:1px solid var(--line);border-radius:18px;padding:22px;background:var(--glass);margin-top:40px}.release-note strong{font-size:12px;color:var(--ifm-heading-color)}.release-note p{font-size:10px;color:var(--muted);margin:5px 0 0}.release-note>a{font-size:10px;white-space:nowrap;margin-left:auto}
+.catalog-controls{display:flex;gap:12px;margin-top:28px}.search-field{display:flex;gap:14px;align-items:center;border:1px solid var(--line);border-radius:12px;background:var(--glass);padding:10px 16px;flex:1}.search-field input{width:100%;background:none;border:0;color:inherit;font:inherit;font-size:13px}.catalog-controls select{background:var(--ifm-background-surface-color);border:1px solid var(--line);border-radius:12px;color:inherit;padding:10px;font-size:12px}.catalog-count{font-size:12px;color:var(--muted);margin:18px 0}.trainer-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.trainer-card{padding:22px}.trainer-order{display:block;font-size:11px;color:var(--muted);margin-bottom:15px}.trainer-card .mini-party img{width:25%;height:75px}.global-search{position:fixed;bottom:22px;right:25px;z-index:100;display:flex;gap:12px;align-items:center;border:1px solid var(--line);padding:12px 16px;border-radius:15px;background:var(--ifm-navbar-background-color);color:var(--ifm-font-color-base);box-shadow:0 8px 24px #0003;backdrop-filter:blur(20px);cursor:pointer;font-size:12px}.global-search kbd{font-size:9px;box-shadow:none;color:var(--muted);border-color:var(--line);background:none}.search-dialog{color:var(--ifm-font-color-base);background:var(--ifm-background-surface-color);width:min(600px,calc(100% - 32px));border:1px solid var(--line);border-radius:22px;padding:22px;max-height:80vh;box-shadow:0 30px 100px #0006}.search-dialog::backdrop{background:#08152199;backdrop-filter:blur(8px)}.search-dialog-head{display:flex;gap:10px;align-items:center}.search-dialog-head label{flex:1}.search-dialog-head input{width:100%;padding:12px;background:transparent;border:0;color:inherit;font:inherit}.search-dialog-head button{background:none;border:0;color:inherit;cursor:pointer;padding:10px}.search-hint{font-size:10px;color:var(--muted);margin:8px 12px 18px}.search-results{display:grid;gap:4px;max-height:50vh;overflow:auto}.search-results a{display:flex;justify-content:space-between;padding:11px 14px;border-radius:9px;color:inherit;font-size:13px}.search-results a:hover{background:#7cb6d51c}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(min-width:1440px){.wiki-hero{min-height:440px}.hero-art{height:400px}.hero-mon{width:290px;height:290px}.hero-mon-front{top:85px}.orbit{width:330px;height:330px}.orbit-two{width:260px;height:260px;top:60px}}
+@media(max-width:1100px){.wiki-hero{grid-template-columns:1fr}.hero-art{height:300px;max-width:420px;width:100%;margin:15px auto}.hero-copy h1{font-size:48px}.hero-copy>p:not(.eyebrow){max-width:450px}.guide-grid{gap:9px}.guide-card{padding:20px 15px}.guide-card h3{font-size:16px}.featured-trainers{gap:9px}.featured-trainer{padding:14px}.section-note{display:none}}
+@media(max-width:600px){.navbar__inner{padding:0 4px}.navbar__title{font-size:11px}.wiki-home{padding:5px}.home-kicker{font-size:8px;letter-spacing:.08em}.hero-copy h1{font-size:46px}.wiki-hero{min-height:0}.hero-art{height:300px}.wiki-stats{grid-template-columns:repeat(2,1fr);margin:28px 0 38px;row-gap:20px}.wiki-stats>div:nth-child(3){padding-left:0}.wiki-stats>div:nth-child(2){border:0}.guide-grid,.featured-trainers,.trainer-grid{grid-template-columns:1fr}.guide-card{padding:22px}.guide-card h3{margin:15px 0 10px;font-size:21px}.guide-card p{max-width:85%;font-size:12px}.featured-trainer{padding:20px}.mini-party{max-width:260px}.section-heading{display:block}.section-heading h2{font-size:25px}.section-heading>a{display:block;margin-top:12px}.release-note{flex-wrap:wrap;padding:18px}.release-note>a{margin-left:0}.catalog-controls{flex-direction:column}.theme-doc-markdown table{display:block;overflow-x:auto}.global-search{bottom:15px;right:15px}.global-search kbd{display:none}.trainer-skin{width:60px;height:60px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 
-  --ifm-background-color: #0f0f17;
-  --ifm-navbar-background-color: #151522;
-  --ifm-footer-background-color: #0b0b11;
+.footer--dark{--ifm-footer-background-color:var(--ifm-background-color);--ifm-footer-color:var(--muted);--ifm-footer-title-color:var(--ifm-heading-color)}
+.wiki-stats span,.guide-card p,.featured-trainer>span,.trainer-card>span:last-child,.release-note p{font-size:11px}
 
-  --ifm-heading-color: #ffffff;
-  --ifm-font-color-base: #d4d4e0;
-
-  --ifm-link-color: #8ab4ff;
-  --ifm-code-font-size: 95%;
-}
-
-/* Dark theme refinado */
-[data-theme='dark'] {
-  --ifm-background-color: #0f0f17;
-  --ifm-navbar-background-color: #151522;
-  --ifm-footer-background-color: #0b0b11;
-}
-
-/* Sidebar */
-.theme-doc-sidebar-container {
-  background: #12121c;
-  border-right: 1px solid #1f1f2e;
-}
-
-/* Links da sidebar */
-.menu__link {
-  color: #b8b8d6;
-}
-
-.menu__link--active {
-  color: #ffffff;
-  background: rgba(124, 92, 255, 0.15);
-  border-left: 3px solid #7c5cff;
-}
-
-/* Navbar */
-.navbar {
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid #1f1f2e;
-}
-
-/* Títulos */
-.markdown h1,
-.markdown h2,
-.markdown h3 {
-  color: #ffffff;
-  font-weight: 700;
-}
-
-/* Cards / blocos */
-.markdown {
-  line-height: 1.7;
-}
-
-/* Botões */
-.button {
-  border-radius: 8px;
-  font-weight: 600;
-}
-
-/* Scrollbar (opcional, fica lindo) */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0f0f17;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #2a2a3d;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #3a3a55;
-}
-
-/* Pokemon sprites used in trainer documentation */
-.pokemon-sprite {
-  width: 72px;
-  height: 72px;
-  object-fit: contain;
-  image-rendering: auto;
-  background: rgba(124, 92, 255, 0.08);
-  border: 1px solid rgba(124, 92, 255, 0.22);
-  border-radius: 14px;
-  padding: 8px;
-  margin: 0.25rem 0 0.75rem 0;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-}
-
-@media (max-width: 768px) {
-  .pokemon-sprite {
-    width: 56px;
-    height: 56px;
-    padding: 6px;
-  }
-}
+/* Pre-rendered Cobblemon geometry keeps the original voxel textures, with clean image edges. */
+.pokemon-sprite,.hero-mon,.mini-party img{image-rendering:auto}.hero-mon-back{width:300px;height:300px;left:-20px;top:22px;transform:rotate(-5deg)}.hero-mon-front{width:310px;height:310px;right:-15px;top:65px;transform:rotate(5deg)}.pokemon-sprite{width:160px;height:160px}.mini-party img{height:100px}.hero-art{overflow:visible}
+@media(min-width:1440px){.hero-mon-back{width:325px;height:325px}.hero-mon-front{width:345px;height:345px;top:75px}}
+@media(max-width:600px){.hero-mon-back{width:245px;height:245px;left:-9px;top:25px}.hero-mon-front{width:255px;height:255px;right:-5px;top:55px}.hero-art{overflow:hidden}.battle-tag{z-index:2;bottom:18px}.coordinate{bottom:0}}

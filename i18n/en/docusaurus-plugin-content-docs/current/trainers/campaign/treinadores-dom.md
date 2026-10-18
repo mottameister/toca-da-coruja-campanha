@@ -1,151 +1,128 @@
 ---
-title: Dom
+title: "Dom"
 ---
 
-# Dom
+<img className="trainer-skin" src="/img/portraits/tdc_treinadores_dom.png" alt="Dom" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_treinadores_dom` |
+| Encounter | Details |
+| --- | --- |
 | Category | Trainer |
-| Campaign Order | 5 / 26 |
-| Level Cap | 27 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★☆☆ |
-| Archetype | High-tempo offensive pressure |
-| Unlock Requirement | `tdc_lider_charlie_a_insetoide` |
-| Healing Bag | Super Potion x2 |
+| Stage | 5 / 26 |
+| Team levels | 27 |
+| Unlock | [Charlie, A Insetoide](/trainers/campaign/lider-charlie-a-insetoide) |
+| Format | Gen 9 Doubles |
+| Bag | Super Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Jolteon (Jolteon)
+Jolteon + Flareon → `move:thunderbolt` → `move:flareblitz`.
 
-<img className="pokemon-sprite" src="/img/pokemon/jolteon.png" alt="Jolteon sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `jolteon` |
+> Eu trouxe meus Eevees favoritos. Se piscar, um deles já mudou o jogo!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Jolteon · Lv. 27</summary>
+
+<img className="pokemon-sprite" src="/img/models/jolteon.webp" alt="Jolteon" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | voltabsorb |
+| Held item | cobblemon:air_balloon |
+| Nature | modest |
 | Gender | MALE |
-| Level | 27 |
 | Shiny | Yes |
-| Ability | Voltabsorb |
-| Held Item | Air Balloon |
-| Nature | Modest |
-| EVs | 8 HP / 244 SpA / 8 SpD / 244 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 8 / SPA 244 / SPD 8 / SPE 244 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `agility` · `thunderbolt` · `shadowball` · `voltswitch`
 
-  - Agility
-  - Thunderbolt
-  - Shadowball
-  - Voltswitch
-### 2. Flareon (Flareon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/flareon.png" alt="Flareon sprite" />
+<details open={true}>
+<summary>02 · Flareon · Lv. 27</summary>
 
+<img className="pokemon-sprite" src="/img/models/flareon.webp" alt="Flareon" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `flareon` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | guts |
+| Held item | cobblemon:flame_orb |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 27 |
 | Shiny | Yes |
-| Ability | Guts |
-| Held Item | Flame Orb |
-| Nature | Adamant |
-| EVs | 248 HP / 244 Atk / 4 SpD / 8 Spe |
-| IVs | 31 all |
+| EVs | HP 248 / ATK 244 / SPD 4 / SPE 8 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `flareblitz` · `quickattack` · `trailblaze` · `willowisp`
 
-  - Flareblitz
-  - Quickattack
-  - Trailblaze
-  - Willowisp
-### 3. Umbreon (Umbreon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/umbreon.png" alt="Umbreon sprite" />
+<details open={false}>
+<summary>03 · Umbreon · Lv. 27</summary>
 
+<img className="pokemon-sprite" src="/img/models/umbreon.webp" alt="Umbreon" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `umbreon` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | innerfocus |
+| Held item | cobblemon:assault_vest |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 27 |
 | Shiny | Yes |
-| Ability | Innerfocus |
-| Held Item | Assault Vest |
-| Nature | Adamant |
-| EVs | 244 HP / 248 Atk / 8 SpD / 8 Spe |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 248 / SPD 8 / SPE 8 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `crunch` · `trailblaze` · `suckerpunch` · `return`
 
-  - Crunch
-  - Trailblaze
-  - Suckerpunch
-  - Return
-### 4. Leafeon (Leafeon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/leafeon.png" alt="Leafeon sprite" />
+<details open={false}>
+<summary>04 · Leafeon · Lv. 27</summary>
 
+<img className="pokemon-sprite" src="/img/models/leafeon.webp" alt="Leafeon" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `leafeon` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | leafguard |
+| Held item | cobblemon:choice_scarf |
+| Nature | naive |
 | Gender | MALE |
-| Level | 27 |
 | Shiny | Yes |
-| Ability | Leafguard |
-| Held Item | Choice Scarf |
-| Nature | Naive |
-| EVs | 8 HP / 244 Atk / 4 SpA / 244 Spe |
-| IVs | 31 all |
+| EVs | HP 8 / ATK 244 / SPA 4 / SPE 244 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: water |
 
-**Moveset**
+**Moves:** `terablast` · `leafblade` · `xscissor` · `knockoff`
 
-  - Terablast
-  - Leafblade
-  - Xscissor
-  - Knockoff
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Dom caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Speed control tools: Agility, Trailblaze.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Agility.
-- Priority pressure can close games or deny low-HP pivots: Quickattack, Suckerpunch.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_treinadores_dom.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_treinadores_dom.json`
+← [Charlie, A Insetoide](/trainers/campaign/lider-charlie-a-insetoide) · [Rival Motta 02](/trainers/campaign/rival-motta-02) →

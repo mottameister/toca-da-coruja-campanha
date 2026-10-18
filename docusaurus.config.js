@@ -13,7 +13,7 @@ const config = {
   projectName: 'toca-da-coruja-campanha',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {hooks: {onBrokenMarkdownLinks: 'throw'}},
 
   i18n: {
   defaultLocale: 'pt-BR',
@@ -71,10 +71,12 @@ const config = {
   ],
     image: 'img/social-card.png',
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Wiki da Toca da Coruja',
+      title: 'TOCA DA CORUJA',
+      logo: {alt: 'Toca da Coruja', src: 'img/favicon.png'},
       items: [
         {
           type: 'docSidebar',
@@ -83,8 +85,8 @@ const config = {
           label: 'Documentação',
         },
         {
-          href: 'https://github.com/mottameister/toca-da-coruja-campanha',
-          label: 'GitHub',
+          href: 'https://mottameister.xyz/',
+          label: 'mottameister.xyz ↗',
           position: 'right',
         },
         {
@@ -132,7 +134,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} MottaMeister. Construído com Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} MottaMeister. <a href="/model-credits/README.txt">Créditos dos modelos Cobblemon</a>.`,
     },
     prism: {
       theme: prismThemes.github,

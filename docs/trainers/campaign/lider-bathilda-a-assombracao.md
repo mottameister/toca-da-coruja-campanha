@@ -1,202 +1,172 @@
 ---
-title: Bathilda, A Assombração
+title: "Bathilda, A Assombração"
 ---
 
-# Bathilda, A Assombração
+<img className="trainer-skin" src="/img/portraits/tdc_lider_bathilda_a_assombracao.png" alt="Bathilda, A Assombração" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_bathilda_a_assombracao` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 12 / 26 |
-| Limite de nível | 48 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★☆ |
-| Arquétipo | Ofensiva de chuva / controle de velocidade |
-| Requisito de desbloqueio | `tdc_rival_motta_03` |
-| Bolsa de cura | Max Potion x2 |
+| Etapa | 12 / 26 |
+| Níveis do time | 48 |
+| Desbloqueio | [Rival Motta 03](/trainers/campaign/rival-motta-03) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Max Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Cursola (Cursola)
+Annihilape + Gholdengo → `move:ragefist` → `move:nastyplot`.
 
-<img className="pokemon-sprite" src="/img/pokemon/cursola.png" alt="Cursola sprite" />
+Annihilape + Nasty Plot Gholdengo; evita sacrificar Cursola com Curse obrigatório.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `cursola` |
+## Antes da batalha
+
+> Ouviu esse barulho atrás de você? Não precisa olhar. Eles já estão todos na arena.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Annihilape · Lv. 48</summary>
+
+<img className="pokemon-sprite" src="/img/models/annihilape.webp" alt="Annihilape" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 48 |
+| Habilidade | defiant |
+| Item | cobblemon:sitrus_berry |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Perishbody |
-| Item segurado | Leftovers |
-| Natureza | Calm |
-| EVs | 248 HP / 8 SpA / 248 SpD / 4 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 248 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `drainpunch` · `ragefist` · `uturn` · `nightslash`
 
-  - Curse
-  - Destinybond
-  - Shadowball
-  - Disable
-### 2. Annihilape (Annihilape)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/annihilape.png" alt="Annihilape sprite" />
+<details open={true}>
+<summary>02 · Gholdengo · Lv. 48</summary>
 
+<img className="pokemon-sprite" src="/img/models/gholdengo.webp" alt="Gholdengo" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `annihilape` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 48 |
+| Habilidade | goodasgold |
+| Item | cobblemon:white_herb |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Defiant |
-| Item segurado | Sitrus Berry |
-| Natureza | Jolly |
-| EVs | 248 Atk / 8 SpD / 248 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | SPA 248 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: steel |
 
-**Golpes**
+**Golpes:** `dazzlinggleam` · `makeitrain` · `nastyplot` · `shadowball`
 
-  - Drainpunch
-  - Ragefist
-  - Uturn
-  - Nightslash
-### 3. Ceruledge (Ceruledge)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ceruledge.png" alt="Ceruledge sprite" />
+<details open={false}>
+<summary>03 · Cursola · Lv. 48</summary>
 
+<img className="pokemon-sprite" src="/img/models/cursola.webp" alt="Cursola" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `ceruledge` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 48 |
+| Habilidade | perishbody |
+| Item | cobblemon:leftovers |
+| Natureza | calm |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Weakarmor |
-| Item segurado | Ghostium Z |
-| Natureza | Jolly |
-| EVs | 4 HP / 252 Atk / 4 SpD / 248 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 248 / SPA 8 / SPD 248 / SPE 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `curse` · `destinybond` · `shadowball` · `disable`
 
-  - Bitterblade
-  - Shadowsneak
-  - Poltergeist
-  - Nightslash
-### 4. Gholdengo (Gholdengo)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gholdengo.png" alt="Gholdengo sprite" />
+<details open={false}>
+<summary>04 · Ceruledge · Lv. 48</summary>
 
+<img className="pokemon-sprite" src="/img/models/ceruledge.webp" alt="Ceruledge" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gholdengo` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 48 |
+| Habilidade | weakarmor |
+| Item | mega_showdown:ghostium_z |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Goodasgold |
-| Item segurado | White Herb |
-| Natureza | Timid |
-| EVs | 248 SpA / 8 SpD / 248 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: steel |
+| EVs | HP 4 / ATK 252 / SPD 4 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bitterblade` · `shadowsneak` · `poltergeist` · `nightslash`
 
-  - Dazzlinggleam
-  - Makeitrain
-  - Nastyplot
-  - Shadowball
-### 5. Aegislash (Aegislash)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/aegislash.png" alt="Aegislash sprite" />
+<details open={false}>
+<summary>05 · Aegislash · Lv. 48</summary>
 
+<img className="pokemon-sprite" src="/img/models/aegislash.webp" alt="Aegislash" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `aegislash` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 48 |
+| Habilidade | stancechange |
+| Item | cobblemon:rocky_helmet |
+| Natureza | calm |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Stancechange |
-| Item segurado | Rocky Helmet |
-| Natureza | Calm |
-| EVs | 240 HP / 20 SpA / 248 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 240 / SPA 20 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `kingsshield` · `autotomize` · `shadowball` · `flashcannon`
 
-  - Kingsshield
-  - Autotomize
-  - Shadowball
-  - Flashcannon
-### 6. Chandelure (Chandelure)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/chandelure.png" alt="Chandelure sprite" />
+<details open={false}>
+<summary>06 · Chandelure · Lv. 48</summary>
 
+<img className="pokemon-sprite" src="/img/models/chandelure.webp" alt="Chandelure" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `chandelure` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 48 |
+| Habilidade | infiltrator |
+| Item | zamega:chandelurite |
+| Natureza | timid |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Infiltrator |
-| Item segurado | Chandelurite |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `calmmind` · `shadowball` · `flamethrower` · `darkpulse`
 
-  - Calmmind
-  - Shadowball
-  - Flamethrower
-  - Darkpulse
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você encarou a assombração sem fugir. Pode ir... antes que eu mude de ideia.
+
+**Quando o treinador vence**
+
+> Não foi impressão sua. A estratégia realmente desapareceu no meio da luta.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Speed control tools: Autotomize.
-- Dano em área é um grande ponto de pressão por meio de Dazzlinggleam, Makeitrain.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Autotomize, Calmmind, Nastyplot.
-- Priority pressure can close games or deny low-HP pivots: Shadowsneak.
-
-### Perfil de ameaças
-
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_bathilda_a_assombracao.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_bathilda_a_assombracao.json`
+← [Rival Motta 03](/trainers/campaign/rival-motta-03) · [Team Arroba Oswaldo](/trainers/campaign/team-arroba-oswaldo) →

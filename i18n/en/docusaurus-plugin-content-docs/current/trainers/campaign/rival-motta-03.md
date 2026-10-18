@@ -1,204 +1,170 @@
 ---
-title: Rival Motta 03
+title: "Rival Motta 03"
 ---
 
-# Rival Motta 03
+<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_03.png" alt="Rival Motta 03" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_rival_motta_03` |
+| Encounter | Details |
+| --- | --- |
 | Category | Rival |
-| Campaign Order | 11 / 26 |
-| Level Cap | 45 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★☆ |
-| Archetype | Sand offense / field-control doubles |
-| Unlock Requirement | `tdc_treinadores_peso_pesado_flaw` |
-| Healing Bag | Hyper Potion x2 |
+| Stage | 11 / 26 |
+| Team levels | 45 |
+| Unlock | [Peso Pesado Flaw](/trainers/campaign/treinadores-peso-pesado-flaw) |
+| Format | Gen 9 Doubles |
+| Bag | Hyper Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Mr. X (Pupitar)
+Pupitar + Excadrill → `move:sandstorm` → `move:drillrun`.
 
-<img className="pokemon-sprite" src="/img/pokemon/pupitar.png" alt="Pupitar sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `pupitar` |
+> Agora eu trouxe reforços. O corujão virou madrugada competitiva!
+
+## Full team
+
+<details open={true}>
+<summary>01 · Pupitar · Lv. 45</summary>
+
+<img className="pokemon-sprite" src="/img/models/pupitar.webp" alt="Pupitar" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | Mr. X |
+| Ability | shedskin |
+| Held item | cobblemon:smooth_rock |
+| Nature | sassy |
 | Gender | MALE |
-| Level | 45 |
 | Shiny | No |
-| Ability | Shedskin |
-| Held Item | Smooth Rock |
-| Nature | Sassy |
-| EVs | 244 HP / 16 Atk / 248 SpD |
-| IVs | 31 all |
+| EVs | HP 244 / ATK 16 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `rockslide` · `bulldoze` · `sandstorm` · `pursuit`
 
-  - Rockslide
-  - Bulldoze
-  - Sandstorm
-  - Pursuit
-### 2. Quesadrillas (Excadrill)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/excadrill.png" alt="Excadrill sprite" />
+<details open={true}>
+<summary>02 · Excadrill · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/excadrill.webp" alt="Excadrill" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `excadrill` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Quesadrillas |
+| Ability | sandrush |
+| Held item | mega_showdown:steelium_z |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 45 |
 | Shiny | Yes |
-| Ability | Sandrush |
-| Held Item | Steelium Z |
-| Nature | Adamant |
-| EVs | 252 Atk / 132 Def / 124 SpD |
-| IVs | 31 all |
+| EVs | ATK 252 / DEF 132 / SPD 124 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `drillrun` · `brickbreak` · `ironhead` · `rockslide`
 
-  - Drillrun
-  - Brickbreak
-  - Ironhead
-  - Rockslide
-### 3. Pteros (Aerodactyl)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/aerodactyl.png" alt="Aerodactyl sprite" />
+<details open={false}>
+<summary>03 · Aerodactyl · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/aerodactyl.webp" alt="Aerodactyl" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `aerodactyl` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Pteros |
+| Ability | rockhead |
+| Held item | cobblemon:focus_sash |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 45 |
 | Shiny | No |
-| Ability | Rockhead |
-| Held Item | Focus Sash |
-| Nature | Jolly |
-| EVs | 252 Atk / 6 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 6 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `dualwingbeat` · `tailwind` · `rockslide` · `doubleedge`
 
-  - Dualwingbeat
-  - Tailwind
-  - Rockslide
-  - Doubleedge
-### 4. Shark Boy (Gabite)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gabite.png" alt="Gabite sprite" />
+<details open={false}>
+<summary>04 · Gabite · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/gabite.webp" alt="Gabite" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `gabite` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Shark Boy |
+| Ability | sandveil |
+| Held item | cobblemon:yache_berry |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 45 |
 | Shiny | No |
-| Ability | Sandveil |
-| Held Item | Yache Berry |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: steel |
 
-**Moveset**
+**Moves:** `dragontail` · `bulldoze` · `rockslide` · `metalclaw`
 
-  - Dragontail
-  - Bulldoze
-  - Rockslide
-  - Metalclaw
-### 5. Nidokong (Nidoking)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidoking.png" alt="Nidoking sprite" />
+<details open={false}>
+<summary>05 · Nidoking · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidoking.webp" alt="Nidoking" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `nidoking` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Nidokong |
+| Ability | sheerforce |
+| Held item | cobblemon:choice_specs |
+| Nature | timid |
 | Gender | GENDERLESS |
-| Level | 45 |
 | Shiny | Yes |
-| Ability | Sheerforce |
-| Held Item | Choice Specs |
-| Nature | Timid |
-| EVs | 252 SpA / 6 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 6 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `sludgewave` · `earthpower` · `thunderbolt` · `icebeam`
 
-  - Sludgewave
-  - Earthpower
-  - Thunderbolt
-  - Icebeam
-### 6. Scott (Lycanroc)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/lycanroc.png" alt="Lycanroc sprite" />
+<details open={false}>
+<summary>06 · Lycanroc · Lv. 45</summary>
 
+<img className="pokemon-sprite" src="/img/models/lycanroc.webp" alt="Lycanroc" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `lycanroc` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | Scott |
+| Ability | toughclaws |
+| Held item | cobblemon:white_herb |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 45 |
 | Shiny | Yes |
-| Ability | Toughclaws |
-| Held Item | White Herb |
-| Nature | Jolly |
-| EVs | 8 HP / 248 Atk / 252 Spe |
-| IVs | 31 all |
+| EVs | HP 8 / ATK 248 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `accelerock` · `closecombat` · `ironhead` · `trailblaze`
 
-  - Accelerock
-  - Closecombat
-  - Ironhead
-  - Trailblaze
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Rival Motta 03 caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Primary field plan: Sand support enables specific sweepers and chip pressure.
-- Speed control tools: Tailwind, Trailblaze.
-- Spread damage is a major pressure point through Bulldoze, Rockslide, Sludgewave.
-
-### Win Conditions
-
-- Priority pressure can close games or deny low-HP pivots: Accelerock.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_rival_motta_03.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_rival_motta_03.json`
+← [Peso Pesado Flaw](/trainers/campaign/treinadores-peso-pesado-flaw) · [Bathilda, A Assombração](/trainers/campaign/lider-bathilda-a-assombracao) →

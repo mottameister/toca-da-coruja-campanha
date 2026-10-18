@@ -1,204 +1,172 @@
 ---
-title: Tuta, O Tormento
+title: "Tuta, O Tormento"
 ---
 
-# Tuta, O Tormento
+<img className="trainer-skin" src="/img/portraits/tdc_lider_tuta_o_tormento.png" alt="Tuta, O Tormento" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_tuta_o_tormento` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 19 / 26 |
-| Limite de nível | 72 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★★ |
-| Arquétipo | Ofensiva de chuva / controle de velocidade |
-| Requisito de desbloqueio | `tdc_team_arroba_admin` |
-| Bolsa de cura | Full Restore x2 |
+| Etapa | 19 / 26 |
+| Níveis do time | 72 |
+| Desbloqueio | [Team Arroba Admin](/trainers/campaign/team-arroba-admin) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Full Restore × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Politoed (Politoed)
+Politoed + Archaludon → `move:scald` → `move:electroshot`.
 
-<img className="pokemon-sprite" src="/img/pokemon/politoed.png" alt="Politoed sprite" />
+Drizzle + Electro Shot sem turno de carga se a chuva permanecer.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `politoed` |
+## Antes da batalha
+
+> Olha pro céu. Se essa chuva já incomoda, espera pra ver o que vem com ela.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Politoed · Lv. 72</summary>
+
+<img className="pokemon-sprite" src="/img/models/politoed.webp" alt="Politoed" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 72 |
+| Habilidade | drizzle |
+| Item | cobblemon:damp_rock |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Drizzle |
-| Item segurado | Damp Rock |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `earthpower` · `icebeam` · `psychic` · `scald`
 
-  - Earthpower
-  - Icebeam
-  - Psychic
-  - Scald
-### 2. Archaludon (Archaludon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/archaludon.png" alt="Archaludon sprite" />
+<details open={true}>
+<summary>02 · Archaludon · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/archaludon.webp" alt="Archaludon" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `archaludon` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 72 |
+| Habilidade | stamina |
+| Item | cobblemon:sitrus_berry |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Stamina |
-| Item segurado | Sitrus Berry |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dragonpulse` · `electroshot` · `flashcannon` · `irondefense`
 
-  - Dragonpulse
-  - Electroshot
-  - Flashcannon
-  - Irondefense
-### 3. Kingdra (Kingdra)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/kingdra.png" alt="Kingdra sprite" />
+<details open={false}>
+<summary>03 · Kingdra · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/kingdra.webp" alt="Kingdra" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `kingdra` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 72 |
+| Habilidade | swiftswim |
+| Item | mega_showdown:dragonium_z |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Swiftswim |
-| Item segurado | Dragonium Z |
-| Natureza | Modest |
-| EVs | 124 Def / 252 SpA / 128 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | DEF 124 / SPA 252 / SPD 128 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `hurricane` · `scald` · `icebeam` · `dracometeor`
 
-  - Hurricane
-  - Scald
-  - Icebeam
-  - Dracometeor
-### 4. Pelipper (Pelipper)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/pelipper.png" alt="Pelipper sprite" />
+<details open={false}>
+<summary>04 · Pelipper · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/pelipper.webp" alt="Pelipper" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `pelipper` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 72 |
+| Habilidade | keeneye |
+| Item | cobblemon:focus_sash |
+| Natureza | bold |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Keeneye |
-| Item segurado | Focus Sash |
-| Natureza | Bold |
-| EVs | 248 HP / 252 Def / 8 SpA |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 248 / DEF 252 / SPA 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `tailwind` · `hurricane` · `scald` · `toxic`
 
-  - Tailwind
-  - Hurricane
-  - Scald
-  - Toxic
-### 5. Basculegion (Basculegion)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/basculegion.png" alt="Basculegion sprite" />
+<details open={false}>
+<summary>05 · Basculegion · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/basculegion.webp" alt="Basculegion" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `basculegion` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 72 |
+| Habilidade | swiftswim |
+| Item | cobblemon:life_orb |
+| Natureza | adamant |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Swiftswim |
-| Item segurado | Life Orb |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: water |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: water |
 
-**Golpes**
+**Golpes:** `wavecrash` · `lastrespects` · `flipturn` · `psychicfangs`
 
-  - Wavecrash
-  - Lastrespects
-  - Flipturn
-  - Psychicfangs
-### 6. Drampa (Drampa)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/drampa.png" alt="Drampa sprite" />
+<details open={false}>
+<summary>06 · Drampa · Lv. 72</summary>
 
+<img className="pokemon-sprite" src="/img/models/drampa.webp" alt="Drampa" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `drampa` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 72 |
+| Habilidade | berserk |
+| Item | zamega:drampanite |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Berserk |
-| Item segurado | Drampanite |
-| Natureza | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dracometeor` · `hurricane` · `hypervoice` · `flamethrower`
 
-  - Dracometeor
-  - Hurricane
-  - Hypervoice
-  - Flamethrower
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você navegou no meio do tormento. Essa passagem agora é sua.
+
+**Quando o treinador vence**
+
+> A correnteza levou seu plano. Volta quando conseguir remar com os dois lados.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de chuva habilita sweepers específicos e pressão por dano residual.
-- Speed control tools: Tailwind.
-- Dano em área é um grande ponto de pressão por meio de Hypervoice.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Irondefense.
-
-### Perfil de ameaças
-
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_tuta_o_tormento.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_tuta_o_tormento.json`
+← [Team Arroba Admin](/trainers/campaign/team-arroba-admin) · [Admin Marru](/trainers/campaign/admin-marru) →

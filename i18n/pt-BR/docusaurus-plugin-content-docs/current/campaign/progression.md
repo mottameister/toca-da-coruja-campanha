@@ -1,27 +1,14 @@
 ---
-sidebar_position: 2
+title: "Como avançar"
 ---
 
-# Progressão da campanha
+Comece pelo Rival Motta, com time de nível 15. Derrote cada encontro para liberar o próximo. A sequência passa pelos oito líderes, Team Arroba, treinadores da comunidade, Admin Marru, Elite Four e Campeão Motta.
 
-A campanha segue uma progressão fixa baseada no desbloqueio de treinadores.
+## Travou em um desafio?
 
-## Estrutura
+- Confira o treinador anterior na [lista completa](/campaign/full-progression).
+- Confira o nível aceito pelo RCT e a saúde dos seus Pokémon.
+- Aguarde o intervalo do encontro: 1.000 ticks configurados, cerca de 50 segundos a 20 TPS.
+- Se o NPC estiver ocupado, termine ou aguarde a batalha em andamento.
 
-- Progressão linear travada por vitórias
-- Cada treinador desbloqueia o próximo por meio de `requiredDefeats`
-- Os limites de nível sobem de forma constante
-- Picos de dificuldade aparecem em marcos importantes
-
-## Filosofia de design
-
-- Início de jogo: introdução às mecânicas
-- Meio de jogo: sinergia e posicionamento
-- Fim de jogo: equipes otimizadas e pressão
-- Endgame: execução competitiva completa
-
-## Observações
-
-- A progressão não depende de grind
-- O avanço é baseado em habilidade
-- As batalhas foram criadas para testar tomada de decisão
+Tokito não bloqueia a campanha principal.

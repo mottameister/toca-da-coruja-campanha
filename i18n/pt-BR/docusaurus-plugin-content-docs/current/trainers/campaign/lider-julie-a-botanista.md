@@ -1,204 +1,172 @@
 ---
-title: Julie, A Botanista
+title: "Julie, A Botanista"
 ---
 
-# Julie, A Botanista
+<img className="trainer-skin" src="/img/portraits/tdc_lider_julie_a_botanista.png" alt="Julie, A Botanista" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_julie_a_botanista` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 14 / 26 |
-| Limite de nível | 54 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★☆ |
-| Arquétipo | Ofensiva de chuva / controle de velocidade |
-| Requisito de desbloqueio | `tdc_team_arroba_oswaldo` |
-| Bolsa de cura | Max Potion x2 |
+| Etapa | 14 / 26 |
+| Níveis do time | 54 |
+| Desbloqueio | [Team Arroba Oswaldo](/trainers/campaign/team-arroba-oswaldo) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Max Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Rillaboom (Rillaboom)
+Rillaboom + Breloom → `move:drumbeating` → `move:spore`.
 
-<img className="pokemon-sprite" src="/img/pokemon/rillaboom.png" alt="Rillaboom sprite" />
+Grassy Terrain + Drum Beating e Spore; Ferrothorn não ocupa a abertura só com hazards.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `rillaboom` |
+## Antes da batalha
+
+> Não pisa no canteiro! Pode desafiar à vontade, mas minhas plantas vão devolver cada golpe.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Rillaboom · Lv. 54</summary>
+
+<img className="pokemon-sprite" src="/img/models/rillaboom.webp" alt="Rillaboom" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 54 |
+| Habilidade | grassysurge |
+| Item | cobblemon:grassy_seed |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Grassysurge |
-| Item segurado | Grassy Seed |
-| Natureza | Jolly |
-| EVs | 248 Atk / 8 SpD / 248 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 248 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `drumbeating` · `grassyglide` · `uturn` · `bodypress`
 
-  - Drumbeating
-  - Grassyglide
-  - Uturn
-  - Bodypress
-### 2. Ferrothorn (Ferrothorn)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/ferrothorn.png" alt="Ferrothorn sprite" />
+<details open={true}>
+<summary>02 · Breloom · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/breloom.webp" alt="Breloom" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `ferrothorn` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 54 |
+| Habilidade | technician |
+| Item | mega_showdown:fightinium_z |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Ironbarbs |
-| Item segurado | Rocky Helmet |
-| Natureza | Calm |
-| EVs | 248 HP / 8 Def / 252 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `bulletseed` · `machpunch` · `spore` · `poweruppunch`
 
-  - Leechseed
-  - Stealthrock
-  - Irondefense
-  - Spikes
-### 3. Hydrapple (Hydrapple)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/hydrapple.png" alt="Hydrapple sprite" />
+<details open={false}>
+<summary>03 · Ferrothorn · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/ferrothorn.webp" alt="Ferrothorn" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `hydrapple` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 54 |
+| Habilidade | ironbarbs |
+| Item | cobblemon:rocky_helmet |
+| Natureza | calm |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Regenerator |
-| Item segurado | Assault Vest |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: fighting |
+| EVs | HP 248 / DEF 8 / SPD 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `leechseed` · `stealthrock` · `irondefense` · `spikes`
 
-  - Ficklebeam
-  - Energyball
-  - Earthpower
-  - Terablast
-### 4. Meowscarada (Meowscarada)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/meowscarada.png" alt="Meowscarada sprite" />
+<details open={false}>
+<summary>04 · Hydrapple · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/hydrapple.webp" alt="Hydrapple" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `meowscarada` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 54 |
+| Habilidade | regenerator |
+| Item | cobblemon:assault_vest |
+| Natureza | modest |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Protean |
-| Item segurado | Life Orb |
-| Natureza | Jolly |
-| EVs | 248 Atk / 8 SpD / 248 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: fighting |
 
-**Golpes**
+**Golpes:** `ficklebeam` · `energyball` · `earthpower` · `terablast`
 
-  - Uturn
-  - Flowertrick
-  - Suckerpunch
-  - Thunderpunch
-### 5. Breloom (Breloom)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/breloom.png" alt="Breloom sprite" />
+<details open={false}>
+<summary>05 · Meowscarada · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/meowscarada.webp" alt="Meowscarada" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `breloom` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 54 |
+| Habilidade | protean |
+| Item | cobblemon:life_orb |
+| Natureza | jolly |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Technician |
-| Item segurado | Fightinium Z |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 248 / SPD 8 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `uturn` · `flowertrick` · `suckerpunch` · `thunderpunch`
 
-  - Bulletseed
-  - Machpunch
-  - Spore
-  - Poweruppunch
-### 6. Meganium (Meganium)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/meganium.png" alt="Meganium sprite" />
+<details open={false}>
+<summary>06 · Meganium · Lv. 54</summary>
 
+<img className="pokemon-sprite" src="/img/models/meganium.webp" alt="Meganium" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `meganium` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 54 |
+| Habilidade | megasol |
+| Item | zamega:meganiumite |
+| Natureza | timid |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Megasol |
-| Item segurado | Meganiumite |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `solarbeam` · `dazzlinggleam` · `earthpower` · `weatherball`
 
-  - Solarbeam
-  - Dazzlinggleam
-  - Earthpower
-  - Weatherball
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Você cuidou bem de cada turno. Essa vitória cresceu com mérito.
+
+**Quando o treinador vence**
+
+> Quis colher vitória sem preparar o terreno? Aqui a raiz é mais funda.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de terreno gramado habilita sweepers específicos e pressão por dano residual.
-- Dano em área é um grande ponto de pressão por meio de Dazzlinggleam.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Irondefense, Poweruppunch.
-- Priority pressure can close games or deny low-HP pivots: Grassyglide, Machpunch, Suckerpunch.
-
-### Perfil de ameaças
-
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Life Orb attackers increase burst damage at the cost of recoil.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_julie_a_botanista.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_julie_a_botanista.json`
+← [Team Arroba Oswaldo](/trainers/campaign/team-arroba-oswaldo) · [Senior Joe](/trainers/campaign/treinadores-senior-joe) →

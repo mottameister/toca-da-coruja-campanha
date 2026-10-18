@@ -1,204 +1,170 @@
 ---
-title: Team Arroba Admin
+title: "Team Arroba Admin"
 ---
 
-# Team Arroba Admin
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_admin.png" alt="Team Arroba Admin" />
 
-## Encounter Overview
+Reference extracted from the **2.0.0 candidate**. Expand the sections to inspect the full team.
 
-| Field | Value |
-|---|---|
-| Trainer ID | `tdc_team_arroba_admin` |
+| Encounter | Details |
+| --- | --- |
 | Category | Team Arroba |
-| Campaign Order | 18 / 26 |
-| Level Cap | 68 |
-| Battle Format | `GEN_9_DOUBLES` |
-| Difficulty | ★★★★☆ |
-| Archetype | High-tempo offensive pressure |
-| Unlock Requirement | `tdc_lider_gabi_a_tempestade_de_gelo` |
-| Healing Bag | Max Potion x2 |
+| Stage | 18 / 26 |
+| Team levels | 68 |
+| Unlock | [Gabi, A Tempestade de Gelo](/trainers/campaign/lider-gabi-a-tempestade-de-gelo) |
+| Format | Gen 9 Doubles |
+| Bag | Max Potion × 2 |
+| Item uses per battle | 2 |
+| Configured cooldown | 1000 ticks |
 
-## Team
+## Opening sequence
 
-### 1. Grimmsnarl (Grimmsnarl)
+Grimmsnarl + Incineroar → `move:reflect` → `move:fakeout` → `move:lightscreen` → `move:partingshot`.
 
-<img className="pokemon-sprite" src="/img/pokemon/grimmsnarl.png" alt="Grimmsnarl sprite" />
+The two slots share this sequence. Targets and move success are not guaranteed; Mega and Tera remain controlled by RCT.
 
+## Before the battle
 
-| Field | Value |
-|---|---|
-| Species | `grimmsnarl` |
+> Admin entrou no servidor. Agora as regras são minhas.
+
+## Full team
+
+<details open={true}>
+<summary>01 · Grimmsnarl · Lv. 68</summary>
+
+<img className="pokemon-sprite" src="/img/models/grimmsnarl.webp" alt="Grimmsnarl" loading="lazy" />
+
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | prankster |
+| Held item | cobblemon:light_clay |
+| Nature | careful |
 | Gender | MALE |
-| Level | 68 |
 | Shiny | Yes |
-| Ability | Prankster |
-| Held Item | Light Clay |
-| Nature | Careful |
-| EVs | 252 HP / 4 Atk / 252 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 4 / SPD 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `lightscreen` · `reflect` · `thunderwave` · `fakeout`
 
-  - Lightscreen
-  - Reflect
-  - Thunderwave
-  - Fakeout
-### 2. Incineroar (Incineroar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/incineroar.png" alt="Incineroar sprite" />
+<details open={true}>
+<summary>02 · Incineroar · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/incineroar.webp" alt="Incineroar" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `incineroar` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | intimidate |
+| Held item | cobblemon:sitrus_berry |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 68 |
 | Shiny | Yes |
-| Ability | Intimidate |
-| Held Item | Sitrus Berry |
-| Nature | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 all |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `fakeout` · `flareblitz` · `partingshot` · `knockoff`
 
-  - Fakeout
-  - Flareblitz
-  - Partingshot
-  - Knockoff
-### 3. Hydreigon (Hydreigon)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/hydreigon.png" alt="Hydreigon sprite" />
+<details open={false}>
+<summary>03 · Hydreigon · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/hydreigon.webp" alt="Hydreigon" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `hydreigon` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | levitate |
+| Held item | cobblemon:choice_scarf |
+| Nature | timid |
 | Gender | MALE |
-| Level | 68 |
 | Shiny | Yes |
-| Ability | Levitate |
-| Held Item | Choice Scarf |
-| Nature | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `darkpulse` · `dracometeor` · `flamethrower` · `earthpower`
 
-  - Darkpulse
-  - Dracometeor
-  - Flamethrower
-  - Earthpower
-### 4. Krookodile (Krookodile)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/krookodile.png" alt="Krookodile sprite" />
+<details open={false}>
+<summary>04 · Krookodile · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/krookodile.webp" alt="Krookodile" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `krookodile` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | intimidate |
+| Held item | mega_showdown:darkinium_z |
+| Nature | jolly |
 | Gender | MALE |
-| Level | 68 |
 | Shiny | Yes |
-| Ability | Intimidate |
-| Held Item | Darkinium Z |
-| Nature | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `closecombat` · `earthquake` · `throatchop` · `rockslide`
 
-  - Closecombat
-  - Earthquake
-  - Throatchop
-  - Rockslide
-### 5. Moltres (Moltres)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/moltres.png" alt="Moltres sprite" />
+<details open={false}>
+<summary>05 · Moltres · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/moltres.webp" alt="Moltres" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `moltres` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | berserk |
+| Held item | cobblemon:assault_vest |
+| Nature | modest |
 | Gender | GENDERLESS |
-| Level | 68 |
 | Shiny | Yes |
-| Ability | Berserk |
-| Held Item | Assault Vest |
-| Nature | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | tera: rock |
 
-**Moveset**
+**Moves:** `nastyplot` · `airslash` · `ancientpower` · `fierywrath`
 
-  - Nastyplot
-  - Airslash
-  - Ancientpower
-  - Fierywrath
-### 6. Gyarados (Gyarados)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gyarados.png" alt="Gyarados sprite" />
+<details open={false}>
+<summary>06 · Gyarados · Lv. 68</summary>
 
+<img className="pokemon-sprite" src="/img/models/gyarados.webp" alt="Gyarados" loading="lazy" />
 
-| Field | Value |
-|---|---|
-| Species | `gyarados` |
+| Attribute | Value |
+| --- | --- |
 | Nickname | — |
+| Ability | moldbreaker |
+| Held item | mega_showdown:gyaradosite |
+| Nature | adamant |
 | Gender | MALE |
-| Level | 68 |
 | Shiny | Yes |
-| Ability | Moldbreaker |
-| Held Item | Gyaradosite |
-| Nature | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 all |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
 | Gimmicks | — |
 
-**Moveset**
+**Moves:** `lashout` · `earthquake` · `waterfall` · `dragondance`
 
-  - Lashout
-  - Earthquake
-  - Waterfall
-  - Dragondance
+</details>
+
+## Result dialogue
+
+**When you win**
+
+> Team Arroba Admin caiu! A Toca da Coruja reconhece sua vitória.
+
+**When the trainer wins**
+
+> Boa tentativa... mas corujão de verdade exige mais uma run!
 
 
-## Competitive Analysis
 
-### Game Plan
-
-- Speed control tools: Thunderwave.
-- Spread damage is a major pressure point through Earthquake, Rockslide.
-
-### Win Conditions
-
-- Setup-based win conditions are present: Dragondance, Nastyplot.
-- Priority pressure can close games or deny low-HP pivots: Fakeout.
-
-### Threat Profile
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Assault Vest users improve special bulk and make neutral trades harder.
-- Z-Move access creates one-time burst turns that can remove key defensive pieces.
-- Mega Evolution changes matchup dynamics and should be scouted before committing resources.
-
-### Player Preparation Notes
-
-- Treat this as a doubles encounter first: board positioning matters more than one-on-one type advantage.
-- Identify the most important tempo piece early, then either remove it or force it into defensive play.
-- Preserve answers to the trainer's strongest endgame attacker instead of trading them too early.
-- If the trainer has field control, avoid giving free turns to weather, terrain, or speed-control setters.
-
-## Technical Notes
-
-- Source trainer file: `data/rctmod/trainers/tdc_team_arroba_admin.json`
-- Source progression file: `data/rctmod/mobs/trainers/single/tdc_team_arroba_admin.json`
+← [Gabi, A Tempestade de Gelo](/trainers/campaign/lider-gabi-a-tempestade-de-gelo) · [Tuta, O Tormento](/trainers/campaign/lider-tuta-o-tormento) →

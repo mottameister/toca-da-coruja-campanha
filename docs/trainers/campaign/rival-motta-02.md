@@ -1,151 +1,130 @@
 ---
-title: Rival Motta 02
+title: "Rival Motta 02"
 ---
 
-# Rival Motta 02
+<img className="trainer-skin" src="/img/portraits/tdc_rival_motta_02.png" alt="Rival Motta 02" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_rival_motta_02` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Rival |
-| Ordem na campanha | 6 / 26 |
-| Limite de nível | 30 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★☆☆ |
-| Arquétipo | Ofensiva de areia / controle de campo em duplas |
-| Requisito de desbloqueio | `tdc_treinadores_dom` |
-| Bolsa de cura | Super Potion x2 |
+| Etapa | 6 / 26 |
+| Níveis do time | 30 |
+| Desbloqueio | [Dom](/trainers/campaign/treinadores-dom) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Super Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Mr. X (Pupitar)
+Pupitar + Drilbur → `move:sandstorm` → `move:drillrun`.
 
-<img className="pokemon-sprite" src="/img/pokemon/pupitar.png" alt="Pupitar sprite" />
+Sandstorm + Drill Run, sem sequência longa vulnerável a nocautes.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `pupitar` |
+## Antes da batalha
+
+> Olha quem voltou! Meu time cresceu. A quantidade de areia na sua mochila também vai crescer.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Pupitar · Lv. 30</summary>
+
+<img className="pokemon-sprite" src="/img/models/pupitar.webp" alt="Pupitar" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Mr. X |
-| Gênero | Masculino |
-| Nível | 30 |
+| Habilidade | shedskin |
+| Item | cobblemon:smooth_rock |
+| Natureza | sassy |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Shedskin |
-| Item segurado | Smooth Rock |
-| Natureza | Sassy |
-| EVs | 244 HP / 16 Atk / 248 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 244 / ATK 16 / SPD 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `rockslide` · `bulldoze` · `sandstorm` · `pursuit`
 
-  - Rockslide
-  - Bulldoze
-  - Sandstorm
-  - Pursuit
-### 2. Quesadrillas (Drilbur)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/drilbur.png" alt="Drilbur sprite" />
+<details open={true}>
+<summary>02 · Drilbur · Lv. 30</summary>
 
+<img className="pokemon-sprite" src="/img/models/drilbur.webp" alt="Drilbur" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `drilbur` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Quesadrillas |
-| Gênero | Masculino |
-| Nível | 30 |
+| Habilidade | sandrush |
+| Item | cobblemon:eviolite |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Sandrush |
-| Item segurado | Eviolite |
-| Natureza | Adamant |
-| EVs | 252 Atk / 132 Def / 124 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 252 / DEF 132 / SPD 124 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `slash` · `stealthrock` · `drillrun` · `metalclaw`
 
-  - Slash
-  - Stealthrock
-  - Drillrun
-  - Metalclaw
-### 3. Shark Boy (Gabite)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gabite.png" alt="Gabite sprite" />
+<details open={false}>
+<summary>03 · Gabite · Lv. 30</summary>
 
+<img className="pokemon-sprite" src="/img/models/gabite.webp" alt="Gabite" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gabite` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Shark Boy |
-| Gênero | Masculino |
-| Nível | 30 |
+| Habilidade | sandveil |
+| Item | cobblemon:yache_berry |
+| Natureza | jolly |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Sandveil |
-| Item segurado | Yache Berry |
-| Natureza | Jolly |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: steel |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: steel |
 
-**Golpes**
+**Golpes:** `dragontail` · `bulldoze` · `rockslide` · `metalclaw`
 
-  - Dragontail
-  - Bulldoze
-  - Rockslide
-  - Metalclaw
-### 4. Nidokong (Nidorino)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidorino.png" alt="Nidorino sprite" />
+<details open={false}>
+<summary>04 · Nidorino · Lv. 30</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidorino.webp" alt="Nidorino" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `nidorino` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | Nidokong |
-| Gênero | Sem gênero |
-| Nível | 30 |
+| Habilidade | poisonpoint |
+| Item | mega_showdown:groundium_z |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Poisonpoint |
-| Item segurado | Groundium Z |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `earthpower` · `icebeam` · `sludgebomb` · `thunderbolt`
 
-  - Earthpower
-  - Icebeam
-  - Sludgebomb
-  - Thunderbolt
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Já venceu de novo? Beleza. Vou ter que levar essa rivalidade mais a sério.
+
+**Quando o treinador vence**
+
+> Ainda tá entrando na tempestade sem um plano? Bora treinar essa dupla!
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Plano principal de campo: o suporte de areia habilita sweepers específicos e pressão por dano residual.
-- Dano em área é um grande ponto de pressão por meio de Bulldoze, Rockslide.
-
-### Condições de vitória
-
-- A condição principal de vitória é escolher alvos com eficiência e manter pressão de campo.
-
-### Perfil de ameaças
-
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_rival_motta_02.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_rival_motta_02.json`
+← [Dom](/trainers/campaign/treinadores-dom) · [Dada, O Faixa Preta](/trainers/campaign/lider-dada-o-faixa-preta) →

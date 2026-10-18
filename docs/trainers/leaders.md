@@ -1,25 +1,14 @@
-# Líderes
+---
+title: "Os oito líderes"
+---
 
-Os líderes são grandes pontos de controle da campanha.
-
-Cada líder é construído em torno de um tema, uma identidade de tipo ou uma estratégia de batalha.
-
-## Design dos líderes
-
-As batalhas contra líderes podem incluir:
-
-- Mega Evolução
-- Z-Moves
-- Tipos Tera
-- Estratégias de clima ou terreno
-- Sweepers de setup
-- Núcleos defensivos
-
-## Exemplos
-
-- Aurora, a Rainha Morcego
-- Charlie, a Insetoide
-- Dada, o Faixa Preta
-- Bathilda, a Assombração
-- Gabi, a Tempestade de Gelo
-- Tuta, o Tormento
+| Treinador | Nível |
+| --- | --- |
+| [Aurora, A Rainha Morcego](/trainers/campaign/lider-aurora-a-rainha-morcego) | 18 |
+| [Charlie, A Insetoide](/trainers/campaign/lider-charlie-a-insetoide) | 24 |
+| [Dada, O Faixa Preta](/trainers/campaign/lider-dada-o-faixa-preta) | 33 |
+| [Juanes, O Dono da Carrocinha](/trainers/campaign/lider-juanes-o-dono-da-carrocinha) | 39 |
+| [Bathilda, A Assombração](/trainers/campaign/lider-bathilda-a-assombracao) | 48 |
+| [Julie, A Botanista](/trainers/campaign/lider-julie-a-botanista) | 54 |
+| [Gabi, A Tempestade de Gelo](/trainers/campaign/lider-gabi-a-tempestade-de-gelo) | 64 |
+| [Tuta, O Tormento](/trainers/campaign/lider-tuta-o-tormento) | 72 |

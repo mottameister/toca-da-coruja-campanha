@@ -1,202 +1,172 @@
 ---
-title: Equipe Arroba Oswaldo
+title: "Team Arroba Oswaldo"
 ---
 
-# Equipe Arroba Oswaldo
+<img className="trainer-skin" src="/img/portraits/tdc_team_arroba_oswaldo.png" alt="Team Arroba Oswaldo" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_team_arroba_oswaldo` |
-| Categoria | Equipe Arroba |
-| Ordem na campanha | 13 / 26 |
-| Limite de nível | 51 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★★☆ |
-| Arquétipo | Pressão ofensiva de ritmo alto |
-| Requisito de desbloqueio | `tdc_lider_bathilda_a_assombracao` |
-| Bolsa de cura | Max Potion x2 |
+| Encontro | Informação |
+| --- | --- |
+| Categoria | Team Arroba |
+| Etapa | 13 / 26 |
+| Níveis do time | 51 |
+| Desbloqueio | [Bathilda, A Assombração](/trainers/campaign/lider-bathilda-a-assombracao) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Max Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Sneasler (Sneasler)
+Sneasler + Nidoqueen → `move:swordsdance` → `move:earthpower`.
 
-<img className="pokemon-sprite" src="/img/pokemon/sneasler.png" alt="Sneasler sprite" />
+Focus Sash Sneasler prepara; Nidoqueen pressiona sem Sludge Wave no aliado.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `sneasler` |
+## Antes da batalha
+
+> O Team Arroba preparou uma recepção especial. Só não encosta nas coisas brilhantes: é veneno.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Sneasler · Lv. 51</summary>
+
+<img className="pokemon-sprite" src="/img/models/sneasler.webp" alt="Sneasler" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 51 |
+| Habilidade | unburden |
+| Item | cobblemon:focus_sash |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Unburden |
-| Item segurado | Focus Sash |
-| Natureza | Adamant |
-| EVs | 252 Atk / 4 SpD / 252 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: dark |
+| EVs | ATK 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: dark |
 
-**Golpes**
+**Golpes:** `closecombat` · `direclaw` · `swordsdance` · `throatchop`
 
-  - Closecombat
-  - Direclaw
-  - Swordsdance
-  - Throatchop
-### 2. Toxapex (Toxapex)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/toxapex.png" alt="Toxapex sprite" />
+<details open={true}>
+<summary>02 · Nidoqueen · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/nidoqueen.webp" alt="Nidoqueen" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `toxapex` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Feminino |
-| Nível | 51 |
+| Habilidade | sheerforce |
+| Item | mega_showdown:groundium_z |
+| Natureza | modest |
+| Gênero | GENDERLESS |
 | Shiny | Sim |
-| Habilidade | Merciless |
-| Item segurado | Leftovers |
-| Natureza | Impish |
-| EVs | 248 HP / 8 Atk / 252 Def |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 248 / SPA 252 / SPD 8 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `earthpower` · `flamethrower` · `icebeam` · `sludgewave`
 
-  - Banefulbunker
-  - Recover
-  - Toxicspikes
-  - Liquidation
-### 3. Iron Moth (Iron Moth)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/iron_moth.png" alt="Iron Moth sprite" />
+<details open={false}>
+<summary>03 · Toxapex · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/toxapex.webp" alt="Toxapex" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `iron_moth` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 51 |
+| Habilidade | merciless |
+| Item | cobblemon:leftovers |
+| Natureza | impish |
+| Gênero | FEMALE |
 | Shiny | Sim |
-| Habilidade | Quarkdrive |
-| Item segurado | Booster Energy |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 248 / ATK 8 / DEF 252 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `banefulbunker` · `recover` · `toxicspikes` · `liquidation`
 
-  - Fierydance
-  - Energyball
-  - Sludgewave
-  - Discharge
-### 4. Gengar (Gengar)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gengar.png" alt="Gengar sprite" />
+<details open={false}>
+<summary>04 · Ironmoth · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/ironmoth.webp" alt="Ironmoth" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gengar` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 51 |
+| Habilidade | quarkdrive |
+| Item | mega_showdown:booster_energy |
+| Natureza | timid |
+| Gênero | GENDERLESS |
+| Shiny | Sim |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
+
+**Golpes:** `fierydance` · `energyball` · `sludgewave` · `discharge`
+
+</details>
+
+<details open={false}>
+<summary>05 · Gengar · Lv. 51</summary>
+
+<img className="pokemon-sprite" src="/img/models/gengar.webp" alt="Gengar" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
+| Apelido | — |
+| Habilidade | cursedbody |
+| Item | cobblemon:choice_scarf |
+| Natureza | timid |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Cursedbody |
-| Item segurado | Choice Scarf |
-| Natureza | Timid |
-| EVs | 252 SpA / 4 SpD / 252 Spe |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | SPA 252 / SPD 4 / SPE 252 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dazzlinggleam` · `sludgewave` · `shadowball` · `thunderbolt`
 
-  - Dazzlinggleam
-  - Sludgewave
-  - Shadowball
-  - Thunderbolt
-### 5. Nidoqueen (Nidoqueen)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/nidoqueen.png" alt="Nidoqueen sprite" />
+<details open={false}>
+<summary>06 · Dragalge · Lv. 51</summary>
 
+<img className="pokemon-sprite" src="/img/models/dragalge.webp" alt="Dragalge" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `nidoqueen` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 51 |
+| Habilidade | poisonpoint |
+| Item | zamega:dragalgite |
+| Natureza | modest |
+| Gênero | MALE |
 | Shiny | Sim |
-| Habilidade | Sheerforce |
-| Item segurado | Groundium Z |
-| Natureza | Modest |
-| EVs | 248 HP / 252 SpA / 8 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+| EVs | HP 252 / SPA 252 / SPD 4 |
+| IVs | HP 31 / ATK 0 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `dracometeor` · `scald` · `sludgewave` · `thunderbolt`
 
-  - Earthpower
-  - Flamethrower
-  - Icebeam
-  - Sludgewave
-### 6. Dragalge (Dragalge)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/dragalge.png" alt="Dragalge sprite" />
+## Diálogos de resultado
 
+**Quando você vence**
 
-| Campo | Valor |
-|---|---|
-| Espécie | `dragalge` |
-| Apelido | — |
-| Gênero | Masculino |
-| Nível | 51 |
-| Shiny | Sim |
-| Habilidade | Poisonpoint |
-| Item segurado | Dragalgite |
-| Natureza | Modest |
-| EVs | 252 HP / 252 SpA / 4 SpD |
-| IVs | 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe |
-| Mecânicas especiais | — |
+> Você neutralizou a operação inteira. Preciso avisar o chefe... depois de inventar uma desculpa.
 
-**Golpes**
+**Quando o treinador vence**
 
-  - Dracometeor
-  - Scald
-  - Sludgewave
-  - Thunderbolt
+> Sua estratégia teve uma reação bem ruim. Na próxima, traz um antídoto e um plano.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Dano em área é um grande ponto de pressão por meio de Dazzlinggleam, Discharge, Sludgewave.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Swordsdance.
-
-### Perfil de ameaças
-
-- Choice items create immediate damage or speed pressure, but can be punished through positioning.
-- Focus Sash leads can guarantee tempo moves unless double-targeted or chipped.
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_team_arroba_oswaldo.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_team_arroba_oswaldo.json`
+← [Bathilda, A Assombração](/trainers/campaign/lider-bathilda-a-assombracao) · [Julie, A Botanista](/trainers/campaign/lider-julie-a-botanista) →

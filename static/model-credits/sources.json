@@ -1,0 +1,962 @@
+[
+  {
+    "species": "aegislash",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0681_aegislash/aegislash.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0681_aegislash/aegislash.png",
+    "modelSha256": "3f770a39950f98c9a9b2a6b3edf599debcfde86df8c7151b26887ea42093d23e",
+    "animationClips": 1
+  },
+  {
+    "species": "aerodactyl",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0142_aerodactyl/aerodactyl.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0142_aerodactyl/aerodactyl.png",
+    "modelSha256": "d8d6bc46159644b2f62225e9e804f82f7f19c7d965173b1ae955465e8b5891c0",
+    "animationClips": 1
+  },
+  {
+    "species": "aggron",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0306_aggron/aggron.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0306_aggron/aggron.png",
+    "modelSha256": "ec90edabae56308328f0710f9ee523f77b108f178effa83c8fc7a0cc5079378a",
+    "animationClips": 1
+  },
+  {
+    "species": "alakazam",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0065_alakazam/alakazam_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0065_alakazam/alakazam.png",
+    "modelSha256": "a4b8e180590305eb87ae94cb3236074a28b2523d5db05300b0180b1a4cc1834e",
+    "animationClips": 1
+  },
+  {
+    "species": "annihilape",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0979_annihilape/annihilape.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0979_annihilape/annihilape.png",
+    "modelSha256": "a055e32603c8637795ea8ddd0c94c623bb475a5c652f5a7fa6071eec126db2c5",
+    "animationClips": 2
+  },
+  {
+    "species": "arbok",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0024_arbok/arbok.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0024_arbok/arbok.png",
+    "modelSha256": "1686e6ee78810f8d7290e4506f780133b90e5b653f62d0b5affec169c9cda77f",
+    "animationClips": 1
+  },
+  {
+    "species": "arcanine",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0059_arcanine/arcanine.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0059_arcanine/arcanine.png",
+    "modelSha256": "e441d0e11e0ecd9bab06ac07db27b200bc1e02b036a66ec4496e5acdf7111c75",
+    "animationClips": 1
+  },
+  {
+    "species": "arceus",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0493_arceus/arceus.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0493_arceus/arceus.png",
+    "modelSha256": "b4de9457e324d7b38f2de15435ec631bf216519570c35f732f25bd4a1f02d20d",
+    "animationClips": 1
+  },
+  {
+    "species": "archaludon",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1018_archaludon/archaludon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1018_archaludon/archaludon.png",
+    "modelSha256": "d6099a4ee067461a91c5aa80b0e802484048c86d58ec79f50eb090bf305ba385",
+    "animationClips": 1
+  },
+  {
+    "species": "articuno",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0144_articuno/articuno.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0144_articuno/articuno.png",
+    "modelSha256": "fd0fcc60d3ebc0df1d3b5ba18d1dddef4e6853fab735ff70efeee20ca3423247",
+    "animationClips": 1
+  },
+  {
+    "species": "azumarill",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0184_azumarill/azumarill.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0184_azumarill/azumarill.png",
+    "modelSha256": "a37a09dd7509335de46d2c8a03d92d39dc9fe018b9cb5432cf07e91b03f747ba",
+    "animationClips": 1
+  },
+  {
+    "species": "basculegion",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0902_basculegion/basculegion_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0902_basculegion/basculegion_male.png",
+    "modelSha256": "fb8c5e4ac87510f8ef6cc26798cc4bb2c55ea9be454cf5a5f804b8b510f9306d",
+    "animationClips": 1
+  },
+  {
+    "species": "baxcalibur",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0998_baxcalibur/baxcalibur.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0998_baxcalibur/baxcalibur.png",
+    "modelSha256": "31189cf4e0b6dfe2cd5267f0026d52fd5f0e421d9fe5d3abea130720172c74ee",
+    "animationClips": 1
+  },
+  {
+    "species": "blastoise",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0009_blastoise/blastoise.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0009_blastoise/blastoise.png",
+    "modelSha256": "82903b0cd2d2755e24e6ab72949f842e385b88ac759ec26095de9175c32117c0",
+    "animationClips": 1
+  },
+  {
+    "species": "breloom",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0286_breloom/breloom.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0286_breloom/breloom.png",
+    "modelSha256": "8c83bb5af90eedbcdb95fadc9522db1204f50476daf52d7c5e25a7cb922a7597",
+    "animationClips": 1
+  },
+  {
+    "species": "butterfree",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0012_butterfree/butterfree_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0012_butterfree/butterfree.png",
+    "modelSha256": "a75e8d17efd3dfcd35f4072677b45b274c97f63190aa0613d23cda07c8cbf1a1",
+    "animationClips": 1
+  },
+  {
+    "species": "ceruledge",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0937_ceruledge/ceruledge.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0937_ceruledge/ceruledge_1.png",
+    "modelSha256": "b7c9f542664479748105c2d77694aafa4d762f8366b25dd76ef2e76293c01406",
+    "animationClips": 2
+  },
+  {
+    "species": "cetitan",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0975_cetitan/cetitan.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0975_cetitan/cetitan.png",
+    "modelSha256": "f68774e78ca2e61949df593a80225343c3bf15e9f6f34616f14fa9edd167876a",
+    "animationClips": 1
+  },
+  {
+    "species": "chandelure",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0609_chandelure/chandelure.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0609_chandelure/chandelure.png",
+    "modelSha256": "93b20a0128d2810eb94f7b35b15ac1315be7cac915c03e0ece18d5e2acda9f9f",
+    "animationClips": 1
+  },
+  {
+    "species": "charizard",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0006_charizard/charizard.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0006_charizard/charizard.png",
+    "modelSha256": "af425bd08875f99443d689f7ca7867ef70dfdfe6ebc892faa3568d29a3fd4f00",
+    "animationClips": 1
+  },
+  {
+    "species": "chienpao",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1002_chienpao/chienpao.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1002_chienpao/chienpao.png",
+    "modelSha256": "be142938e594b55ef340ec559cfa516701a0f64c725052fa4bfe1db10357882e",
+    "animationClips": 1
+  },
+  {
+    "species": "conkeldurr",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0534_conkeldurr/conkeldurr.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0534_conkeldurr/conkeldurr.png",
+    "modelSha256": "d18b28b1c50f8c036c5cd4ceec4f417f102c6d6ca7ce668d8bf5c263bf0f375f",
+    "animationClips": 1
+  },
+  {
+    "species": "cursola",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0864_cursola/cursola.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0864_cursola/cursola.png",
+    "modelSha256": "81dad747801f2e03fad476845ec1ce3c6afe6caa83bf2d823acc0065e8164b7a",
+    "animationClips": 1
+  },
+  {
+    "species": "dragalge",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0691_dragalge/dragalge.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0691_dragalge/dragalge.png",
+    "modelSha256": "1e6f0e2e972ecb7adc166e672bf8a83ab2f7a2ab02350037b8e12534c572af93",
+    "animationClips": 1
+  },
+  {
+    "species": "dragapult",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0887_dragapult/dragapult.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0887_dragapult/dragapult.png",
+    "modelSha256": "54d327fb4cdb39941cdf44304e6287545a6fc63aec46356e2ab1694a8e058c92",
+    "animationClips": 1
+  },
+  {
+    "species": "dragonite",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0149_dragonite/dragonite.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0149_dragonite/dragonite.png",
+    "modelSha256": "bab25fc70b7b607404fca4ce277aca47b0bcf2488664f4c9764b7807811cf1e8",
+    "animationClips": 1
+  },
+  {
+    "species": "drampa",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0780_drampa/drampa.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0780_drampa/drampa.png",
+    "modelSha256": "3a4464294a15ac0f2e0dc6e6cec34b2491cee700444f54154ca6a948b93c6efe",
+    "animationClips": 1
+  },
+  {
+    "species": "drilbur",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0529_drilbur/drilbur.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0529_drilbur/drilbur.png",
+    "modelSha256": "0c57057635f7a1d2c1be0369e82bd0fdecc0ed6552cedcb1a2a8eb9d184e063c",
+    "animationClips": 1
+  },
+  {
+    "species": "dustox",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0269_dustox/dustox_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0269_dustox/dustox.png",
+    "modelSha256": "85857116d460ef95adbd074b6f21dadb88de074c5e62896f57f6211c330b4f02",
+    "animationClips": 2
+  },
+  {
+    "species": "eelektross",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0604_eelektross/eelektross.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0604_eelektross/eelektross.png",
+    "modelSha256": "76f4e950aa5429fed1157e84019895c3673ce6659f17c5ea7c6ff1025ae601b3",
+    "animationClips": 1
+  },
+  {
+    "species": "excadrill",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0530_excadrill/excadrill.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0530_excadrill/excadrill.png",
+    "modelSha256": "65ebad90c58124185fdc4338ccf49d083a4b90103ea1b14c9d8112371ec13546",
+    "animationClips": 1
+  },
+  {
+    "species": "ferrothorn",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0598_ferrothorn/ferrothorn.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0598_ferrothorn/ferrothorn.png",
+    "modelSha256": "7ad6562c731a17f89690cf3277e37eb069719319fd2b438c988894e27d19ad02",
+    "animationClips": 1
+  },
+  {
+    "species": "flareon",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0136_flareon/flareon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0136_flareon/flareon.png",
+    "modelSha256": "e2ad4ef93840645b475483b7a52388af01ee7b29cae848670b3ee0ef0324b6b8",
+    "animationClips": 1
+  },
+  {
+    "species": "fluttermane",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0987_fluttermane/fluttermane.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0987_fluttermane/fluttermane.png",
+    "modelSha256": "9bdcc8e22c1184b6e6a2c028efb59efff9f4b5421646fb675e7e92ce6a64feaf",
+    "animationClips": 1
+  },
+  {
+    "species": "froslass",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0478_froslass/froslass.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0478_froslass/froslass.png",
+    "modelSha256": "b4f93fc3abebe0648c59e2c1c728a2f50e24475759499b7aa7072e0a79edac6b",
+    "animationClips": 1
+  },
+  {
+    "species": "gabite",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0444_gabite/gabite_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0444_gabite/gabite.png",
+    "modelSha256": "29ee5d868c4c13ac9f32786bee451b93115f1ac4988bf39846dee422f0bca00e",
+    "animationClips": 1
+  },
+  {
+    "species": "gallade",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0475_gallade/gallade.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0475_gallade/gallade.png",
+    "modelSha256": "2fd5eb4e11e438d989fd2fabb8d4669fdf8ea69052f8fd555b21227505d65811",
+    "animationClips": 1
+  },
+  {
+    "species": "garchomp",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0445_garchomp/garchomp_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0445_garchomp/garchomp.png",
+    "modelSha256": "e547be99ca93e0d0c474425b326f20905b58941c3dad79332bc4491ab2e37d68",
+    "animationClips": 1
+  },
+  {
+    "species": "gardevoir",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0282_gardevoir/gardevoir.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0282_gardevoir/gardevoir.png",
+    "modelSha256": "df6bdf5bf38384ec4c04c5994d86440cc7a51a57ff27e9303d9c798baf2873f8",
+    "animationClips": 1
+  },
+  {
+    "species": "gengar",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0094_gengar/gengar.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0094_gengar/gengar.png",
+    "modelSha256": "f38e50618b77f4148de62ccf29da62e6cca2f23ba2241545a50bb3e2247be54c",
+    "animationClips": 1
+  },
+  {
+    "species": "gholdengo",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1000_gholdengo/gholdengo.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1000_gholdengo/gholdengo.png",
+    "modelSha256": "30c54c3d5ff1acb191ee99ff52c41a3e0bcd3727c0800b5d42f54f04f9e5eb20",
+    "animationClips": 1
+  },
+  {
+    "species": "gible",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0443_gible/gible_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0443_gible/gible.png",
+    "modelSha256": "ff960e822068f51c22be4b3ad3e3942ef4571c97337c7e4fd6b780b763d8bb26",
+    "animationClips": 1
+  },
+  {
+    "species": "glaceon",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0471_glaceon/glaceon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0471_glaceon/glaceon.png",
+    "modelSha256": "50038441d422d54d7606999fa161b9cf34e42d577805dd49b4952c4a336c1e5d",
+    "animationClips": 1
+  },
+  {
+    "species": "gligar",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0207_gligar/gligar.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0207_gligar/gligar.png",
+    "modelSha256": "c931ec4ed7ccb81c4ac05399119865aa093e06c7f8c76d34c5ae60e91b8b5cca",
+    "animationClips": 1
+  },
+  {
+    "species": "golem",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0076_golem/golem.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0076_golem/golem.png",
+    "modelSha256": "6d37a83e21c080455c26300f159432040ff5ecb3053330d6039448347e01f5d3",
+    "animationClips": 1
+  },
+  {
+    "species": "gougingfire",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1020_gougingfire/gougingfire.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1020_gougingfire/gougingfire.png",
+    "modelSha256": "ba0169ef5521c4ea54ed135afe23963083af118565480a4180985a2d73a11d87",
+    "animationClips": 1
+  },
+  {
+    "species": "greninja",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0658_greninja/greninja.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0658_greninja/greninja.png",
+    "modelSha256": "4f0f7268e3e936f5c3793e4cd6dfdd33f501d56fd7a3c7c05cfe831f2a260c2c",
+    "animationClips": 1
+  },
+  {
+    "species": "grimmsnarl",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0861_grimmsnarl/grimmsnarl.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0861_grimmsnarl/grimmsnarl.png",
+    "modelSha256": "7c4316040c120f3dc7a71fffeb0ba727b0b6814f61d0be4679189ea6f0866f82",
+    "animationClips": 1
+  },
+  {
+    "species": "groudon",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0383_groudon/groudon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0383_groudon/groudon.png",
+    "modelSha256": "ed7b424cdb82f4c404a8efd03f3f1c6a34f8bab2b3373c344926d9f8ea59dcda",
+    "animationClips": 1
+  },
+  {
+    "species": "guzzlord",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0799_guzzlord/guzzlord.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0799_guzzlord/guzzlord.png",
+    "modelSha256": "fb9d9dbab59d26acaa2d5996fa2d6b92de72d6efb5ec6572b3e86b8f54cefbb6",
+    "animationClips": 1
+  },
+  {
+    "species": "gyarados",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0130_gyarados/gyarados_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0130_gyarados/gyarados.png",
+    "modelSha256": "87b38effa90a40289788799b641be5b0eb166e31eac00c59ae1fc552cc0470ec",
+    "animationClips": 1
+  },
+  {
+    "species": "hariyama",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0297_hariyama/hariyama.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0297_hariyama/hariyama.png",
+    "modelSha256": "bb43aef25026495a9ac5e123a212c6a08553f1705d355a0ebb20a9c0882cd85b",
+    "animationClips": 1
+  },
+  {
+    "species": "houndoom",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0229_houndoom/houndoom_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0229_houndoom/houndoom.png",
+    "modelSha256": "d8e4854c5cf4a5b1b24bdbcaf1bd1f97ea511914cafbd952b8e3c8a0066c814f",
+    "animationClips": 1
+  },
+  {
+    "species": "houndstone",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0972_houndstone/houndstone.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0972_houndstone/houndstone.png",
+    "modelSha256": "ee9bbb51d67834220ca765e94581b265ee380e1db947f599a82ea6a0404fbd98",
+    "animationClips": 1
+  },
+  {
+    "species": "hydrapple",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1019_hydrapple/hydrapple.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1019_hydrapple/hydrapple.png",
+    "modelSha256": "8a06483b499b92d9e73c8b9f89d494abb65efb47dbb0b7c55d9a38e701a519bc",
+    "animationClips": 1
+  },
+  {
+    "species": "hydreigon",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0635_hydreigon/hydreigon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0635_hydreigon/hydreigon.png",
+    "modelSha256": "7164e0cf321ee05af878d9812b959c6744f1cd31fea2ea367c83f650d75d4d8b",
+    "animationClips": 2
+  },
+  {
+    "species": "incineroar",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0727_incineroar/incineroar.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0727_incineroar/incineroar.png",
+    "modelSha256": "1b1c28944d299f71a00cee7812b1d93977213ed1d226b9a79fc14f49f6757fc4",
+    "animationClips": 1
+  },
+  {
+    "species": "ironhands",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0992_ironhands/ironhands.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0992_ironhands/ironhands.png",
+    "modelSha256": "610069dce57341ce26d368d91313fed4eadae23cd1a9419ecb3f30d6d0359f05",
+    "animationClips": 1
+  },
+  {
+    "species": "ironmoth",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0994_ironmoth/ironmoth.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0994_ironmoth/ironmoth.png",
+    "modelSha256": "c48112be44b9519292bf84181fa8e2cd422a55fd54b5fa9d6e7c2238b1326a01",
+    "animationClips": 1
+  },
+  {
+    "species": "jolteon",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0135_jolteon/jolteon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0135_jolteon/jolteon.png",
+    "modelSha256": "1301281ca71f866baf592b66c5e566229424776155c01e8d21be14754518e08a",
+    "animationClips": 1
+  },
+  {
+    "species": "kangaskhan",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0115_kangaskhan/kangaskhan.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0115_kangaskhan/kangaskhan.png",
+    "modelSha256": "9339f3c30d745044708695ce1c55aa88709e073193998bcece7659b2da9af17a",
+    "animationClips": 1
+  },
+  {
+    "species": "kingambit",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0983_kingambit/kingambit.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0983_kingambit/kingambit.png",
+    "modelSha256": "8a111c8a5d6a53229d99e8675b61dacef1e54354e82e4bed9322f2bea23f0d71",
+    "animationClips": 1
+  },
+  {
+    "species": "kingdra",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0230_kingdra/kingdra.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0230_kingdra/kingdra.png",
+    "modelSha256": "5531e5daa78e7174d275353c3544a6566a778ca93b52801bd4aa815cf17fb981",
+    "animationClips": 1
+  },
+  {
+    "species": "krookodile",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0553_krookodile/krookodile.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0553_krookodile/krookodile.png",
+    "modelSha256": "9b698dd1609e4bde7b23145c353c2ea192c823182993572c7db4283e21908f9c",
+    "animationClips": 1
+  },
+  {
+    "species": "landorus",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0645_landorus/landorus.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0645_landorus/landorus.png",
+    "modelSha256": "c503c8199615c268aa2e6de92ed630002ea9795e2b0e47caeebd40b18c42b1c0",
+    "animationClips": 1
+  },
+  {
+    "species": "larvitar",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0246_larvitar/larvitar.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0246_larvitar/larvitar.png",
+    "modelSha256": "c48f19d77cac967f8a59eab15060fe7b58c7be423bf155528fc23ef156328dfd",
+    "animationClips": 1
+  },
+  {
+    "species": "latios",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0381_latios/latios2.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0381_latios/latios.png",
+    "modelSha256": "641b78d4a621293db466ce8e1967c5c563c59a40163511fe56d6e1d4cd0e0863",
+    "animationClips": 1
+  },
+  {
+    "species": "leafeon",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0470_leafeon/leafeon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0470_leafeon/leafeon.png",
+    "modelSha256": "b57eade43b8083ca735e658f1bf775dc28f51336003497161fd9963c6ea819cc",
+    "animationClips": 1
+  },
+  {
+    "species": "luxray",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0405_luxray/luxray_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0405_luxray/luxray.png",
+    "modelSha256": "848aaa92d8f34dacd9246a194b70b94d6faf5feba53633eefcbde7aa66043e30",
+    "animationClips": 1
+  },
+  {
+    "species": "lycanroc",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0745_lycanroc/lycanroc_midday.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0745_lycanroc/lycanroc_midday.png",
+    "modelSha256": "6867a9e8cf70b0c6bda9001b6c11072e256704e37f8c5137bf0bea5e650332e3",
+    "animationClips": 1
+  },
+  {
+    "species": "mabosstiff",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0943_mabosstiff/mabosstiff.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0943_mabosstiff/mabosstiff.png",
+    "modelSha256": "10435114e46493c642edb686a5e91c02332b418528847c5960c266df8703163e",
+    "animationClips": 1
+  },
+  {
+    "species": "machamp",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0068_machamp/machamp.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0068_machamp/machamp.png",
+    "modelSha256": "036bc8a3f0798beb7861c917f138cade38169d6474f158514b1d18d1301a9831",
+    "animationClips": 1
+  },
+  {
+    "species": "mamoswine",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0473_mamoswine/mamoswine_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0473_mamoswine/mamoswine.png",
+    "modelSha256": "cb442ebe74960015a41014566d1f2e7ef0f799ae13732006c78f7d696ac057e5",
+    "animationClips": 1
+  },
+  {
+    "species": "meganium",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0154_meganium/meganium.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0154_meganium/meganium.png",
+    "modelSha256": "c3d8be5fa59866e5a3ee208b95f21e6b57143d269948180f2485adf76e260b31",
+    "animationClips": 1
+  },
+  {
+    "species": "meowscarada",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0908_meowscarada/meowscarada.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0908_meowscarada/meowscarada.png",
+    "modelSha256": "8a7ef997e5d766591f36fe63f64aa6d4166b10adeb9a74e16f38259d275b47f5",
+    "animationClips": 1
+  },
+  {
+    "species": "metagross",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0376_metagross/metagross.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0376_metagross/metagross.png",
+    "modelSha256": "aa530d580a208357c9766053510332071233202d9107ef4b505e181d55371158",
+    "animationClips": 1
+  },
+  {
+    "species": "mewtwo",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0150_mewtwo/mewtwo.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0150_mewtwo/mewtwo.png",
+    "modelSha256": "8837249338be82655cf53fec698fdf237698e931b7cf89168bfe06e9eaa7c966",
+    "animationClips": 1
+  },
+  {
+    "species": "miraidon",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1008_miraidon/miraidon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1008_miraidon/miraidon.png",
+    "modelSha256": "9b15247a28ccae43c4c08f70fdd7e8add73deabd003d6f4de3c51308c46ffc15",
+    "animationClips": 1
+  },
+  {
+    "species": "moltres",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0146_moltres/moltres.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0146_moltres/moltres.png",
+    "modelSha256": "a4b49ddb46086c2a026a4dd9c8003857d40110b4947cfac6c098de8ea26076d9",
+    "animationClips": 1
+  },
+  {
+    "species": "nidoking",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0034_nidoking/nidoking.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0034_nidoking/nidoking.png",
+    "modelSha256": "c117d94087edc85f7d9c075b3723def14288645c26c17554ebce86ac5600fdc3",
+    "animationClips": 1
+  },
+  {
+    "species": "nidoqueen",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0031_nidoqueen/nidoqueen.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0031_nidoqueen/nidoqueen.png",
+    "modelSha256": "74d0126e2ced51985c6a8f5897d0fb6e236c64f3d12307d1d2b0a96a910cb608",
+    "animationClips": 1
+  },
+  {
+    "species": "nidoranm",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0032_nidoranm/nidoranm.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0032_nidoranm/nidoranm.png",
+    "modelSha256": "52abfa20031dcf1fefd9ce356e86881444dda2d0c3994f1fb040f00716b730e6",
+    "animationClips": 1
+  },
+  {
+    "species": "nidorino",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0033_nidorino/nidorino.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0033_nidorino/nidorino.png",
+    "modelSha256": "7e8812725bd7e97c1292184f6280ad117583970e0d4f412b1b80b635031458d8",
+    "animationClips": 1
+  },
+  {
+    "species": "ninetales",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0038_ninetales/ninetales.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0038_ninetales/ninetales.png",
+    "modelSha256": "813d220ab2ef380f95806d587d691a331dfbdda18ea6b836828c29a9692be5f8",
+    "animationClips": 1
+  },
+  {
+    "species": "noibat",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0714_noibat/noibat.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0714_noibat/noibat.png",
+    "modelSha256": "dc0f7545f0d1438e37cb45adebbe9c007097246296522b0fb36ae78e732c13a5",
+    "animationClips": 1
+  },
+  {
+    "species": "pelipper",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0279_pelipper/pelipper.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0279_pelipper/pelipper.png",
+    "modelSha256": "1b8e0bcc59ccd09e650089f157ec4856839fd7f452923fe93a1ed8776ce6e766",
+    "animationClips": 1
+  },
+  {
+    "species": "politoed",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0186_politoed/politoed_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0186_politoed/politoed.png",
+    "modelSha256": "3b16c0ab20c74325d496ee6c3781083a47ed1bfaf762ad4f379d8f2f79bb950a",
+    "animationClips": 1
+  },
+  {
+    "species": "primarina",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0730_primarina/primarina.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0730_primarina/primarina.png",
+    "modelSha256": "80297d884d71dad249705cc39be2a1e373183712ab027dc80317a373bad1cf43",
+    "animationClips": 1
+  },
+  {
+    "species": "pupitar",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0247_pupitar/pupitar.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0247_pupitar/pupitar.png",
+    "modelSha256": "a74de736b8e6adb388d021af7cdc37270af0ddb5cb82da4ae16d6507832fb369",
+    "animationClips": 1
+  },
+  {
+    "species": "pyroar",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0668_pyroar/pyroar_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0668_pyroar/pyroar_male.png",
+    "modelSha256": "8e40b6c25674e9512ce047924401cfee462c5c3c4fb6ead29b0acf7641a18519",
+    "animationClips": 1
+  },
+  {
+    "species": "ragingbolt",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1021_ragingbolt/ragingbolt.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1021_ragingbolt/ragingbolt.png",
+    "modelSha256": "3953b6f0ae986f107fc4624159c7ea409b08afc925aef409b38fd7d35b7e707f",
+    "animationClips": 1
+  },
+  {
+    "species": "raichu",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0026_raichu/raichu_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0026_raichu/raichu.png",
+    "modelSha256": "964cf62cc221f40a6a3cd4739d7ddc110a3ebb5c61a3d41731eca8bef8146fb8",
+    "animationClips": 1
+  },
+  {
+    "species": "rayquaza",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0384_rayquaza/rayquaza2.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0384_rayquaza/rayquaza.png",
+    "modelSha256": "f6dfeba91db0a1a0aa3e052f7f56a93dc337386bb0bfaa4eaa7af618d309ee38",
+    "animationClips": 1
+  },
+  {
+    "species": "regieleki",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0894_regieleki/regieleki.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0894_regieleki/regieleki.png",
+    "modelSha256": "13f8efdc0ae89f88bdb68f73e756627d7d7bbd7954534800b4ac973af6c0e324",
+    "animationClips": 1
+  },
+  {
+    "species": "rillaboom",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0812_rillaboom/rillaboom.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0812_rillaboom/rillaboom.png",
+    "modelSha256": "6e61b711329435e0c5d3fd1f75ca4c73916cb5e47ab21310628f6b4a2cdf6b28",
+    "animationClips": 1
+  },
+  {
+    "species": "roaringmoon",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1005_roaringmoon/roaringmoon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1005_roaringmoon/roaringmoon.png",
+    "modelSha256": "753a6be1ea4e8a43076eeebb09c9f63e7ba1d744f0c18b0dd7a2d64b812227d3",
+    "animationClips": 1
+  },
+  {
+    "species": "salamence",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0373_salamence/salamence.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0373_salamence/salamence.png",
+    "modelSha256": "e76d50ffd2e37db09f0e3617bc03058ee4c53e73e2251fdb49fba20986f83799",
+    "animationClips": 1
+  },
+  {
+    "species": "scyther",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0123_scyther/scyther_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0123_scyther/scyther.png",
+    "modelSha256": "347e6e9e8468bc7c7170d0157bda3d393d15c665f0d7cdc0bb0b98c0aa8f1429",
+    "animationClips": 1
+  },
+  {
+    "species": "servine",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0496_servine/servine.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0496_servine/servine.png",
+    "modelSha256": "4438e2cce7bc31a10ef6b65f04a3947de90bf08c0f5a3d20f0b58185856f27d8",
+    "animationClips": 1
+  },
+  {
+    "species": "seviper",
+    "sourceJar": "ATM x MSD [v5.0].jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0336_seviper/seviper.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0336_seviper/seviper.png",
+    "modelSha256": "1f59676529bc56e0d116f099156d973b93e6b0dbeb95b6fbf26c7be092c4035d",
+    "animationClips": 1
+  },
+  {
+    "species": "sharpedo",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0319_sharpedo/sharpedo.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0319_sharpedo/sharpedo.png",
+    "modelSha256": "06bb73d5642821c7b2cb3eb3fe8f869245296296599b1954ca7b4f472a99ca91",
+    "animationClips": 1
+  },
+  {
+    "species": "shedinja",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0292_shedinja/shedinja.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0292_shedinja/shedinja.png",
+    "modelSha256": "db5b2e0fe6b483d23640fa1c87532b6c6bdd5aeb9224c5e653655644a3a912e6",
+    "animationClips": 1
+  },
+  {
+    "species": "silicobra",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0843_silicobra/silicobra.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0843_silicobra/silicobra.png",
+    "modelSha256": "a0807b1b2dd67d820725cf547becf93f903add669265846a3487e7593187916f",
+    "animationClips": 1
+  },
+  {
+    "species": "sinistcha",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1013_sinistcha/sinistcha_unremarkable.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1013_sinistcha/sinistcha.png",
+    "modelSha256": "53891c8e215adc08a516ad5d0ce119572cfae3b11473a3c03a221cd8dc42be56",
+    "animationClips": 1
+  },
+  {
+    "species": "sneasler",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0903_sneasler/sneasler.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0903_sneasler/sneasler.png",
+    "modelSha256": "cf38b420f37ee379ec7bec047aea43d9ded23a8d8ade3f362680007338384ad7",
+    "animationClips": 1
+  },
+  {
+    "species": "snorlax",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0143_snorlax/snorlax.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0143_snorlax/snorlax.png",
+    "modelSha256": "e5ed6d0f393fb3b657bc39dba4e78ef487179d91c67b774b48bebea0a0b02de4",
+    "animationClips": 1
+  },
+  {
+    "species": "swoobat",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0528_swoobat/swoobat.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0528_swoobat/swoobat.png",
+    "modelSha256": "d503493a24ce094b0c4e7d0025ed75dd5ddf57134eb9da9aff9f2dd2f88c3c9b",
+    "animationClips": 1
+  },
+  {
+    "species": "tinglu",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1003_tinglu/tinglu.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1003_tinglu/tinglu.png",
+    "modelSha256": "e018ee54cdab44ce7130c28025e050b939d11f08d9571914e6844de7326c2f15",
+    "animationClips": 1
+  },
+  {
+    "species": "toxapex",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0748_toxapex/toxapex.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0748_toxapex/toxapex.png",
+    "modelSha256": "4d5770834dac5bc7691d965a115ad08db6ba2bd105bdfa0151e073ec1fbcb1c3",
+    "animationClips": 1
+  },
+  {
+    "species": "toxtricity",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0849_toxtricity/toxtricity_amped.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0849_toxtricity/toxtricity_amped.png",
+    "modelSha256": "cae2c6918658807ba87e304ec3e6370c2446ff6d7f93e37203ebe2930ddaf599",
+    "animationClips": 1
+  },
+  {
+    "species": "tyranitar",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0248_tyranitar/tyranitar.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0248_tyranitar/tyranitar.png",
+    "modelSha256": "eee13098acf34eabc9ddb92749a19a80b69c69fba6424f1d45f93c80d826ef8a",
+    "animationClips": 1
+  },
+  {
+    "species": "umbreon",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0197_umbreon/umbreon.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0197_umbreon/umbreon.png",
+    "modelSha256": "59a0214ca6500540cf9b045c8910d6bbc1a345b49789ef3ea0925cefe8e239b2",
+    "animationClips": 1
+  },
+  {
+    "species": "urshifu",
+    "sourceJar": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0892_urshifu/urshifu.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0892_urshifu/urshifu.png",
+    "modelSha256": "ef09edc94bd9a3124febe328094529e781db16db7eaadef3aa103d916e287ba0",
+    "animationClips": 1
+  },
+  {
+    "species": "vanilluxe",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0584_vanilluxe/vanilluxe.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0584_vanilluxe/vanilluxe.png",
+    "modelSha256": "1c5421e06dc397af92c751b3522db7cb228c8e402dbc3268305f0303f09f38c6",
+    "animationClips": 1
+  },
+  {
+    "species": "venusaur",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0003_venusaur/venusaur_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0003_venusaur/venusaur.png",
+    "modelSha256": "218856507d6c82bf60eb48c4fdc012a7c53d995411a589ce9a23c4339364e327",
+    "animationClips": 1
+  },
+  {
+    "species": "wailord",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0321_wailord/wailord.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0321_wailord/wailord.png",
+    "modelSha256": "54d5ae5f426cac3680ba53eec1a4d0c3b85d607344b12043796fb52b109fbce8",
+    "animationClips": 1
+  },
+  {
+    "species": "walkingwake",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/1009_walkingwake/walkingwake.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/1009_walkingwake/walkingwake.png",
+    "modelSha256": "0d1f211a904d2ef17f51a2b55a55576cfd1b9600971fee81aaff0b07c2f71abd",
+    "animationClips": 1
+  },
+  {
+    "species": "whimsicott",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0547_whimsicott/whimsicott.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0547_whimsicott/whimsicott.png",
+    "modelSha256": "7e0b9c18a91ebbdffedb8af3b2b70d1f211014b92d278aec04273ba062954c88",
+    "animationClips": 1
+  },
+  {
+    "species": "zoroark",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0571_zoroark/zoroark.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0571_zoroark/zoroark.png",
+    "modelSha256": "a11a194c052dcd6f0e05294debd39a3a1a4958f625d8e01d8643e889afcfd490",
+    "animationClips": 1
+  },
+  {
+    "species": "zubat",
+    "sourceJar": "Cobblemon-fabric-1.8.2+1.21.1.jar",
+    "model": "assets/cobblemon/bedrock/pokemon/models/0041_zubat/zubat_male.geo.json",
+    "texture": "assets/cobblemon/textures/pokemon/0041_zubat/zubat.png",
+    "modelSha256": "339935999c381a524dd17b8829191bb993362628ae1a820cbefb882b788ae171",
+    "animationClips": 1
+  }
+]

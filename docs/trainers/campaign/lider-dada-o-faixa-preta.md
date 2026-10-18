@@ -1,151 +1,130 @@
 ---
-title: Dada, O Faixa Preta
+title: "Dada, O Faixa Preta"
 ---
 
-# Dada, O Faixa Preta
+<img className="trainer-skin" src="/img/portraits/tdc_lider_dada_o_faixa_preta.png" alt="Dada, O Faixa Preta" />
 
-## Visão geral do encontro
+Ficha revisada a partir dos dados da **2.0.0 candidata**. Abra os detalhes para consultar o time completo.
 
-| Campo | Valor |
-|---|---|
-| ID do treinador | `tdc_lider_dada_o_faixa_preta` |
+| Encontro | Informação |
+| --- | --- |
 | Categoria | Líder |
-| Ordem na campanha | 7 / 26 |
-| Limite de nível | 33 |
-| Formato de batalha | `GEN_9_DOUBLES` |
-| Dificuldade | ★★★☆☆ |
-| Arquétipo | Núcleo de duplas focado em setup |
-| Requisito de desbloqueio | `tdc_rival_motta_02` |
-| Bolsa de cura | Hyper Potion x2 |
+| Etapa | 7 / 26 |
+| Níveis do time | 33 |
+| Desbloqueio | [Rival Motta 02](/trainers/campaign/rival-motta-02) |
+| Formato | Gen 9 Doubles |
+| Bolsa | Hyper Potion × 2 |
+| Usos de itens por batalha | 2 |
+| Intervalo configurado | 1000 ticks |
 
-## Equipe
+## Plano de abertura
 
-### 1. Hariyama (Hariyama)
+Hariyama + Gallade → `move:fakeout` → `move:psychocut`.
 
-<img className="pokemon-sprite" src="/img/pokemon/hariyama.png" alt="Hariyama sprite" />
+Fake Out + Gallade com Mega disponível; sem repetir Fake Out.
 
+A sequência é compartilhada pelos dois slots. Não fixa alvos nem garante que o golpe funcione; Mega e Tera ficam sob controle do RCT.
 
-| Campo | Valor |
-|---|---|
-| Espécie | `hariyama` |
+## Antes da batalha
+
+> Ajeita a postura e respeita o tatame. Aqui a dupla precisa lutar como um time só.
+
+## Equipe completa
+
+<details open={true}>
+<summary>01 · Hariyama · Lv. 33</summary>
+
+<img className="pokemon-sprite" src="/img/models/hariyama.webp" alt="Hariyama" loading="lazy" />
+
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 33 |
+| Habilidade | thickfat |
+| Item | cobblemon:leftovers |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Thickfat |
-| Item segurado | Leftovers |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | tera: fighting |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | tera: fighting |
 
-**Golpes**
+**Golpes:** `poweruppunch` · `drainpunch` · `fakeout` · `knockoff`
 
-  - Poweruppunch
-  - Drainpunch
-  - Fakeout
-  - Knockoff
-### 2. Machamp (Machamp)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/machamp.png" alt="Machamp sprite" />
+<details open={true}>
+<summary>02 · Gallade · Lv. 33</summary>
 
+<img className="pokemon-sprite" src="/img/models/gallade.webp" alt="Gallade" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `machamp` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 33 |
+| Habilidade | innerfocus |
+| Item | mega_showdown:galladite |
+| Natureza | jolly |
+| Gênero | GENDERLESS |
 | Shiny | Não |
-| Habilidade | Noguard |
-| Item segurado | Fightinium Z |
-| Natureza | Adamant |
-| EVs | 248 HP / 244 Atk / 12 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | ATK 244 / SPD 12 / SPE 248 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `drainpunch` · `icepunch` · `leafblade` · `psychocut`
 
-  - Highhorsepower
-  - Dynamicpunch
-  - Stoneedge
-  - Megakick
-### 3. Conkeldurr (Conkeldurr)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/conkeldurr.png" alt="Conkeldurr sprite" />
+<details open={false}>
+<summary>03 · Machamp · Lv. 33</summary>
 
+<img className="pokemon-sprite" src="/img/models/machamp.webp" alt="Machamp" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `conkeldurr` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Masculino |
-| Nível | 33 |
+| Habilidade | noguard |
+| Item | mega_showdown:fightinium_z |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Guts |
-| Item segurado | Flame Orb |
-| Natureza | Adamant |
-| EVs | 252 HP / 252 Atk / 4 SpD |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 248 / ATK 244 / SPD 12 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `highhorsepower` · `dynamicpunch` · `stoneedge` · `megakick`
 
-  - Drainpunch
-  - Machpunch
-  - Poweruppunch
-  - Rockslide
-### 4. Gallade (Gallade)
+</details>
 
-<img className="pokemon-sprite" src="/img/pokemon/gallade.png" alt="Gallade sprite" />
+<details open={false}>
+<summary>04 · Conkeldurr · Lv. 33</summary>
 
+<img className="pokemon-sprite" src="/img/models/conkeldurr.webp" alt="Conkeldurr" loading="lazy" />
 
-| Campo | Valor |
-|---|---|
-| Espécie | `gallade` |
+| Atributo | Valor |
+| --- | --- |
 | Apelido | — |
-| Gênero | Sem gênero |
-| Nível | 33 |
+| Habilidade | guts |
+| Item | cobblemon:flame_orb |
+| Natureza | adamant |
+| Gênero | MALE |
 | Shiny | Não |
-| Habilidade | Innerfocus |
-| Item segurado | Galladite |
-| Natureza | Jolly |
-| EVs | 244 Atk / 12 SpD / 248 Spe |
-| IVs | 31 em todos |
-| Mecânicas especiais | — |
+| EVs | HP 252 / ATK 252 / SPD 4 |
+| IVs | HP 31 / ATK 31 / DEF 31 / SPA 31 / SPD 31 / SPE 31 |
+| Mecânicas | — |
 
-**Golpes**
+**Golpes:** `drainpunch` · `machpunch` · `poweruppunch` · `rockslide`
 
-  - Drainpunch
-  - Icepunch
-  - Leafblade
-  - Psychocut
+</details>
+
+## Diálogos de resultado
+
+**Quando você vence**
+
+> Bela luta. Você manteve a cabeça no lugar até sob pressão. Pode passar.
+
+**Quando o treinador vence**
+
+> Força sem disciplina não ganha faixa. Respira, treina e tenta de novo.
 
 
-## Análise competitiva
 
-### Plano de jogo
-
-- Dano em área é um grande ponto de pressão por meio de Rockslide.
-
-### Condições de vitória
-
-- Setup-based win conditions are present: Poweruppunch.
-- Priority pressure can close games or deny low-HP pivots: Fakeout, Machpunch.
-
-### Perfil de ameaças
-
-- O acesso a Z-Move cria turnos únicos de explosão de dano capazes de remover peças defensivas importantes.
-- Mega Evolução muda a dinâmica do confronto e deve ser identificada antes de comprometer recursos importantes.
-
-### Preparação do jogador
-
-- Encare isto antes de tudo como uma batalha em dupla: o posicionamento em campo importa mais do que vantagem de tipo em um contra um.
-- Identifique cedo a peça mais importante de ritmo; depois remova essa ameaça ou force-a a jogar na defensiva.
-- Preserve respostas para o atacante mais forte do treinador no fim da luta, em vez de trocá-las cedo demais.
-- Se o treinador tiver controle de campo, evite dar turnos grátis para usuários de clima, terreno ou controle de velocidade.
-
-## Notas técnicas
-
-- Arquivo-fonte do treinador: `data/rctmod/trainers/tdc_lider_dada_o_faixa_preta.json`
-- Arquivo-fonte de progressão: `data/rctmod/mobs/trainers/single/tdc_lider_dada_o_faixa_preta.json`
+← [Rival Motta 02](/trainers/campaign/rival-motta-02) · [Team Arroba Vinny](/trainers/campaign/team-arroba-vinny) →

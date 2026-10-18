@@ -1,27 +1,12 @@
-# Rival Motta
+---
+title: "Rival e Campeão Motta"
+---
 
-Rival Motta é o principal rival recorrente da campanha.
-
-## Identidade de batalha
-
-Rival Motta se concentra em:
-
-- Sinergia com Sandstorm
-- Pressão física
-- Núcleos ofensivos de Pedra/Terra
-- Evolução gradual da equipe ao longo da campanha
-
-## Núcleo conhecido
-
-- Mr. X
-- Quesadrillas
-- Shark Boy
-- Nidokong
-- Pteros
-- Scott
-- Pikes Peak
-- Pokedeus
-
-## Notas de estratégia
-
-A equipe se torna mais ameaçadora conforme a campanha avança, até se transformar em um time de areia de alta pressão com suporte lendário no endgame.
+| Treinador | Nível |
+| --- | --- |
+| [Rival Motta](/trainers/campaign/rival-motta-01) | 15 |
+| [Rival Motta 02](/trainers/campaign/rival-motta-02) | 30 |
+| [Rival Motta 03](/trainers/campaign/rival-motta-03) | 45 |
+| [Rival Motta 04](/trainers/campaign/rival-motta-04) | 60 |
+| [Rival Motta Final](/trainers/campaign/rival-motta-final) | 79 |
+| [Campeão Motta](/trainers/campaign/campeao-motta) | 85 |
