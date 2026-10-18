@@ -46,30 +46,18 @@ const config = {
 
 
 
-  headTags: [
-  {
-    tagName: 'meta',
-    attributes: {
-      property: 'og:image',
-      content: 'https://wiki.mottameister.xyz/img/social-card.png',
-    },
-  },
-  {
-    tagName: 'meta',
-    attributes: {
-      name: 'twitter:card',
-      content: 'summary_large_image',
-    },
-  },
-],
-
   themeConfig: {
 
   metadata: [
+  { property: 'og:image:width', content: '1200' },
+  { property: 'og:image:height', content: '630' },
+  { property: 'og:image:type', content: 'image/jpeg' },
+  { property: 'og:image:alt', content: 'A Toca da Coruja — Campanha 2.0, com Tyranitar e Garchomp do Cobblemon.' },
+  { name: 'twitter:image:alt', content: 'A Toca da Coruja — Campanha 2.0, com Tyranitar e Garchomp do Cobblemon.' },
   { name: 'keywords', content: 'Cobblemon, mod de Pokémon para Minecraft, batalhas VGC, treinadores Cobblemon, Radical Cobblemon Trainers' },
-  { name: 'description', content: 'A Toca da Coruja é uma campanha competitiva de Cobblemon com progressão estruturada, batalhas no estilo VGC e treinadores personalizados.' },
+  { name: 'description', content: 'Explore a campanha 2.0 de Cobblemon: 27 treinadores, batalhas em dupla, times completos, diálogos e estratégias para sua jornada na Toca.' },
   ],
-    image: 'img/social-card.png',
+    image: 'img/wiki-campanha-2-social-v1.jpg',
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: false,
