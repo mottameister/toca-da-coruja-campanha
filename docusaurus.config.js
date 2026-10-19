@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Wiki da Toca da Coruja',
   tagline: 'Campanha Radical Cobblemon Trainers',
-  favicon: 'img/favicon.png',
+  favicon: 'img/motta-mods.png',
 
   url: 'https://wiki.mottameister.xyz',
   baseUrl: '/',
@@ -64,7 +64,7 @@ const config = {
     },
     navbar: {
       title: 'TOCA DA CORUJA',
-      logo: {alt: 'Toca da Coruja', src: 'img/favicon.png'},
+      logo: {alt: 'Mottameister — Toca da Coruja', src: 'img/motta-mods.png'},
       items: [
         {
           type: 'docSidebar',
